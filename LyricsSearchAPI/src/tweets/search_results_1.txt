@@ -1,0 +1,869 @@
+TWEET: I got gas ‚ and the coke I dont sell molly no more ‚
+Match: 'got' at Index: 2 - 5
+Match: 'gas' at Index: 10 - 13
+Match: 'and' at Index: 14 - 17
+Match: 'coke' at Index: 22 - 26
+70.83% matched
+Match: 'dont' at Index: 2 - 6
+Match: 'sell' at Index: 7 - 11
+Match: 'molly' at Index: 12 - 17
+Match: 'no' at Index: 18 - 20
+Match: 'more' at Index: 21 - 25
+104.35% matched
+TWEET:  ‚ girl I know that he know not to dance he just wanna smoke with his crack head ass
+Match: 'know' at Index: 13 - 17
+Match: 'ha' at Index: 19 - 21
+Match: 't ' at Index: 21 - 23
+Match: 'he' at Index: 24 - 26
+Match: 'head' at Index: 32 - 36
+82.61% matched
+Match: 'know' at Index: 7 - 11
+Match: 'that' at Index: 15 - 19
+Match: 'he' at Index: 25 - 27
+65.0% matched
+TWEET: If u think the weeds foul imagine what I was gonna post but niggas said chill  
+Match: 'thing' at Index: 2 - 7
+Match: 'what' at Index: 14 - 18
+Match: 'said' at Index: 23 - 27
+64.0% matched
+TWEET: Every time I pour my leanüçº they think they sip for free
+TWEET: Lmfao bitch gotta be smoking crack
+TWEET: Fuck you and your heroin jokes
+TWEET: Say crack tape again ‚ Man Who Tried to Sell the Rob Ford Crack Tape Told Us There‚ a Second Tape Featuring a Crack-Smoking Judge‚
+Match: 't ' at Index: 3 - 5
+Match: 'the' at Index: 8 - 11
+Match: 'there' at Index: 18 - 23
+65.0% matched
+TWEET: alyssa stay peepin the dark chocolate
+TWEET: Wtf u take me for  u smoking crack  Before I do that I beg my ex to take me back
+TWEET: Dont try to crack a joke about me or my friends when you literally arent doing a single productive thing with your life and we are 
+Match: 'th' at Index: 0 - 2
+Match: 'e' at Index: 2 - 3
+Match: 'om' at Index: 6 - 8
+Match: 'ting' at Index: 16 - 20
+65.0% matched
+TWEET: My uncles racist wife just caught me pouring jack Daniels into my coke She can suck my fucking ass cause I need this to tolerate her
+Match: 'cause' at Index: 17 - 22
+Match: 'this' at Index: 30 - 34
+Match: 'tt' at Index: 37 - 39
+63.64% matched
+Match: 'y' at Index: 3 - 4
+Match: 'e' at Index: 7 - 8
+Match: 'me' at Index: 9 - 11
+Match: 'can' at Index: 13 - 16
+Match: 'my' at Index: 21 - 23
+70.0% matched
+TWEET: Crack is affordable coke
+TWEET: I was too positive last night saying I was gonna buy the kids candy LOL no those tiny bags were 3 dollas I dont like yall that much
+TWEET: Holy wow I felt like I was on coke working out tonight lmfao shredz does me wonders
+TWEET: I crack myself up
+TWEET: I dont smoke crack motherfucka I sell it
+Match: 'dont' at Index: 2 - 6
+Match: 'smoke' at Index: 7 - 12
+Match: 'crack' at Index: 13 - 18
+Match: 'motherfuck' at Index: 19 - 29
+Match: 'sell' at Index: 34 - 38
+Match: 'it' at Index: 39 - 41
+92.31% matched
+TWEET: Rich off cocaine ‚
+TWEET:  yet he insults educators and lists ways to be successful in crack dealings
+TWEET: Old school ‚ dentist is bout to rub coke dust on my enamels for this filling smfh‚
+TWEET: Yall really uploading lines of coke like we should be proud of you or something
+Match: 'really' at Index: 33 - 39
+Match: 'we' at Index: 51 - 53
+Match: 'should' at Index: 54 - 60
+62.96% matched
+Match: 'e' at Index: 2 - 3
+Match: 'ow' at Index: 6 - 8
+Match: 'something' at Index: 13 - 22
+75.0% matched
+Match: 'should' at Index: 3 - 9
+Match: 'you' at Index: 19 - 22
+Match: 'r' at Index: 22 - 23
+65.0% matched
+Match: 'you' at Index: 33 - 36
+Match: 'ov' at Index: 38 - 40
+Match: 'something' at Index: 52 - 61
+60.71% matched
+TWEET: A cop just told us to smoke crack
+TWEET:  Thus the meaning of say no to crack Lol
+TWEET: If you think Dak Prescott is better than Marcus Mariota then youre on crack
+TWEET:  When Bobby Shmurda said I been selling crack since like the 5th grade"  this Demarion
+TWEET: They alllll on crack
+TWEET: Who ever brings me a chocolate milk Ill love forever
+TWEET: Watching  befriend a crack head though
+TWEET:     but can I improv a monologue about dying of a heroin overdose plz advise üíâüòµ
+TWEET: Everytime I do the butterfly my hips crack I think I should stop
+TWEET:  molly and coke
+TWEET:  Go to YouTube Its a classic "We go together like cocaine and ketamine"
+TWEET: ‚ UFC light heavyweight champion Jon Jones has entered a drug rehab facility after testing positive for cocaine‚ 
+TWEET: Lonely bored and high off cocaine Yup Im doing great
+Match: 'lonely' at Index: 0 - 6
+Match: 'ans' at Index: 16 - 19
+Match: 'if' at Index: 21 - 23
+60.87% matched
+TWEET: v happy my morphine dosage got increased
+TWEET: How much coke she did no wonder age ODd Damn
+TWEET:  coke head Im sending you to rehab
+Match: 'sending' at Index: 0 - 7
+Match: 'you' at Index: 8 - 11
+Match: 'to' at Index: 12 - 14
+Match: 'rehab' at Index: 19 - 24
+87.5% matched
+TWEET:   oh Im taking the horse Sunday night
+TWEET: Best Rock Raines coke story he taught himself to slide headfirst so as to not break the coke vial in his pocket
+TWEET: crack head problems 
+TWEET: All I was waiting for was this candy üòõ
+TWEET: the cocaine ones be looking like crack done Im done for the night
+TWEET:    ayyyy yooo coke üëÄ where
+TWEET: Jack and coke is all I want
+TWEET: I havent seen you but I mean when all you do is sit in your room and listen to hippie music and smoke crack I guess that happens okay dad
+Match: 'have t' at Index: 18 - 24
+Match: 'do' at Index: 26 - 28
+Match: 'is' at Index: 29 - 31
+Match: 'and' at Index: 41 - 44
+Match: 'ta' at Index: 45 - 47
+68.97% matched
+Match: 'you' at Index: 7 - 10
+Match: 'your' at Index: 17 - 21
+Match: 'and' at Index: 24 - 27
+65.0% matched
+TWEET: Id hug someone for cocaine booze methamphetamine opiates maybe some shrooms But not McDonalds cuisine that shit is poison
+TWEET: ‚ Jon Jones tests positive for cocaine  
+TWEET: Rt if you look like a crack whore
+TWEET: Friends mom Do you guys need anything while Im up here
+Match: 'mom' at Index: 15 - 18
+Match: 'do' at Index: 25 - 27
+Match: 'you' at Index: 28 - 31
+Match: 'need' at Index: 32 - 36
+Match: 'anything' at Index: 37 - 45
+83.33% matched
+Match: 'friend' at Index: 11 - 17
+Match: 'ou' at Index: 23 - 25
+Match: 'u ' at Index: 30 - 32
+61.9% matched
+Match: 'do' at Index: 15 - 17
+Match: 'anything' at Index: 25 - 33
+Match: 'it' at Index: 37 - 39
+62.5% matched
+TWEET: skiing ft rum &amp; coke is a bad idea
+TWEET: People want Back like cook crack Juelz not "whooooaaa" juelZ
+TWEET:  just called me a crack head okay cool
+TWEET: So the can drive had a bottle of liquor on the front seat and repeatedly asked me if I had any dope or nose candy so that was sweet
+TWEET: I got the gas and the coke
+Match: 'got' at Index: 2 - 5
+Match: 'the' at Index: 6 - 9
+Match: 'gas' at Index: 10 - 13
+Match: 'and' at Index: 14 - 17
+Match: 'coke' at Index: 22 - 26
+87.5% matched
+Match: 'got' at Index: 2 - 5
+Match: 'the' at Index: 6 - 9
+Match: 'gas' at Index: 10 - 13
+Match: 'and' at Index: 14 - 17
+Match: 'coke' at Index: 22 - 26
+87.5% matched
+Match: 'got' at Index: 2 - 5
+Match: 'the' at Index: 6 - 9
+Match: 'gas' at Index: 10 - 13
+Match: 'and' at Index: 14 - 17
+Match: 'coke' at Index: 22 - 26
+87.5% matched
+Match: 'got' at Index: 2 - 5
+Match: 'the' at Index: 6 - 9
+Match: 'gas' at Index: 10 - 13
+Match: 'and' at Index: 14 - 17
+Match: 'coke' at Index: 22 - 26
+87.5% matched
+Match: 'got' at Index: 2 - 5
+Match: 'the' at Index: 6 - 9
+Match: 'gas' at Index: 10 - 13
+Match: 'and' at Index: 14 - 17
+Match: 'coke' at Index: 22 - 26
+87.5% matched
+Match: 'got' at Index: 2 - 5
+Match: 'the' at Index: 6 - 9
+Match: 'gas' at Index: 10 - 13
+Match: 'and' at Index: 14 - 17
+Match: 'coke' at Index: 22 - 26
+87.5% matched
+Match: 'got' at Index: 2 - 5
+Match: 'the' at Index: 6 - 9
+Match: 'gas' at Index: 10 - 13
+Match: 'and' at Index: 14 - 17
+Match: 'coke' at Index: 22 - 26
+87.5% matched
+Match: 'got' at Index: 2 - 5
+Match: 'the' at Index: 6 - 9
+Match: 'gas' at Index: 10 - 13
+Match: 'and' at Index: 14 - 17
+Match: 'coke' at Index: 22 - 26
+87.5% matched
+Match: 'got' at Index: 2 - 5
+Match: 'the' at Index: 6 - 9
+Match: 'gas' at Index: 10 - 13
+Match: 'and' at Index: 14 - 17
+Match: 'coke' at Index: 22 - 26
+87.5% matched
+Match: 'got' at Index: 2 - 5
+Match: 'the' at Index: 6 - 9
+Match: 'gas' at Index: 10 - 13
+Match: 'and' at Index: 14 - 17
+Match: 'coke' at Index: 22 - 26
+87.5% matched
+Match: 'got' at Index: 2 - 5
+Match: 'the' at Index: 6 - 9
+Match: 'gas' at Index: 10 - 13
+Match: 'and' at Index: 14 - 17
+Match: 'coke' at Index: 22 - 26
+87.5% matched
+Match: 'got' at Index: 2 - 5
+Match: 'the' at Index: 6 - 9
+Match: 'gas' at Index: 10 - 13
+Match: 'and' at Index: 14 - 17
+Match: 'coke' at Index: 22 - 26
+87.5% matched
+Match: 'got' at Index: 2 - 5
+Match: 'the' at Index: 6 - 9
+Match: 'gas' at Index: 10 - 13
+Match: 'and' at Index: 14 - 17
+Match: 'coke' at Index: 22 - 26
+87.5% matched
+Match: 'got' at Index: 2 - 5
+Match: 'the' at Index: 6 - 9
+Match: 'gas' at Index: 10 - 13
+Match: 'and' at Index: 14 - 17
+Match: 'coke' at Index: 22 - 26
+87.5% matched
+Match: 'got' at Index: 2 - 5
+Match: 'the' at Index: 6 - 9
+Match: 'gas' at Index: 10 - 13
+Match: 'and' at Index: 14 - 17
+Match: 'coke' at Index: 22 - 26
+87.5% matched
+Match: 'got' at Index: 2 - 5
+Match: 'the' at Index: 6 - 9
+Match: 'gas' at Index: 10 - 13
+Match: 'and' at Index: 14 - 17
+Match: 'coke' at Index: 22 - 26
+87.5% matched
+Match: 'got' at Index: 2 - 5
+Match: 'the' at Index: 6 - 9
+Match: 'gas' at Index: 10 - 13
+Match: 'and' at Index: 14 - 17
+Match: 'coke' at Index: 22 - 26
+87.5% matched
+Match: 'got' at Index: 2 - 5
+Match: 'the' at Index: 6 - 9
+Match: 'gas' at Index: 10 - 13
+Match: 'and' at Index: 14 - 17
+Match: 'coke' at Index: 22 - 26
+87.5% matched
+Match: 'got' at Index: 2 - 5
+Match: 'the' at Index: 6 - 9
+Match: 'gas' at Index: 10 - 13
+Match: 'and' at Index: 14 - 17
+Match: 'coke' at Index: 22 - 26
+87.5% matched
+Match: 'got' at Index: 2 - 5
+Match: 'the' at Index: 6 - 9
+Match: 'gas' at Index: 10 - 13
+Match: 'and' at Index: 14 - 17
+Match: 'coke' at Index: 22 - 26
+87.5% matched
+Match: 'got' at Index: 2 - 5
+Match: 'the' at Index: 6 - 9
+Match: 'gas' at Index: 10 - 13
+Match: 'and' at Index: 14 - 17
+Match: 'coke' at Index: 22 - 26
+87.5% matched
+Match: 'got' at Index: 2 - 5
+Match: 'the' at Index: 6 - 9
+Match: 'gas' at Index: 10 - 13
+Match: 'and' at Index: 14 - 17
+Match: 'coke' at Index: 22 - 26
+87.5% matched
+Match: 'got' at Index: 2 - 5
+Match: 'the' at Index: 6 - 9
+Match: 'gas' at Index: 10 - 13
+Match: 'and' at Index: 14 - 17
+Match: 'coke' at Index: 22 - 26
+87.5% matched
+Match: 'got' at Index: 2 - 5
+Match: 'the' at Index: 6 - 9
+Match: 'gas' at Index: 10 - 13
+Match: 'and' at Index: 14 - 17
+Match: 'coke' at Index: 22 - 26
+87.5% matched
+Match: 'got' at Index: 2 - 5
+Match: 'the' at Index: 6 - 9
+Match: 'gas' at Index: 10 - 13
+Match: 'and' at Index: 14 - 17
+Match: 'coke' at Index: 22 - 26
+87.5% matched
+Match: 'got' at Index: 2 - 5
+Match: 'the' at Index: 6 - 9
+Match: 'gas' at Index: 10 - 13
+Match: 'and' at Index: 14 - 17
+Match: 'coke' at Index: 22 - 26
+87.5% matched
+TWEET: Last year I used smoke weed drink lean and liquor like it was a hobby I changed that around so much
+TWEET: Classes cancelled fire up the beer and crack open a pot
+Match: 'cancelled' at Index: 6 - 15
+Match: 'tho' at Index: 23 - 26
+70.0% matched
+TWEET:  Police suspect to be held at hospital for 24 hrs Claims he swallowed oz of crack cocaine 
+TWEET: Driving a dying vehicle to niagara county that is loud enough to blow your eardrums is a more efficient method of waking up than cocaine
+TWEET:  snorting cocaine
+TWEET:  clean the crack in your car
+TWEET: this chocolate covered strawberry shake at the gym is everything
+TWEET: Im starin at a tramp on lean make my eye jump
+Match: 'im' at Index: 0 - 2
+Match: 'starin' at Index: 3 - 9
+Match: 'at' at Index: 10 - 12
+Match: 'tramp' at Index: 15 - 20
+Match: 'on' at Index: 21 - 23
+Match: 'lean' at Index: 24 - 28
+Match: 'make' at Index: 29 - 33
+Match: 'my' at Index: 34 - 36
+Match: 'eye' at Index: 37 - 40
+Match: 'jump' at Index: 41 - 45
+97.78% matched
+
+TWEET: Little chocolate &amp; wine pairing with the wife post Ranger game  @ AYZA Wine &amp; Chocolate Bar 
+
+TWEET: Thought it was a bad coke habit at first But that nigga on some shit Prolly meth or crack Who knows 
+Match: 'but' at Index: 0 - 3
+Match: 'nigga' at Index: 11 - 16
+Match: 'who' at Index: 17 - 20
+70.0% matched
+Match: 'i ' at Index: 0 - 2
+Match: 'ai' at Index: 3 - 5
+Match: 'nigga' at Index: 7 - 12
+Match: 'ow' at Index: 22 - 24
+62.5% matched
+Match: 't' at Index: 0 - 1
+Match: 'al' at Index: 1 - 3
+Match: 'that' at Index: 5 - 9
+Match: 'os' at Index: 18 - 20
+65.0% matched
+Match: 'nigga' at Index: 0 - 5
+Match: 'ou' at Index: 7 - 9
+Match: 'know ' at Index: 15 - 20
+75.0% matched
+
+TWEET: morphine got me hella faded
+
+TWEET:  coke will cure it
+
+TWEET: OH in the press room "I was really confused about that -- where he was getting his heroin from"
+TWEET: Someone get me a big chocolate heart  amp  amp  fill it up with different types of weed     put the chocolates in a bag imma need it after I m high 
+Match: 'it' at Index: 7 - 9
+Match: 'the' at Index: 18 - 21
+Match: 'in' at Index: 23 - 25
+Match: 'im' at Index: 25 - 27
+65.0% matched
+Match: 't' at Index: 7 - 8
+Match: 'with' at Index: 17 - 21
+Match: 'the' at Index: 22 - 25
+Match: 'in' at Index: 27 - 29
+63.64% matched
+Match: 'different' at Index: 0 - 9
+Match: 'of' at Index: 18 - 20
+65.0% matched
+Match: 'film' at Index: 7 - 11
+Match: 'it' at Index: 19 - 21
+Match: 'arter' at Index: 24 - 29
+63.64% matched
+Match: 'bit' at Index: 0 - 3
+Match: 'app' at Index: 6 - 9
+Match: 'iat' at Index: 12 - 15
+Match: 'thi' at Index: 17 - 20
+80.0% matched
+Match: 'it' at Index: 5 - 7
+Match: 'pul' at Index: 9 - 12
+Match: 'in' at Index: 13 - 15
+Match: 'ig' at Index: 24 - 26
+61.9% matched
+Match: 'chocolate' at Index: 40 - 49
+Match: 'is' at Index: 58 - 60
+65.0% matched
+Match: 'get' at Index: 5 - 8
+Match: 'me' at Index: 15 - 17
+Match: 'in' at Index: 18 - 20
+Match: 'with' at Index: 21 - 25
+Match: 'the' at Index: 26 - 29
+Match: 'ir' at Index: 29 - 31
+84.62% matched
+Match: 'ill' at Index: 5 - 8
+Match: 'iu' at Index: 11 - 13
+Match: 't' at Index: 20 - 21
+Match: 'igh' at Index: 23 - 26
+61.9% matched
+Match: 't' at Index: 3 - 4
+Match: 'of' at Index: 8 - 10
+Match: 'the' at Index: 11 - 14
+Match: 'it' at Index: 16 - 18
+Match: 'ik' at Index: 21 - 23
+75.0% matched
+Match: 'it' at Index: 1 - 3
+Match: 'the' at Index: 5 - 8
+Match: 'im' at Index: 9 - 11
+Match: 'in' at Index: 19 - 21
+65.0% matched
+Match: 'me' at Index: 2 - 4
+Match: 't' at Index: 4 - 5
+Match: 'type ' at Index: 15 - 20
+Match: 'is' at Index: 22 - 24
+Match: 'it' at Index: 27 - 29
+62.96% matched
+Match: 'it' at Index: 1 - 3
+Match: 'the' at Index: 5 - 8
+Match: 'ic' at Index: 12 - 14
+Match: 'ir' at Index: 20 - 22
+61.9% matched
+Match: 't' at Index: 2 - 3
+Match: 'of' at Index: 4 - 6
+Match: 'the' at Index: 7 - 10
+Match: 'in' at Index: 14 - 16
+Match: 'ic' at Index: 21 - 23
+71.43% matched
+Match: 'it' at Index: 10 - 12
+Match: 'the' at Index: 14 - 17
+Match: 'in' at Index: 24 - 26
+Match: 'im' at Index: 28 - 30
+65.0% matched
+Match: 't' at Index: 2 - 3
+Match: 'of' at Index: 4 - 6
+Match: 't he' at Index: 14 - 18
+Match: 'ir' at Index: 20 - 22
+Match: 'it' at Index: 25 - 27
+64.0% matched
+Match: 'ic' at Index: 12 - 14
+Match: 'ow' at Index: 19 - 21
+Match: 'the' at Index: 24 - 27
+Match: 'it' at Index: 30 - 32
+65.0% matched
+Match: 'e' at Index: 11 - 12
+Match: 'in' at Index: 14 - 16
+Match: 'the' at Index: 17 - 20
+Match: 'ic' at Index: 27 - 29
+Match: 'it' at Index: 31 - 33
+68.18% matched
+Match: 'e' at Index: 2 - 3
+Match: 'in' at Index: 5 - 7
+Match: 'with' at Index: 8 - 12
+Match: 'os' at Index: 16 - 18
+Match: 'ion' at Index: 27 - 30
+60.71% matched
+Match: 'different' at Index: 0 - 9
+Match: 'in' at Index: 18 - 20
+65.0% matched
+Match: 'get' at Index: 20 - 23
+Match: 'up' at Index: 24 - 26
+Match: 'of' at Index: 35 - 37
+Match: 'the' at Index: 39 - 42
+Match: 'im' at Index: 43 - 45
+68.0% matched
+Match: 'it' at Index: 5 - 7
+Match: 'ith' at Index: 10 - 13
+Match: 'thi' at Index: 16 - 19
+Match: 'il' at Index: 26 - 28
+60.87% matched
+Match: 'get' at Index: 4 - 7
+Match: 'in' at Index: 8 - 10
+Match: 'after' at Index: 19 - 24
+65.0% matched
+
+TWEET: Back like cooked crack üí™
+
+TWEET: hank does cocaine
+
+TWEET: So ready not ready at all for this weekend ‚   crack den 
+
+TWEET: This crack head bouta call her son to coke fight üòí she must be crazy imma bouta smoke this nigha üòÖ
+
+TWEET:  I m sipping on coke and rum
+Match: 'sippin' at Index: 4 - 10
+Match: 'on' at Index: 11 - 13
+Match: 'coke' at Index: 14 - 18
+Match: 'and' at Index: 19 - 22
+Match: 'rum' at Index: 23 - 26
+104.55% matched
+
+TWEET: Gray s tox report showed heroin and pot in blood according   Baltimore cop 
+
+TWEET:  lmfaoooo its nonway she claimin him if he not eatin her booty and I kno she like ox tails she told me
+
+TWEET: Matzah crack cookies 
+
+TWEET: When you accidentally edit a trippy cocaine scene 
+
+TWEET: Yes   intervention  Ahhhh I love the heroin ones 
+
+TWEET: Working on my second movie as a PA  This time it s the the crack den like apartment of a paranoid‚ 
+
+TWEET: Styled candy and elegant cocktail fun officialbyredo launch event with framenoir  
+
+TWEET: Detective Suspected Of Stealing $      From Brooklyn Bodega  A Brooklyn narcotics detective is being investigated‚ 
+
+TWEET: I m a mother fuckin coke boy
+
+TWEET: Time to find out if cocaine will fix my sleeping problems   
+
+TWEET: Halfway sleep from the codeine  my old plug turned to a coke feen
+
+TWEET: Me bein me sippin lean like always
+
+TWEET: Inn all fairness James Woods  cocaine is a hell of a drug  Just ask Rick 
+
+TWEET: Ah Times Square    lots of pizza  Starbucks  random street dancers  and apparently cocaine  Never a‚ 
+
+TWEET: Pretty sure i brushed past some poison oak on my way out of newcrust ‚ either that or a hella tall weed plant 
+
+TWEET:  dude    There is help out there    Just go get it  Don t drag Brody into it  He s positive energy and crack is wack 
+
+TWEET:  Any NY Ranger fan who EVER slanders Henrik needs to lay the fuck off the crack straight up 
+
+TWEET: Wondering when I ll start waking up and not looking like a crack addict  
+TWEET: have some more cocaine up ur churches cunt
+
+TWEET: I keep that crack in my crack OR i keep that brack in my brack
+Match: 'that' at Index: 4 - 8
+Match: 'it' at Index: 11 - 13
+Match: 'ou' at Index: 15 - 17
+Match: 'in' at Index: 22 - 24
+70.0% matched
+
+TWEET: Smoking crack keeps you in a bad mood
+
+TWEET:  and I thought it was cocaine       
+Match: 'and' at Index: 0 - 3
+Match: 'thought' at Index: 6 - 13
+Match: 'it' at Index: 14 - 16
+Match: 'was' at Index: 17 - 20
+95.0% matched
+
+TWEET: Kyle just snorted ANOTHER line of cocaine
+
+TWEET: steph  was the party trash  bc u were sauced
+
+TWEET: Seriously in the morning don t talk to me until I ve had at least   cups of cocaine   
+
+TWEET: Dropped out first day of school cause niggas got cocaine to move
+Match: 'dropped' at Index: 0 - 7
+Match: 'out' at Index: 8 - 11
+Match: 'first' at Index: 16 - 21
+Match: 'day' at Index: 22 - 25
+Match: 'of' at Index: 26 - 28
+Match: 'school' at Index: 29 - 35
+91.43% matched
+
+TWEET: most of my childhood friends are pregnant or on heroin  or scene again
+Match: 'o ' at Index: 12 - 14
+Match: 'ase' at Index: 19 - 22
+Match: 'of' at Index: 23 - 25
+Match: 'oc' at Index: 31 - 33
+61.9% matched
+Match: 'childhood' at Index: 11 - 20
+Match: 'ot' at Index: 28 - 30
+Match: 'ol' at Index: 32 - 34
+69.57% matched
+Match: 'friend' at Index: 0 - 6
+Match: 'o ' at Index: 10 - 12
+Match: 'ot' at Index: 19 - 21
+Match: 'on' at Index: 22 - 24
+66.67% matched
+Match: 'pregnant' at Index: 0 - 8
+Match: 'or' at Index: 9 - 11
+Match: 'os' at Index: 18 - 20
+75.0% matched
+Match: 'of' at Index: 0 - 2
+Match: 'our' at Index: 7 - 10
+Match: 'or' at Index: 11 - 13
+Match: 'scent' at Index: 17 - 22
+72.73% matched
+Match: 'ar ' at Index: 70 - 73
+Match: 'op' at Index: 82 - 84
+Match: 'os' at Index: 84 - 86
+Match: 'o ' at Index: 89 - 91
+61.9% matched
+
+TWEET: my cab driver was on so much coke last night
+
+TWEET: If you ever leave me baby  leave some morphine at my door 
+Match: 'if' at Index: 0 - 2
+Match: 'you' at Index: 3 - 6
+Match: 'ever' at Index: 7 - 11
+Match: 'leave' at Index: 12 - 17
+Match: 'me' at Index: 18 - 20
+Match: 'baby' at Index: 21 - 25
+104.0% matched
+
+TWEET: Can t tell if this woman is saying "cooking" or "cocaine"
+
+TWEET: cocaine white like justin bieber bitch  I might show the racks and tease her bitch
+Match: 'cocaine' at Index: 0 - 7
+Match: 'white' at Index: 8 - 13
+Match: 'like' at Index: 14 - 18
+Match: 'justin' at Index: 19 - 25
+Match: 'bieber' at Index: 26 - 32
+Match: 'bitch' at Index: 33 - 38
+102.63% matched
+
+TWEET: this an old video if him throwing up not coke lmao 
+
+TWEET: I know a few niggaz sniff coke and caught seizures
+Match: 'know' at Index: 2 - 6
+Match: 'few' at Index: 9 - 12
+Match: 'nigga' at Index: 13 - 18
+Match: 'sniff' at Index: 20 - 25
+Match: 'coke' at Index: 26 - 30
+Match: 'and' at Index: 31 - 34
+Match: 'caught' at Index: 35 - 41
+Match: 'seizures' at Index: 42 - 50
+95.83% matched
+
+TWEET: I ve always liked Eli Manning but this guy is on crack if he thinks he should be the highest paid player in the league
+Match: 'his' at Index: 6 - 9
+Match: 'in' at Index: 15 - 17
+Match: 'he' at Index: 19 - 21
+Match: 'il' at Index: 24 - 26
+65.0% matched
+Match: 'hi' at Index: 10 - 12
+Match: 'h ' at Index: 19 - 21
+Match: 'the' at Index: 21 - 24
+Match: 'tha' at Index: 30 - 33
+60.87% matched
+Match: 'ell' at Index: 1 - 4
+Match: 'twis' at Index: 6 - 10
+Match: 'in' at Index: 11 - 13
+Match: 'he' at Index: 19 - 21
+75.0% matched
+Match: 'he' at Index: 1 - 3
+Match: 'h ' at Index: 14 - 16
+Match: 'smould' at Index: 16 - 22
+Match: 'in' at Index: 24 - 26
+64.0% matched
+
+TWEET: Drug dealer buy Jordans  crackhead buy crack
+Match: 'drug' at Index: 289 - 293
+Match: 'dealer' at Index: 294 - 300
+Match: 'jordans' at Index: 305 - 312
+Match: 'crackhead' at Index: 313 - 322
+90.91% matched
+
+TWEET: BBCnewsAOSapp       reports  in  use  RTjuly 
+
+TWEET: I m gonna put cocaine in your ass  Albany people
+
+TWEET:  diet coke is like ex sex  it seems like a good idea when you re thirsty and there s nothing better  but once you crack the seal  
+Match: 'you' at Index: 19 - 22
+Match: 'here' at Index: 28 - 32
+Match: 'the' at Index: 36 - 39
+65.0% matched
+Match: 'ig' at Index: 7 - 9
+Match: 'ra' at Index: 14 - 16
+Match: 'the re' at Index: 22 - 28
+61.9% matched
+Match: 'in' at Index: 5 - 7
+Match: 'line' at Index: 16 - 20
+Match: 'and' at Index: 23 - 26
+Match: 'one' at Index: 28 - 31
+61.54% matched
+Match: 'you' at Index: 11 - 14
+Match: 'rie' at Index: 26 - 29
+Match: 'and' at Index: 31 - 34
+Match: 'once' at Index: 35 - 39
+60.71% matched
+Match: 'it' at Index: 1 - 3
+Match: 'thirst' at Index: 13 - 19
+Match: 'and' at Index: 20 - 23
+63.64% matched
+Match: 'if' at Index: 3 - 5
+Match: 'and' at Index: 15 - 18
+Match: 'bitter' at Index: 19 - 25
+63.64% matched
+Match: 'it' at Index: 1 - 3
+Match: 'thirst' at Index: 13 - 19
+Match: 'and' at Index: 20 - 23
+63.64% matched
+Match: 't' at Index: 6 - 7
+Match: 'rw' at Index: 17 - 19
+Match: 'ard' at Index: 19 - 22
+Match: 'the' at Index: 23 - 26
+65.0% matched
+Match: 'ig' at Index: 12 - 14
+Match: 're' at Index: 19 - 21
+Match: 'there' at Index: 23 - 28
+Match: 'tho' at Index: 35 - 38
+61.54% matched
+
+TWEET: He got the coke in hand  I got the juice and gin
+Match: 'he' at Index: 0 - 2
+Match: 'got' at Index: 3 - 6
+Match: 'the' at Index: 7 - 10
+Match: 'coke' at Index: 11 - 15
+Match: 'in' at Index: 16 - 18
+Match: 'hand' at Index: 19 - 23
+Match: 'juice' at Index: 34 - 39
+Match: 'gin' at Index: 44 - 47
+72.34% matched
+Match: 'ha' at Index: 18 - 20
+Match: 'the' at Index: 24 - 27
+Match: 'il' at Index: 29 - 31
+Match: 'tte' at Index: 35 - 38
+70.0% matched
+
+TWEET: Fuck you Pat Mahoney    king pin heroin dealer of long island   youre going to rot in that jail cell when they find you 
+
+TWEET: This has to be one of the dumbest smack high tweets I ve seen yet 
+
+TWEET: If they coming I put that crack in my crack no
+
+TWEET:  eggs lean turkey sprouted grain toast full as hell and delicious
+Match: 'gain' at Index: 109 - 113
+Match: 'aus' at Index: 117 - 120
+Match: 'aid' at Index: 126 - 129
+65.0% matched
+Match: 'and' at Index: 9 - 12
+Match: 'delicious' at Index: 23 - 32
+60.87% matched
+
+TWEET: thoroughly convinced my puppy does crack when i m not home
+
+TWEET: One hell of a viper venom and frog poison detox in the Amazon lthis month      times 
+
+TWEET: Pretty sure they sprinkle just a LITTLE bit of crack on these cocktails      @ Anassa‚ 
+
+TWEET:   all dude raps about is coke lol  He has nice wordplay but he hasn t evolved as an artist since day  
+
+TWEET: a never ending debate  should i drink the wine or not
+Match: 'should' at Index: 3 - 9
+Match: 'the' at Index: 16 - 19
+Match: 'or' at Index: 22 - 24
+66.67% matched
+Match: 'eading' at Index: 22 - 28
+Match: 'should' at Index: 38 - 44
+63.64% matched
+
+TWEET: HAHA every rapper talks about cooking crack like it s no big deal    like it s something everyone does
+TWEET:  is a poor mans heroin   
+
+TWEET: If you re gonna do cocaine   at the very least   
+Match: 'you' at Index: 0 - 3
+Match: 're' at Index: 3 - 5
+Match: 't' at Index: 6 - 7
+Match: 'tha' at Index: 17 - 20
+65.0% matched
+Match: 'you' at Index: 10 - 13
+Match: 'r ' at Index: 13 - 15
+Match: 'at' at Index: 16 - 18
+Match: 'the' at Index: 29 - 32
+63.64% matched
+Match: 'you' at Index: 0 - 3
+Match: 're' at Index: 3 - 5
+Match: 'ay' at Index: 8 - 10
+Match: 'the' at Index: 20 - 23
+60.87% matched
+Match: 'gonna' at Index: 15 - 20
+Match: 'do' at Index: 21 - 23
+Match: 'as' at Index: 30 - 32
+Match: 'the' at Index: 33 - 36
+Match: 'last' at Index: 39 - 43
+75.0% matched
+Match: 'if' at Index: 0 - 2
+Match: 'you' at Index: 3 - 6
+Match: 're' at Index: 6 - 8
+Match: 'gonna' at Index: 9 - 14
+Match: 't' at Index: 23 - 24
+Match: 'he' at Index: 24 - 26
+80.77% matched
+Match: 'you' at Index: 0 - 3
+Match: 're' at Index: 4 - 6
+Match: 'ad' at Index: 6 - 8
+Match: 'the' at Index: 20 - 23
+60.87% matched
+
+TWEET: You can try to take guns all you want  Crack  heroin and opiates are all illegal but easily attainable for anyone wishing to use
+
+TWEET: Usually drink Captain every weekend but once I start working at the ass crack of dawn I can t be having hangovers
+Match: 'drink' at Index: 17 - 22
+Match: 'the' at Index: 23 - 26
+Match: 'ass' at Index: 31 - 34
+Match: 'of' at Index: 35 - 37
+Match: 'bl' at Index: 38 - 40
+86.96% matched
+Match: 'ad' at Index: 1 - 3
+Match: 'he' at Index: 9 - 11
+Match: 'ss' at Index: 11 - 13
+Match: 'aving' at Index: 20 - 25
+62.5% matched
+Match: 'every' at Index: 0 - 5
+Match: 'an' at Index: 7 - 9
+Match: 'the' at Index: 14 - 17
+Match: 'ass' at Index: 20 - 23
+73.91% matched
+Match: 'the' at Index: 0 - 3
+Match: 'a s' at Index: 7 - 10
+Match: 'of' at Index: 15 - 17
+Match: 'bi' at Index: 20 - 22
+63.64% matched
+Match: 'ever ' at Index: 44 - 49
+Match: 'an' at Index: 49 - 51
+Match: 'he' at Index: 54 - 56
+Match: 'on' at Index: 63 - 65
+71.43% matched
+Match: 'e very' at Index: 44 - 50
+Match: 'ant' at Index: 56 - 59
+Match: 'th ' at Index: 62 - 65
+Match: 'on' at Index: 69 - 71
+66.67% matched
+Match: 'thr' at Index: 16 - 19
+Match: 'ou' at Index: 19 - 21
+Match: 'an' at Index: 25 - 27
+Match: 'ba' at Index: 34 - 36
+65.0% matched
+Match: 'every' at Index: 47 - 52
+Match: 'a ' at Index: 59 - 61
+Match: 'te' at Index: 64 - 66
+Match: 'of' at Index: 67 - 69
+68.18% matched
+Match: 'captain' at Index: 35 - 42
+Match: 'a ' at Index: 47 - 49
+Match: 'o ' at Index: 55 - 57
+Match: 'be' at Index: 61 - 63
+60.71% matched
+
+TWEET: It‚ a recession on the work  I‚Äôm screaming who got crack
+
+TWEET:  Tomlin smoking crack just say no
+
+TWEET: A crack rock a day keeps the doctor away
+
+TWEET: Everyone thought their weekend was so exciting but I busted two guys for shooting up heroin in the Dunkin bathroom so there s that
+
+TWEET:  that s crack cocaine
+Match: 'that' at Index: 0 - 4
+Match: 'crack' at Index: 11 - 16
+Match: 'cocaine' at Index: 17 - 24
+79.17% matched
+Match: 'that' at Index: 19 - 23
+Match: 'crack' at Index: 31 - 36
+Match: 'cocaine' at Index: 36 - 43
+79.17% matched
+
+TWEET: She began using crack cocaine with the landscaper  then later with her husband 
+Match: 'the' at Index: 0 - 3
+Match: 'the ' at Index: 5 - 9
+Match: 'her' at Index: 18 - 21
+61.9% matched
+Match: 'with' at Index: 479 - 483
+Match: 'tte' at Index: 492 - 495
+Match: 'they' at Index: 497 - 501
+63.64% matched
+
+TWEET: At the bills tailgate with my parents     a dude just tried to sell me some coke n a gold chain      My dad goes "Wtf you didn t get any  "
+
+TWEET: Smoke crack get whack
+
