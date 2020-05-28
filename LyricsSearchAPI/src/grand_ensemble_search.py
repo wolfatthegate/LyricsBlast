@@ -6,7 +6,7 @@ list_of_lyrics = glob.glob("LyricsDatabase/*.*")
 
 cleaner = TextCleaner.TextCleaner()
 lyricFinder = blast.blast() 
-threshold = 0.70
+threshold = 0.65
 
 def searchLyrics(queryStr):
     for file in list_of_lyrics:

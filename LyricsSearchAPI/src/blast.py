@@ -2,6 +2,8 @@
 # compare single base
 import nltk
 import pandas as pd
+import TextCleaner
+from gensim.summarization import textcleaner
 
 class blast:
     def SingleBaseCompare(self, char1,char2):
@@ -19,6 +21,10 @@ class blast:
     
     def SMWalignment(self, seq1, seq2, threshold):
         
+        cleaner = TextCleaner.TextCleaner()
+        seq1 = cleaner.clean(seq1)
+        seq2 = cleaner.clean(seq2)
+        
         seq1 = '~~ ' + seq1 + ' ~~'
         seq2 = '^^ ' + seq2 + ' ^^'
         
@@ -28,8 +34,8 @@ class blast:
         if len(seq1_tokens) < 4 or len(seq2_tokens) < 4:
             return '', '', 0, 0
         
-        m = seq1_tokens.__len__() - 1
-        n = seq2_tokens.__len__() - 1
+        m = seq1_tokens.__len__()
+        n = seq2_tokens.__len__()
         g = -3
         
         matrix = []
@@ -49,10 +55,10 @@ class blast:
             matchMap.append(tmp)
             
         for sii in range(0, m):
-            matrix[sii][0] = sii*g
+            matrix[sii][0] = sii*0
              
         for sjj in range(0, n):
-            matrix[0][sjj] = sjj*g
+            matrix[0][sjj] = sjj*0
         
         for siii in range(1, m):
             for sjjj in range(1, n):
@@ -73,43 +79,24 @@ class blast:
         if matchCounter is 0:
             return 'no match found', '', 0, 0
         
-        df = pd.DataFrame(matrix)
-        print(df)
+#         df = pd.DataFrame(matrix)
+#         print(df)
         
         sequ1 = []
         sequ2 = []
         
         m = m - 1
         n = n - 1
-        
-        firstMatch = False
-        
-        while firstMatch == False:
-            if m > 0 and n > 0:  
-                if matchMap[m][n] is 2: 
-                    sequ1.append(seq1_tokens[m] + ' ')
-                    sequ2.append(seq2_tokens[n] + ' ')
-                    firstMatch = True
                 
-                if max(matrix[m][n-1], matrix[m-1][n-1], matrix[m-1][n]) == matrix[m-1][n-1]:
-                    m -= 1
-                    n -= 1
-                elif max(matrix[m][n-1], matrix[m-1][n-1], matrix[m-1][n]) == matrix[m][n-1]:
-                    n -= 1
-                else:
-                    m -= 1
-            else: 
-                return '---not match found', '---', 0, 0
-            
         while m > 0 and n > 0:
-            if matchMap[m][n] is 2: 
-                sequ1.append(seq1_tokens[m] + ' ')
-                sequ2.append(seq2_tokens[n] + ' ')
-                
+         
             if max(matrix[m][n-1], matrix[m-1][n-1], matrix[m-1][n]) == matrix[m-1][n-1]:
-                if matchMap[m][n] is not 2: 
-                    sequ1.append(seq1_tokens[m] + ' ')
-                    sequ2.append(blast.fillspace(self, len(seq1_tokens[m])) + ' ')              
+                if matchMap[m-1][n-1] is 2: 
+                    sequ1.append(seq1_tokens[m-1] + ' ')
+                    sequ2.append(seq2_tokens[n-1] + ' ')
+                else: 
+                    sequ1.append(seq1_tokens[m-1] + ' ')
+                    sequ2.append(blast.fillspace(self, len(seq1_tokens[m-1])) + ' ')              
                 m -= 1
                 n -= 1
                   
@@ -121,12 +108,12 @@ class blast:
                 sequ1.append(seq1_tokens[m-1] + ' ')
                 sequ2.append(blast.fillspace(self, len(seq1_tokens[m-1])) + ' ')
                 m -= 1
-                 
+               
         sequ1.reverse()
         sequ2.reverse()
         
-        align_seq1 = ''.join(sequ1)
-        align_seq2 = ''.join(sequ2)
+        align_seq1 = ''.join(sequ1[1:])
+        align_seq2 = ''.join(sequ2[1:])
         align_counter = 0
 
         for k in range(0, len(sequ1)):
