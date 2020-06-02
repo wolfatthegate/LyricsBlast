@@ -8,7 +8,7 @@ cleaner = TextCleaner.TextCleaner()
 lyricFinder = blast.blast() 
 threshold = 0.65
 
-def searchLyrics(queryStr):
+def searchLyricsLocal(queryStr):
     for file in list_of_lyrics:
         with open(file, "r") as f:
             for dBline in f: 
@@ -27,4 +27,4 @@ def searchLyrics(queryStr):
 with open("tweets/_Lyrics_References.txt", "r") as tweets:
     for tweet in tweets:
         tweet = cleaner.clean(tweet.lower())
-        searchLyrics(tweet)
+        searchLyricsLocal(tweet)
