@@ -1,13 +1,30 @@
 import lyricsgenius #https://github.com/johnwmillr/LyricsGenius
 import genius_credentials
 import json
+import TextCleaner
+from os import path
+import sys
+
+sys.path.append(path.abspath('/Users/WaylonLuo/git/DrugAbusePrevention'))
+
+from dbModels.MongoDbModel import MongoDbModel
+from dbModels.MongoDbService import MongoDbService
         
+# all the method
 def findSongInList(songlist, songID):
     for i in range(len(songlist)):
-        if songlist[i] == songID:
+        if int(songlist[i]) == songID:
             return True
     return False
 
+def insert2MongoDB(id, tableName, dBName, data):
+      
+    mongoDbService = MongoDbService('mongodb://localhost:27017/')
+    mongoDbModel = MongoDbModel(mongoDbService.client, dBName, 1)
+    mongoDbModel.insert(id, data, tableName)
+    mongoDbService.close()
+
+# initialize variables
 genius = lyricsgenius.Genius(genius_credentials.CLIENT_ACCESS_TOKEN) 
 genius.verbose = False # Turn off status messages
 genius.remove_section_headers = True # Remove section headers (e.g. [Chorus]) from lyrics when searching
@@ -15,13 +32,18 @@ genius.skip_non_songs = False # Include hits thought to be non-songs (e.g. track
 genius.excluded_terms = ["(Remix)", "(Live)"] # Exclude songs with these words in their title
 
 nextPage = True
-curPage = 1
+curPage = 50
+
+saveInDB = True
+saveInFile = False
  
 found = False  
 # define list of places
 songlistLocal = []
 
 # open file and read the content in a list
+cleaner = TextCleaner.TextCleaner()
+
 with open('LyricsDatabase/_songlist.txt', 'r') as filehandle:
     filecontents = filehandle.readlines()
 
@@ -30,7 +52,7 @@ with open('LyricsDatabase/_songlist.txt', 'r') as filehandle:
         songlistLocal.append(line.strip())
  
 while nextPage is True:
-    result = genius.search_all_term('weed', per_page = 20, page = curPage)
+    result = genius.search_all_term('smoke', per_page = 10, page = curPage)
 
     # convert JSON object into a JSON string 
     json_str = json.dumps(result)
@@ -58,22 +80,25 @@ while nextPage is True:
             continue
         
         song = genius.search_song(title, name)
-        year = song.year
-        lyrics = song.lyrics
-
-        data = {}
-        data['data'] = []
-        data['data'].append({
-            'name': name,
+        try:
+            year = song.year
+            lyrics = song.lyrics
+        except:
+            print("No Data in Song")
+        
+        data = {'name': name,
             'title': title,
             'year': year,
             'genius_songID': genius_songID,
-            'lyrics': lyrics
-        })
-        filename = title + '-' + name + '-' + str(genius_songID)
-    
-        with open( 'LyricsDatabase/' + filename + '.txt', 'w') as outfile:
-            json.dump(data, outfile)
+            'lyrics': lyrics}
+        
+        if saveInDB is True:
+            insert2MongoDB(genius_songID, 'Lyrics', 'LyricsDB', data)
+        
+        if saveInFile is True: 
+            filename = cleaner.clean(title) + '-' + cleaner.clean(name) + '-' + str(genius_songID)
+            with open( 'LyricsDatabase/' + filename + '.txt', 'w') as outfile:
+                 json.dump(data, outfile)
         
         songlistLocal.append(genius_songID)
     
@@ -83,4 +108,4 @@ while nextPage is True:
             filehandle.write('%s\n' % listitem)  
             
     # go to next search page
-    curPage += 1         
+    curPage += 1
