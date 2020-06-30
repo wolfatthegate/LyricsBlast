@@ -31,8 +31,10 @@ genius.remove_section_headers = True # Remove section headers (e.g. [Chorus]) fr
 genius.skip_non_songs = False # Include hits thought to be non-songs (e.g. track lists)
 genius.excluded_terms = ["(Remix)", "(Live)"] # Exclude songs with these words in their title
 
+downloaded_term = ['weed','cocaine','lean', 'blunt', 'joint', 'dank', 'crack', 'molly', 'coke', 'smoke', 'dope']
+term = ''
 nextPage = True
-curPage = 50
+curPage = 1
 
 saveInDB = True
 saveInFile = False
@@ -52,7 +54,7 @@ with open('LyricsDatabase/_songlist.txt', 'r') as filehandle:
         songlistLocal.append(line.strip())
  
 while nextPage is True:
-    result = genius.search_all_term('smoke', per_page = 10, page = curPage)
+    result = genius.search_all_term(term, per_page = 50, page = curPage)
 
     # convert JSON object into a JSON string 
     json_str = json.dumps(result)
