@@ -2,13 +2,7 @@ import lyricsgenius #https://github.com/johnwmillr/LyricsGenius
 import genius_credentials
 import json
 import TextCleaner
-from os import path
-import sys
-
-sys.path.append(path.abspath('/Users/WaylonLuo/git/DrugAbusePrevention'))
-
-from dbModels.MongoDbModel import MongoDbModel
-from dbModels.MongoDbService import MongoDbService
+import DBFactory
         
 # all the method
 def findSongInList(songlist, songID):
@@ -17,13 +11,6 @@ def findSongInList(songlist, songID):
             return True
     return False
 
-def insert2MongoDB(id, tableName, dBName, data):
-      
-    mongoDbService = MongoDbService('mongodb://localhost:27017/')
-    mongoDbModel = MongoDbModel(mongoDbService.client, dBName, 1)
-    mongoDbModel.insert(id, data, tableName)
-    mongoDbService.close()
-
 # initialize variables
 genius = lyricsgenius.Genius(genius_credentials.CLIENT_ACCESS_TOKEN) 
 genius.verbose = False # Turn off status messages
@@ -31,7 +18,7 @@ genius.remove_section_headers = True # Remove section headers (e.g. [Chorus]) fr
 genius.skip_non_songs = False # Include hits thought to be non-songs (e.g. track lists)
 genius.excluded_terms = ["(Remix)", "(Live)"] # Exclude songs with these words in their title
 
-downloaded_term = ['weed','cocaine','lean', 'blunt', 'joint', 'dank', 'crack', 'molly', 'coke', 'smoke', 'dope']
+downloaded_term = ['weed','cocaine','lean', 'blunt', 'joint', 'dank', 'crack', 'molly', 'coke', 'smoke', 'dope', 'cigarette']
 term = ''
 nextPage = True
 curPage = 1
@@ -45,6 +32,7 @@ songlistLocal = []
 
 # open file and read the content in a list
 cleaner = TextCleaner.TextCleaner()
+dbWorker = DBFactory.DBFactory()
 
 with open('LyricsDatabase/_songlist.txt', 'r') as filehandle:
     filecontents = filehandle.readlines()
@@ -95,7 +83,7 @@ while nextPage is True:
             'lyrics': lyrics}
         
         if saveInDB is True:
-            insert2MongoDB(genius_songID, 'Lyrics', 'LyricsDB', data)
+            dbWorker.insert2MongoDB(genius_songID, 'Lyrics', 'LyricsDB', data)
         
         if saveInFile is True: 
             filename = cleaner.clean(title) + '-' + cleaner.clean(name) + '-' + str(genius_songID)
