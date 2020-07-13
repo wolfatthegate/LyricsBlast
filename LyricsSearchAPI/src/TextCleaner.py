@@ -6,12 +6,14 @@ import re
 
 class TextCleaner:
     def clean(self, string):
+            
         user_pattern = re.compile('@\w+')
         url_pattern = re.compile('(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})')
         hashtag_pattern = re.compile('#[a-zA-Z0-9-]+')
-        spchar_pattern = re.compile('[!*?\/()\[\],:.-;&]')
+        spchar_pattern = re.compile('[!*?\/()\[\],:.-;&~]')
+        spchar_pattern2 = re.compile('[%\|•‚\'\-’"]')
         other_pattern = re.compile('\"')
-        double_space = re.compile('  ')
+        white_space = re.compile('\s+')
         emoji_pattern = re.compile("["
                         u"\U0001F600-\U0001F64F"  # emoticons
                     u"\U0001F300-\U0001F5FF"  # symbols & pictographs
@@ -30,17 +32,17 @@ class TextCleaner:
                     u"\u3030"
                     u"\ufe0f"
         "]+")
-        string = re.sub('‚','', string)
-        string = re.sub('\'','', string)
-        string = re.sub('\-','', string)
-        string = re.sub('’', '', string)
-        string = re.sub('"', '', string)
-        string = emoji_pattern.sub(r'', string)         
-        string = user_pattern.sub(r'', string) 
-        string = url_pattern.sub(r'', string)
-        string = hashtag_pattern.sub(r'', string)       
-        string = spchar_pattern.sub(r' ', string)
-        string = other_pattern.sub(r'', string)
-        string = double_space.sub(r' ', string)
-        string = string.strip()
+        try: 
+
+            string = emoji_pattern.sub(r'', string)         
+            string = user_pattern.sub(r'', string) 
+            string = url_pattern.sub(r'', string)
+            string = hashtag_pattern.sub(r'', string)       
+            string = spchar_pattern.sub(r' ', string)
+            string = spchar_pattern2.sub(r' ', string)
+            string = other_pattern.sub(r'', string)
+            string = white_space.sub(r' ', string)
+            string = string.strip()
+        except:
+            print(str(string) + ' some text cannot be cleaned')
         return string

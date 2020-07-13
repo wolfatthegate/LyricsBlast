@@ -55,10 +55,10 @@ class blast:
             matchMap.append(tmp)
             
         for sii in range(0, m):
-            matrix[sii][0] = sii*0
+            matrix[sii][0] = sii*-3
              
         for sjj in range(0, n):
-            matrix[0][sjj] = sjj*0
+            matrix[0][sjj] = sjj*-3
         
         for siii in range(1, m):
             for sjjj in range(1, n):
@@ -116,10 +116,12 @@ class blast:
         align_seq2 = ''.join(sequ2[1:])
         align_counter = 0
 
+
         for k in range(0, len(sequ1)):
             if blast.W2WCompare(self, sequ1[k], sequ2[k], threshold) is 2:
-                align_counter += 1
-        align_score = float(align_counter)/len(sequ1)
+                align_counter += 1 
+
+        align_score = float(align_counter)/(len(sequ1)-1)
         
         return align_seq1, align_seq2, align_score, align_counter
     
@@ -142,9 +144,9 @@ class blast:
             matrix.append(tmp)
             
         for sii in range(0, m):
-            matrix[sii][0] = sii*0
+            matrix[sii][0] = sii*-3
         for sjj in range(0, n):
-            matrix[0][sjj] = sjj*0
+            matrix[0][sjj] = sjj*-3
             
         for siii in range(1, m):
             for sjjj in range(1, n):

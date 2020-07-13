@@ -19,7 +19,7 @@ genius.skip_non_songs = False # Include hits thought to be non-songs (e.g. track
 genius.excluded_terms = ["(Remix)", "(Live)"] # Exclude songs with these words in their title
 
 downloaded_term = ['weed','cocaine','lean', 'blunt', 'joint', 'dank', 'crack', 'molly', 'coke', 'smoke', 'dope', 'cigarette']
-term = ''
+term = 'You a E-hole missin, get ya peep hole missin'
 nextPage = True
 curPage = 1
 
