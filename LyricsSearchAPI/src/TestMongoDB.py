@@ -27,9 +27,19 @@ import nltk
 import blast
 import sys
 
+def printSearchResult(result):
+    print('')
+    print('tweet: ' + result[0])
+    print('query: ' + result[1])
+    print('Score: ' + str(round(result[2],2)) + '/1.0 (' + str(result[3]) + ' words matched)' + 'in song: ' + eachlyrics['title'])
+    print(' first half score: ' + str(round(result[4], 2)))
+    print('second half score: ' + str(round(result[5], 2)))
  
 def findDrugKeywords(str):
-    terms = ['weed','cocaine','lean', 'blunt', 'joint', 'dank', 'crack', 'molly', 'coke', 'smoke', 'dope', 'cigarette', 'champagne', 'gasoline']
+    
+    terms = ['weed','cocaine','lean', 'blunt', 'joint', 'dank', 'crack', 
+             'molly', 'coke', 'smoke', 'dope', 'cigarette', 'champagne', 'gasoline']
+     
     tokenized_str = nltk.word_tokenize(str)
     keywordList = []
     for tokenized_word in tokenized_str:
@@ -38,34 +48,41 @@ def findDrugKeywords(str):
                 keywordList.append(tokenized_word.lower())   
     return keywordList
 
-combined_lines = ''
-saved_line = ''
 cleaner = TextCleaner.TextCleaner()
 blaster = blast.blast()
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 mydb = myclient['LyricsDB']
-testTbl = mydb['Test']
 lyricTbl = mydb['Lyrics']
+
 threshold = 0.65
-score = 0.40
+mid_score = 0.50
+high_score = 0.64
 
-
-  
-myquery = {"found": {"$not" :{"$regex": "2"}}}
 mylyricquery = {}
+  
+myquery = {"found": {"$not" :{"$regex": { "$in": [ "0", "1" ] }}}}
 
+myquery = {"found": {"$not" :{ "$in": [ "0", "1" ] }}}
+
+testTbl = mydb['MechTurk']
 mydoc = testTbl.find(myquery) #find() method returns a list of dictionary
-
-file = open('archived_tweets/lyricsearchresult.txt', 'w')
 
 for x in mydoc:
     
     tweet = x['data']
     query_list = findDrugKeywords(tweet)
-    found = False
-    second_chance = False
-    trial_counter = 0
+    go_to_next_tweet = False
+    followUp = False
+    stepBack = False
+    titleMatched = False
+    savedline = ''
+    combined_lines = ''
+    song = ''
+    score = 0.00
+    suggestions = 0
+    found = "0"
     
+    print('searching for ' + x['data'])
     for query_word in query_list:
         keyword = query_word
         break
@@ -74,97 +91,86 @@ for x in mydoc:
     mytitle = lyricTbl.find(mytitlequery)
     
     for eachtitle in mytitle: 
-        title = cleaner.clean(eachtitle['title'])
-        
+        title = cleaner.clean(eachtitle['title'])       
         result = blaster.SMWalignment(tweet.lower(), title.lower(), threshold)
             
         if round(result[2],2) > 0.85: 
             print('title matched:')
-            print('tweet: ' + result[0])
-            file.write('tweet: ' + result[0] + '\n')
-            print('query: ' + result[1])
-            file.write('query: ' + result[1] + '\n')
-            print('Score: ' + str(round(result[2],2)) + '/1.0 (' + str(result[3]) + ' words matched)' + 'in song: ' + eachtitle['title'])
-            file.write('Score: ' + str(round(result[2],2)) + '/1.0 (' + str(result[3]) + ' words matched)' + 'in song: ' + eachtitle['title'] + '\n')
-            print('')
-            file.write('\n')
-            found = True
+            titleMatched = True
+            printSearchResult(result)
+            song = song + ' ' + eachlyrics['title']
+            suggestions += 1
+            score = result[2]
+            updatequery = {'_id': x['_id']}
+            newvalue = { '$set': {'score': round(score,2) , 'suggestions': str(suggestions), 'song': song, 'found': 1}}
+            testTbl.update_one(updatequery, newvalue)
             break
-        
+    
+    if titleMatched == True:
+        continue
+      
     mylyricquery = {"lyrics": {"$regex": keyword, "$options": "-i"}} # query keyword
     mylyrics = lyricTbl.find(mylyricquery)  #find in lyrics database
-    counter = 0
         
     for eachlyrics in mylyrics: #loop through mylyrics list
-                        
-            # read each line of lyrics             
-            
+        
+        go_to_next_song = False    
+        # read each line of lyrics  
         for eachline in eachlyrics['lyrics'].splitlines():
                 
             eachline = cleaner.clean(eachline)
-                
-                # is this line follow up ? 
-                # if it is follow up reconstruct the sentence and 
-                
-            if second_chance == True: 
-                trial_counter += 1
-                combined_lines = saved_line + ' ' + eachline.lower()
-                tweet = cleaner.clean(tweet)
-                result = blaster.SMWalignment(tweet, combined_lines, threshold)
-            
-                if result[2] > 0.60: 
-                    print('second chance')
-                    print('tweet: ' + result[0])
-                    file.write('tweet: ' + result[0] + '\n')
-                    print('query: ' + result[1])
-                    file.write('query: ' + result[1] + '\n')
-                    print('Score: ' + str(round(result[2],2)) + '/1.0 (' + str(result[3]) + ' words matched)' + 'in song: ' + eachlyrics['title'])
-                    file.write('Score: ' + str(round(result[2],2)) + '/1.0 (' + str(result[3]) + ' words matched)' + 'in song: ' + eachlyrics['title'] + '\n')
-                    print('')
-                    file.write('\n')
-                    second_chance = False
-                    saved_line = ''
-                    found = True
-                    break
-            
-                else: 
-                    saved_line = eachline.lower()
-                    
-                if trial_counter > 3:
-                    trial_counter = 0
-                    second_chance = False
-                    saved_line = ''
-                    break
-                
+            if followUp == True: 
+                eachline = savedline + ' ' + eachline
+                followUp = False
                 # check if each line has keyword
+            if stepBack == True: 
+                eachline = previous_line + ' ' + savedline
+                stepBack = False
+                
             if keyword.lower() in eachline.lower():
                 tweet = cleaner.clean(tweet)
                 # perform blast Search                    
                 result = blaster.SMWalignment(tweet, eachline.lower(), threshold)
-                if result[2] < 0.60 and result[3] > 3:
-                    second_chance = True
-                    saved_line = eachline.lower()
                 
-                # follow up = True or False            
-                if result[2] > 0.60 and result[3] > 3: 
-                     
-                    print('tweet: ' + result[0])
-                    file.write('tweet: ' + result[0] + '\n')
-                    print('query: ' + result[1])
-                    file.write('query: ' + result[1] + '\n')
-                    print('Score: ' + str(round(result[2],2)) + '/1.0 (' + str(result[3]) + ' words matched)' + 'in song: ' + eachlyrics['title'])
-                    file.write('Score: ' + str(round(result[2],2)) + '/1.0 (' + str(result[3]) + ' words matched)' + 'in song: ' + eachlyrics['title'] + '\n')
-                    print('')
-                    file.write('\n')
-                    found = True
+                if result[6] == True:
+                    followUp = True
+                    savedline = eachline
+                
+                if result[7] == True:
+                    stepBack = True
+                    savedline = eachline
+     
+                if result[2] > mid_score and result[3] > 3: 
+                    printSearchResult(result)
+                    song = song + ' ' + eachlyrics['title']
+                    suggestions += 1
+                    score = result[2]
+                    if followUp == False:
+                        go_to_next_song = True # go to next song
+                
+                if result[2] > high_score or (result[4] > high_score and result[3] > 4):
+                    printSearchResult(result)
+                    song = song + ' ' + eachlyrics['title']
+                    score = result[2]
+                    print('found the song')
+                    found = "1"                
+                    go_to_next_tweet = True
                     break
-                    
-            if found == True:
+
+            else: 
+                previous_line = eachline
+            
+            if go_to_next_song == True: 
                 break
-        if found == True:
+                    
+        if suggestions > 4 or go_to_next_tweet == True:
             break
-    
-file.close()
+        
+    print('No of suggestions: ' + str(suggestions) + ' for ' + x['data'])
+    updatequery = {'_id': x['_id']}
+    newvalue = { '$set': {'score': round(score,2) , 'suggestions': str(suggestions), 'song': song, 'found': found}}
+    testTbl.update_one(updatequery, newvalue)
+
 
                                 
 

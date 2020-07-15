@@ -11,7 +11,7 @@ class TextCleaner:
         url_pattern = re.compile('(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})')
         hashtag_pattern = re.compile('#[a-zA-Z0-9-]+')
         spchar_pattern = re.compile('[!*?\/()\[\],:.-;&~]')
-        spchar_pattern2 = re.compile('[%\|•‚\'\-’"]')
+        spchar_pattern2 = re.compile('[%\|•‚\-’"]')
         other_pattern = re.compile('\"')
         white_space = re.compile('\s+')
         emoji_pattern = re.compile("["
@@ -42,6 +42,7 @@ class TextCleaner:
             string = spchar_pattern2.sub(r' ', string)
             string = other_pattern.sub(r'', string)
             string = white_space.sub(r' ', string)
+            string = string.replace('\'', '')
             string = string.strip()
         except:
             print(str(string) + ' some text cannot be cleaned')

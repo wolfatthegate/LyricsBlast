@@ -18,8 +18,10 @@ genius.remove_section_headers = True # Remove section headers (e.g. [Chorus]) fr
 genius.skip_non_songs = False # Include hits thought to be non-songs (e.g. track lists)
 genius.excluded_terms = ["(Remix)", "(Live)"] # Exclude songs with these words in their title
 
-downloaded_term = ['weed','cocaine','lean', 'blunt', 'joint', 'dank', 'crack', 'molly', 'coke', 'smoke', 'dope', 'cigarette']
-term = 'You a E-hole missin, get ya peep hole missin'
+downloaded_term = ['heroine', 'oxy', 'heroin', 'dopamine', 'norepinephrine', 'weed','cocaine','lean', 'blunt', 'joint', 'dank', 'crack', 'molly', 'coke', 'smoke', 'dope', 'cigarette']
+
+
+terms = ['morphine']
 nextPage = True
 curPage = 1
 
@@ -33,69 +35,69 @@ songlistLocal = []
 # open file and read the content in a list
 cleaner = TextCleaner.TextCleaner()
 dbWorker = DBFactory.DBFactory()
-
-with open('LyricsDatabase/_songlist.txt', 'r') as filehandle:
-    filecontents = filehandle.readlines()
-
-    for line in filecontents:
-        # remove linebreak which is the last character of the string
-        songlistLocal.append(line.strip())
- 
-while nextPage is True:
-    result = genius.search_all_term(term, per_page = 50, page = curPage)
-
-    # convert JSON object into a JSON string 
-    json_str = json.dumps(result)
+for term in terms:
+    with open('LyricsDatabase/_songlist.txt', 'r') as filehandle:
+        filecontents = filehandle.readlines()
+    
+        for line in filecontents:
+            # remove linebreak which is the last character of the string
+            songlistLocal.append(line.strip())
      
-    # parse JSON string into Python dictionary
-    data = json.loads(json_str)
-    data_section = data['sections'][0]['hits']
+    while nextPage is True:
+        result = genius.search_all_term(term, per_page = 50, page = curPage)
     
-    if len(data['sections'][0]['hits']) == 0:
-        # end of paige
-        break
-    
-    print('CurrentPage: ' + str(curPage))
-     
-    for songlist in data_section:    
+        # convert JSON object into a JSON string 
+        json_str = json.dumps(result)
+         
+        # parse JSON string into Python dictionary
+        data = json.loads(json_str)
+        data_section = data['sections'][0]['hits']
         
-        # pull out the parameters
-        name = songlist['result']['primary_artist']['name']
-        title = songlist['result']['title']
-        genius_songID = songlist['result']['id']
-   
-        found = findSongInList(songlistLocal, genius_songID)
+        if len(data['sections'][0]['hits']) == 0:
+            # end of paige
+            break
         
-        if found is True:
-            continue
-        
-        song = genius.search_song(title, name)
-        try:
-            year = song.year
-            lyrics = song.lyrics
-        except:
-            print("No Data in Song")
-        
-        data = {'name': name,
-            'title': title,
-            'year': year,
-            'genius_songID': genius_songID,
-            'lyrics': lyrics}
-        
-        if saveInDB is True:
-            dbWorker.insert2MongoDB(genius_songID, 'Lyrics', 'LyricsDB', data)
-        
-        if saveInFile is True: 
-            filename = cleaner.clean(title) + '-' + cleaner.clean(name) + '-' + str(genius_songID)
-            with open( 'LyricsDatabase/' + filename + '.txt', 'w') as outfile:
-                 json.dump(data, outfile)
-        
-        songlistLocal.append(genius_songID)
-    
-    # update the song list in the _songlist.txt file locally 
-    with open('LyricsDatabase/_songlist.txt', 'w') as filehandle:
-        for listitem in songlistLocal:
-            filehandle.write('%s\n' % listitem)  
+        print('CurrentPage: ' + str(curPage) + ' term: ' + term)
+         
+        for songlist in data_section:    
             
-    # go to next search page
-    curPage += 1
+            # pull out the parameters
+            name = songlist['result']['primary_artist']['name']
+            title = songlist['result']['title']
+            genius_songID = songlist['result']['id']
+       
+            found = findSongInList(songlistLocal, genius_songID)
+            
+            if found is True:
+                continue
+            
+            song = genius.search_song(title, name)
+            try:
+                year = song.year
+                lyrics = song.lyrics
+            except:
+                print("No Data in Song")
+            
+            data = {'name': name,
+                'title': title,
+                'year': year,
+                'genius_songID': genius_songID,
+                'lyrics': lyrics}
+            
+            if saveInDB is True:
+                dbWorker.insert2MongoDB(genius_songID, 'Lyrics', 'LyricsDB', data)
+            
+            if saveInFile is True: 
+                filename = cleaner.clean(title) + '-' + cleaner.clean(name) + '-' + str(genius_songID)
+                with open( 'LyricsDatabase/' + filename + '.txt', 'w') as outfile:
+                     json.dump(data, outfile)
+            
+            songlistLocal.append(genius_songID)
+        
+        # update the song list in the _songlist.txt file locally 
+        with open('LyricsDatabase/_songlist.txt', 'w') as filehandle:
+            for listitem in songlistLocal:
+                filehandle.write('%s\n' % listitem)  
+                
+        # go to next search page
+        curPage += 1

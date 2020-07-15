@@ -31,8 +31,8 @@ class blast:
         seq1_tokens = nltk.word_tokenize(seq1)
         seq2_tokens = nltk.word_tokenize(seq2)
         
-        if len(seq1_tokens) < 4 or len(seq2_tokens) < 4:
-            return '', '', 0, 0
+        if len(seq1_tokens) < 3 or len(seq2_tokens) < 3:
+            return '', '', 0, 0, 0, 0, False, False
         
         m = seq1_tokens.__len__()
         n = seq2_tokens.__len__()
@@ -77,7 +77,7 @@ class blast:
                     matchMap[siii][sjjj] = 0
         
         if matchCounter is 0:
-            return 'no match found', '', 0, 0
+            return 'no match found', '', 0, 0, 0, 0, False, False
         
 #         df = pd.DataFrame(matrix)
 #         print(df)
@@ -115,15 +115,41 @@ class blast:
         align_seq1 = ''.join(sequ1[1:])
         align_seq2 = ''.join(sequ2[1:])
         align_counter = 0
-
-
+        first_half = 0
+        second_half = 0
+        first_half_score = 0
+        second_half_score = 0
+        sequential_search_recommandation = False
+        stepback_search_recommandation = False
+        
         for k in range(0, len(sequ1)):
             if blast.W2WCompare(self, sequ1[k], sequ2[k], threshold) is 2:
                 align_counter += 1 
-
+                
         align_score = float(align_counter)/(len(sequ1)-1)
         
-        return align_seq1, align_seq2, align_score, align_counter
+        if len(seq1_tokens) > len(seq2_tokens):
+            halfway = int(len(sequ1)/2)
+            
+            for k in range(0, halfway):
+                if blast.W2WCompare(self, sequ1[k], sequ2[k], threshold) is 2:
+                    first_half += 1
+                    
+            for k in range(halfway, len(sequ1)):
+                if blast.W2WCompare(self, sequ1[k], sequ2[k], threshold) is 2:
+                    second_half += 1
+                    
+            first_half_score = float(first_half)/(halfway - 1)
+            second_half_score = float(second_half)/(len(sequ1) - halfway)
+            
+            if first_half_score > 0.49 and second_half_score < .35:
+                sequential_search_recommandation = True
+            
+            if first_half_score < 0.15 and second_half_score > .45:
+                stepback_search_recommandation = True
+            
+        
+        return align_seq1, align_seq2, align_score, align_counter, first_half_score, second_half_score, sequential_search_recommandation, stepback_search_recommandation
     
     # Smith–Waterman char Alignment 
     # Use this algorithm to implement 
