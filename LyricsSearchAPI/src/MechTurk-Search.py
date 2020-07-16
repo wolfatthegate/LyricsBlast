@@ -37,10 +37,9 @@ def printSearchResult(result):
  
 def findDrugKeywords(str):
     
-    terms = ['heroine', 'oxy', 'heroin', 'dopamine', 'norepinephrine', 
-             'weed','cocaine', 'lean', 'blunt', 'joint', 'dank', 
-             'crack', 'molly', 'coke', 'smoke', 'dope', 'cigarette', 
-             'smoking', 'smokin', 'bitch']
+    terms = ['heroine', 'oxy', 'heroin', 'dopamine', 'norepinephrine', 'weed','cocaine',
+             'lean', 'blunt', 'joint', 'dank', 'crack', 'molly', 'coke', 
+             'smoke', 'dope', 'cigarette']
      
     tokenized_str = nltk.word_tokenize(str)
     keywordList = []
@@ -63,16 +62,15 @@ high_score = 0.64
 mylyricquery = {}
   
 myquery = {"found": {"$not" :{"$regex": { "$in": [ "0", "1" ] }}}}
-myquery = {"found": {"$not" :{ "$in": [ "0", "1" ] }}}
-myquery = {"found": "5"}
 
-testTbl = mydb['Test']
+myquery = {"found": {"$not" :{ "$in": [ "0", "1" ] }}}
+
+testTbl = mydb['MechTurk']
 mydoc = testTbl.find(myquery) #find() method returns a list of dictionary
 
 for x in mydoc:
     
     tweet = x['data']
-    tweet = cleaner.clean(tweet)
     query_list = findDrugKeywords(tweet)
     go_to_next_tweet = False
     followUp = False
@@ -85,18 +83,14 @@ for x in mydoc:
     suggestions = 0
     found = "0"
     
-    print('searching for ' + x['data'])
     for query_word in query_list:
         keyword = query_word
         break
-    keyword = 'selling crack'
-    print('keyword: ' + keyword)
-    mytitlequery = {'$and': [{"lyrics": {"$regex": 'movin', "$options": "-i"}},
-                    {"lyrics": {"$regex": 'crack', "$options": "-i"}}]} # query keyword
+
+    mytitlequery = {"title": {"$regex": keyword, "$options": "-i"}} # query keyword
     mytitle = lyricTbl.find(mytitlequery)
     
-    print(mytitle.count())
-    sys.exit(0)
+    print('searching for ' + x['data'] + ' ' + str(mytitle.count()) + ' titles found.')
     
     for eachtitle in mytitle: 
         title = cleaner.clean(eachtitle['title'])       
@@ -119,6 +113,8 @@ for x in mydoc:
       
     mylyricquery = {"lyrics": {"$regex": keyword, "$options": "-i"}} # query keyword
     mylyrics = lyricTbl.find(mylyricquery)  #find in lyrics database
+
+    print('searching for ' + x['data'] + ' ' + str(mylyrics.count()) + ' lyrics found.')
         
     for eachlyrics in mylyrics: #loop through mylyrics list
         
