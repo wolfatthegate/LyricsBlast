@@ -138,14 +138,17 @@ class blast:
             for k in range(halfway, len(sequ1)):
                 if blast.W2WCompare(self, sequ1[k], sequ2[k], threshold) is 2:
                     second_half += 1
-                    
-            first_half_score = float(first_half)/(halfway - 1)
-            second_half_score = float(second_half)/(len(sequ1) - halfway)
             
-            if first_half_score > 0.49 and second_half_score < .35:
+            try:         
+                first_half_score = float(first_half)/(halfway - 1)
+                second_half_score = float(second_half)/(len(sequ1) - halfway)
+            except:
+                print('float division by zero')
+            
+            if (first_half_score > 0.49 or align_counter > 4)and second_half_score < .35:
                 sequential_search_recommandation = True
             
-            if first_half_score < 0.15 and second_half_score > .45:
+            if first_half_score < 0.15 and (second_half_score > .45 or align_counter > 4):
                 stepback_search_recommandation = True
             
         
