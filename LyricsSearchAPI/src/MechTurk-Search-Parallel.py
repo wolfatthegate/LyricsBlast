@@ -15,8 +15,8 @@ def printResult(result, songtitle, doc_id):
     logging.info(' first half score: ' + str(round(result[4], 2)), extra={'_id': doc_id})
     logging.info('second half score: ' + str(round(result[5], 2)), extra={'_id': doc_id})
     
-    suggestions = 'tweet: ' + result[0] + '\n' + 'query: ' + result[1] + '\nScore: ' + \
-                    str(round(result[2],2)) + '/1.0 \n(' + str(result[3]) + ' words matched)'
+    suggestions = 'tweet: ' + result[0] + '\n' + 'query: ' + result[1] + 'Score: ' + \
+                    str(round(result[2],2)) + '/1.0 (' + str(result[3]) + ' words matched)'
     
     return suggestions
  
@@ -30,11 +30,12 @@ def findDrugKeywords(str):
     related_terms = ['bitch', 'bitches', 'fuck', 'fucked', 'sniff', 'sniffed', 'sniffin', 'addict', 'addicted', 
                      'addictin', 'need', 'narcotics', 'sell', 'sells', 'sellin', 'sold',
                      'dick', 'girl', 'girls', 'snort', 'snorted', 'shit', 'sip', 'sippin', 'sipping',
-                     'hookers', 'gas', 'gasoline', 'arrested', 'baby', 'babe', 'bowl', 'drug', 'life', 'like', 'bag', 'cook', 'cooked', 
-                     'pound', 'pint', 'ass', 'pussy', 
+                     'hookers', 'gas', 'gasoline',
+                     'arrested', 'baby', 'babe', 'bowl', 'drug', 'life', 'like', 'bag', 'cook', 'cooked', 
+                     'pound', 'pint', 'ass', 'pussy',
                      'line', 'lines', 'roll', 'dosage', 'gram', 'whore', 'whores', 'cure', 'poison', 'gun',
-                     'guns', 'rock', 'kids', 'friend', 'friends', 'want', 'share', 'shared', 'kid', 
-                     'hot', 'sex', 'try', 'tried' 'sick', 'love', 'do', 'does', 'did', 'doing', 'doin', 'shoot', 'shoots', 
+                     'guns', 'rock', 'kids', 'friend', 'friends', 'want', 'share', 'shared', 'do', 'kid', 
+                     'hot', 'sex', 'try', 'tried' 'sick', 'love', 'did', 'doing', 'doin', 'shoot', 'shoots', 
                      'dream', 'dreaming', 'spill', 'jack', 'rum', 'bourbon', 
                      'suck', 'sucks', 'chill', 'pipe', 'pipes', 'hoe', 'hoes', 'white', 'smell', 'dip', 'real', 'taking', 'get']
 
@@ -56,19 +57,17 @@ def findDrugKeywords(str):
                 if result[2] > 0.90:
                     keywordList.append(term.lower())  
             
-    keywordList = list(dict.fromkeys(keywordList))
     return keywordList
 
-def searchTweet(doc):
+def searchLyrics(doc):
     tweet = doc['data']
     tweet = cleaner.clean(tweet)
     
     query_list = findDrugKeywords(tweet)
     
     if not query_list:
-        now = datetime.now()
         updatequery = {'_id': doc['_id']}
-        newvalue = { '$set': {'score': 0.00 , 'suggestions': 'keywords not found', 'song': '', 'found': found, 'x_add': now.strftime("%Y-%m-%d %H:%M:%S")}}
+        newvalue = { '$set': {'score': 0.00 , 'suggestions': 'keywords not found', 'song': '', 'found': "6"}}
         logging.info('No keywords found in Tweet ', extra = {'_id': doc['_id']})
         testTbl.update_one(updatequery, newvalue)
         return 0
@@ -106,14 +105,11 @@ def searchTweet(doc):
         if round(result[2],2) > 0.85: 
             logging.info('title found', extra = {'_id': doc['_id']})
             titleMatched = True
-            suggestions = suggestions + '\n' + printResult(result, eachtitle['title'], doc['_id'])  
-            now = datetime.now() 
+            suggestions = suggestions + '\n' + printResult(result, eachtitle['title'], doc['_id'])   
             updatequery = {'_id': doc['_id']}
             newvalue = { '$set': {'score': round(result[2],2), \
                             'suggestions': suggestions, \
-                                'found': "-1", \
-                                    'song': eachtitle['title'], 'found': found, \
-                                        'x_add': now.strftime("%Y-%m-%d %H:%M:%S")}}
+                                'song': eachtitle['title'], 'found': "6"}}
             testTbl.update_one(updatequery, newvalue)
             break
     
@@ -128,76 +124,68 @@ def searchTweet(doc):
         
     for eachlyrics in mylyrics: #loop through mylyrics list
         
-        # initialize variables
         go_to_next_song = False  
         continue_test = False  
         followUp = False
         stepBack = False
         # read each line of lyrics  
-        past_line_2 = ''
-        past_line_1 = ''
-        past_line_0 = ''
-        
-        maxResult = 0
-        maxMatch = 0
-  
-        for eachline in eachlyrics['lyrics3'].splitlines():
-            
+        for eachline in eachlyrics['lyrics2'].splitlines():
+                
             eachline = cleaner.clean(eachline)
             
-            past_line_2 = past_line_1
-            past_line_1 = past_line_0
-            past_line_0 = eachline
-            
             for query_word in query_list:
-                if query_word.lower() in past_line_1.lower():
+                if query_word.lower() in eachline.lower():
                     continue_test = True
-                        
-            if continue_test == True:
+                    
+            if followUp == True: 
+                eachline = savedline + ' ' + eachline     
+                # check if each line has keyword
+            if stepBack == True: 
+                eachline = previous_line + ' ' + savedline
+                
+            if continue_test == True or stepBack == True or followUp == True:
                 followUp = False
                 stepBack = False
-
+                tweet = cleaner.clean(tweet)
                 # perform blast Search                    
-                result = blaster.SMWalignment(tweet, past_line_1.lower(), threshold)
-                maxResult = result[2]
-                maxMatch = result[3]
-                    
-                if result[6] == True:
-                    followupLine = past_line_1 + '\n' + past_line_0
-                    followUpResult = blaster.SMWalignment(tweet, followupLine.lower(), threshold)
-                    maxResult = max(result[2], followUpResult[2], maxResult)
-                    maxMatch = max(result[3], followUpResult[3], maxMatch)
-                    
-                if result[7] == True:
-                    stepBackLine = past_line_2 + '\n' + past_line_1
-                    stepBackResult = blaster.SMWalignment(tweet, stepBackLine.lower(), threshold)
-                    maxResult = max(result[2], stepBackResult[2], maxResult)
-                    maxMatch = max(result[3], stepBackResult[3], maxMatch)
-                    
-                if maxResult > mid_score and maxMatch > 3 or maxMatch > 5: 
-                    suggestions = suggestions + '\n' + printResult(result, eachlyrics['title'], doc['_id'])
-                    song = song + ' ' + eachlyrics['title']                   
-                    score = maxResult
-                    go_to_next_song = True # go to next song
+                result = blaster.SMWalignment(tweet, eachline.lower(), threshold)
                 
-                if maxResult > high_score:
+                if result[6] == True:
+                    followUp = True
+                    savedline = eachline
+                
+                if result[7] == True:
+                    stepBack = True
+                    savedline = eachline
+                if result[2] > 0.10:
+                    printResult(result, eachlyrics['title'], doc['_id'])
+                
+                if result[2] > mid_score and result[3] > 3 or result[3] > 5:
                     suggestions = suggestions + '\n' + printResult(result, eachlyrics['title'], doc['_id'])
-                    suggestions = suggestions + '\n' + 'found the song'
-                    song = song + ' ' + eachlyrics['title']
-                    score = maxResult
-                    logging.info('found the song', extra= {'_id': doc['_id']})             
+                    song = song + ' ' + eachlyrics['title']    
+                    score = result[2]                                 
+                    if followUp == False:
+                        go_to_next_song = True # go to next song
+                
+                if result[2] > high_score or (result[4] > high_score and result[3] > 4):
+                    uggestions = suggestions + '\n' + printResult(result, eachlyrics['title'], doc['_id'])
+                    song = song + ' ' + eachlyrics['title'] 
+                    score = max(result[2], result[4])
+                    logging.info('found the song')                
                     go_to_next_tweet = True
                     break
+
+            else: 
+                previous_line = eachline
             
             if go_to_next_song == True: 
                 break
-             
+                    
         if go_to_next_tweet == True:
             break
 
-    now = datetime.now()
     updatequery = {'_id': doc['_id']}
-    newvalue = { '$set': {'score': round(score,2) , 'suggestions': suggestions, 'song': song, 'found': found, 'x_add': now.strftime("%Y-%m-%d %H:%M:%S")}}
+    newvalue = { '$set': {'score': round(score,2) , 'suggestions': suggestions, 'song': song, 'found': "5"}}
     testTbl.update_one(updatequery, newvalue)
     
 
@@ -213,28 +201,26 @@ lyricTbl = mydb['Lyrics']
 threshold = 0.65
 mid_score = 0.39
 high_score = 0.64
-found = 'v1'
+
 mylyricquery = {}
   
 myquery = {"found": {"$not" :{"$regex": { "$in": [ "0", "1" ] }}}}
+myquery = {"found": { "$in": [ "5" ] }}
 myquery = {}
 
-testTbl = mydb['MechTurk']
+testTbl = mydb['MechTurk_Test']
 noofdoc = testTbl.find(myquery).count() #find() method returns a list of dictionary
 
 x = 0
-y = 20
+y = 5
 
 while x < noofdoc:
     docs = testTbl.find(myquery).skip(x).limit(y)
-#     serial code 
-#     for doc in docs: 
-#         searchTweet(doc)
-#     x = x + y
-    
-#     parallel code
     with concurrent.futures.ProcessPoolExecutor() as executor:
-        executor.map(searchTweet, docs)
+        executor.map(searchLyrics, docs)
+
+#     for doc in docs: 
+#         searchLyrics(doc)
     x = x + y
 
                                 

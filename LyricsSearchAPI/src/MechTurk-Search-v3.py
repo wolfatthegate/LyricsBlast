@@ -1,3 +1,5 @@
+# This is a working version Sep 22, 2020
+
 import TextCleaner
 import pymongo
 import nltk
@@ -5,7 +7,9 @@ import blast
 import sys
 import concurrent.futures
 import logging
+from gensim.parsing.preprocessing import remove_stopwords
 from datetime import datetime
+from spellchecker import SpellChecker
 
 def printResult(result, songtitle, doc_id):
 
@@ -26,21 +30,15 @@ def findDrugKeywords(str):
              'weed','cocaine', 'lean', 'blunt', 'joint', 'dank',
              'crack', 'molly', 'coke', 'smoke', 'dope', 'cigarette',
              'smoking', 'smokin', 'pour', 'xan']
-
-    related_terms = ['bitch', 'bitches', 'fuck', 'fucked', 'sniff', 'sniffed', 'sniffin', 'addict', 'addicted', 
-                     'addictin', 'need', 'narcotics', 'sell', 'sells', 'sellin', 'sold',
-                     'dick', 'girl', 'girls', 'snort', 'snorted', 'shit', 'sip', 'sippin', 'sipping',
-                     'hookers', 'gas', 'gasoline', 'arrested', 'baby', 'babe', 'bowl', 'drug', 'life', 'like', 'bag', 'cook', 'cooked', 
-                     'pound', 'pint', 'ass', 'pussy', 
-                     'line', 'lines', 'roll', 'dosage', 'gram', 'whore', 'whores', 'cure', 'poison', 'gun',
-                     'guns', 'rock', 'kids', 'friend', 'friends', 'want', 'share', 'shared', 'kid', 
-                     'hot', 'sex', 'try', 'tried' 'sick', 'love', 'do', 'does', 'did', 'doing', 'doin', 'shoot', 'shoots', 
-                     'dream', 'dreaming', 'spill', 'jack', 'rum', 'bourbon', 
-                     'suck', 'sucks', 'chill', 'pipe', 'pipes', 'hoe', 'hoes', 'white', 'smell', 'dip', 'real', 'taking', 'get']
-
-    substracted_terms = ['mother', 'mothafucka', 'motha', 'fucka', 'coke-head', 'crack-head', 'cokehead', 'crackhead', 'head']
     
-    tokenized_str = nltk.word_tokenize(str)
+    substract_terms = ['wtf', 'u', 'u', 'ex', 'help', 'th',
+                       'dont', 'motha', 'fucka', 'motherfucka', 
+                       'im', 'mother', 'fuckin', 
+                       'gon', 'na', 'hos', 'id', 'i', 'ive', 'like', 'before'
+                       'jordans', 'crackhead']
+    
+    filtered_str = remove_stopwords(str)
+    tokenized_str = nltk.word_tokenize(filtered_str)
     blaster = blast.blast()
     keywordList = []
     for tokenized_word in tokenized_str:
@@ -49,26 +47,26 @@ def findDrugKeywords(str):
             if result[2] > 0.85:
                 term = term.replace('ing', 'in')
                 keywordList.append(term.lower())   
-    if keywordList:            
-        for tokenized_word in tokenized_str:     
-            for term in related_terms:
-                result = blaster.SMalignmentGlobal(tokenized_word.lower(), term.lower())
-                if result[2] > 0.90:
-                    keywordList.append(term.lower())  
-            
+    if keywordList:                       
+        for word_token in tokenized_str: 
+            if word_token.lower() not in substract_terms:  
+                word_token = spell.correction(word_token) 
+                word_token = word_token.replace('ing', 'in')            
+                keywordList.append(word_token.lower()) 
     keywordList = list(dict.fromkeys(keywordList))
+#     print(keywordList)
     return keywordList
 
 def searchTweet(doc):
     tweet = doc['data']
     tweet = cleaner.clean(tweet)
-    
+
     query_list = findDrugKeywords(tweet)
     
     if not query_list:
         now = datetime.now()
         updatequery = {'_id': doc['_id']}
-        newvalue = { '$set': {'score': 0.00 , 'suggestions': 'keywords not found', 'song': '', 'found': found, 'x_add': now.strftime("%Y-%m-%d %H:%M:%S")}}
+        newvalue = { '$set': {'score': 0.00 , 'suggestions': 'keywords not found', 'song': '', 'found': "v3", 'x_add': now.strftime("%Y-%m-%d %H:%M:%S")}}
         logging.info('No keywords found in Tweet ', extra = {'_id': doc['_id']})
         testTbl.update_one(updatequery, newvalue)
         return 0
@@ -106,14 +104,11 @@ def searchTweet(doc):
         if round(result[2],2) > 0.85: 
             logging.info('title found', extra = {'_id': doc['_id']})
             titleMatched = True
-            suggestions = suggestions + '\n' + printResult(result, eachtitle['title'], doc['_id'])  
-            now = datetime.now() 
+            suggestions = suggestions + '\n' + printResult(result, eachtitle['title'], doc['_id'])   
             updatequery = {'_id': doc['_id']}
             newvalue = { '$set': {'score': round(result[2],2), \
                             'suggestions': suggestions, \
-                                'found': "-1", \
-                                    'song': eachtitle['title'], 'found': found, \
-                                        'x_add': now.strftime("%Y-%m-%d %H:%M:%S")}}
+                                'song': eachtitle['title'], 'found': "6"}}
             testTbl.update_one(updatequery, newvalue)
             break
     
@@ -137,6 +132,7 @@ def searchTweet(doc):
         past_line_2 = ''
         past_line_1 = ''
         past_line_0 = ''
+        combined_string = ''
         
         maxResult = 0
         maxMatch = 0
@@ -149,8 +145,9 @@ def searchTweet(doc):
             past_line_1 = past_line_0
             past_line_0 = eachline
             
+            combined_string = past_line_2 + ' ' + past_line_1 + ' ' + past_line_0
             for query_word in query_list:
-                if query_word.lower() in past_line_1.lower():
+                if query_word.lower() in combined_string.lower():
                     continue_test = True
                         
             if continue_test == True:
@@ -163,13 +160,13 @@ def searchTweet(doc):
                 maxMatch = result[3]
                     
                 if result[6] == True:
-                    followupLine = past_line_1 + '\n' + past_line_0
+                    followupLine = past_line_1 + ' ' + past_line_0
                     followUpResult = blaster.SMWalignment(tweet, followupLine.lower(), threshold)
                     maxResult = max(result[2], followUpResult[2], maxResult)
                     maxMatch = max(result[3], followUpResult[3], maxMatch)
                     
                 if result[7] == True:
-                    stepBackLine = past_line_2 + '\n' + past_line_1
+                    stepBackLine = past_line_2 + ' ' + past_line_1
                     stepBackResult = blaster.SMWalignment(tweet, stepBackLine.lower(), threshold)
                     maxResult = max(result[2], stepBackResult[2], maxResult)
                     maxMatch = max(result[3], stepBackResult[3], maxMatch)
@@ -197,7 +194,7 @@ def searchTweet(doc):
 
     now = datetime.now()
     updatequery = {'_id': doc['_id']}
-    newvalue = { '$set': {'score': round(score,2) , 'suggestions': suggestions, 'song': song, 'found': found, 'x_add': now.strftime("%Y-%m-%d %H:%M:%S")}}
+    newvalue = { '$set': {'score': round(score,2) , 'suggestions': suggestions, 'song': song, 'found': "v3", 'x_add': now.strftime("%Y-%m-%d %H:%M:%S")}}
     testTbl.update_one(updatequery, newvalue)
     
 
@@ -205,6 +202,8 @@ logFormatter = '%(asctime)s - %(_id)s - %(levelname)s - %(message)s'
 logging.basicConfig(filename='archived_tweets/myLogs.log',level=logging.DEBUG, format='%(asctime)s %(_id)s %(levelname)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
 
 cleaner = TextCleaner.TextCleaner()
+spell = SpellChecker()
+
 blaster = blast.blast()
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 mydb = myclient['LyricsDB']
@@ -213,13 +212,13 @@ lyricTbl = mydb['Lyrics']
 threshold = 0.65
 mid_score = 0.39
 high_score = 0.64
-found = 'v1'
+
 mylyricquery = {}
   
 myquery = {"found": {"$not" :{"$regex": { "$in": [ "0", "1" ] }}}}
 myquery = {}
 
-testTbl = mydb['MechTurk']
+testTbl = mydb['MechTurk_Test']
 noofdoc = testTbl.find(myquery).count() #find() method returns a list of dictionary
 
 x = 0
