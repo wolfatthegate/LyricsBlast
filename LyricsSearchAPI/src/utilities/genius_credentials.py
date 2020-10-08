@@ -1,0 +1,9 @@
+'''
+Created on Mar 12, 2020
+
+@author: WaylonLuo
+'''
+
+CLIENT_ID = 'mRbsPlVqaYTg2PvZYaAOA3Fq8y8GnrANwDUXlwePE6Sv-mBPEE2sorZHXt8tOctQ'
+CLIENT_SECRET = 'dhjns7Q8xIZJ1CIrt1ZgeAWo369X0QdJrIh-1HP5qAZ_ozOj4Phe8NdfLft2rzmF3_RdpeV8zjPbAZs0HI53Xg'
+CLIENT_ACCESS_TOKEN = 'Q52IynA5QgtFMpV17n5fCuT_LUPnO5WUnoqUIoJrxrG8tBSgYRHK-uzZSzWMsnjW'

@@ -1,0 +1,557 @@
+09/28/2020 11:47:46 PM INFO {'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}, {'title': {'$regex': 'loves', '$options': '-i'}}, {'title': {'$regex': 'beat', '$options': '-i'}}, {'title': {'$regex': 'heart', '$options': '-i'}}]}
+09/28/2020 11:47:46 PM INFO {'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}, {'title': {'$regex': 'table', '$options': '-i'}}, {'title': {'$regex': 'snort', '$options': '-i'}}]}
+09/28/2020 11:47:46 PM INFO {'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}, {'title': {'$regex': 'doses', '$options': '-i'}}, {'title': {'$regex': 'mimosa', '$options': '-i'}}, {'title': {'$regex': 'champagne', '$options': '-i'}}]}
+09/28/2020 11:47:46 PM INFO {'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}, {'title': {'$regex': 'doses', '$options': '-i'}}, {'title': {'$regex': 'mimosa', '$options': '-i'}}, {'title': {'$regex': 'champagne', '$options': '-i'}}]}
+09/28/2020 11:47:46 PM INFO searching for Doses and mimosas, champagne and cocaine, help to get me thr ...  0 possible titles found.
+09/28/2020 11:47:46 PM INFO searching for He loves me with every beat of his cocaine heart. 0 possible titles found.
+09/28/2020 11:47:46 PM INFO searching for All that cocaine on the table you can't snort that 0 possible titles found.
+09/28/2020 11:47:46 PM INFO searching for Doses and mimosas, champagne and cocaine how you get me thro ...  0 possible titles found.
+09/28/2020 11:47:46 PM INFO {'$and': [{'lyrics2': {'$regex': 'cocaine', '$options': '-i'}}, {'lyrics2': {'$regex': 'doses', '$options': '-i'}}, {'lyrics2': {'$regex': 'mimosa', '$options': '-i'}}, {'lyrics2': {'$regex': 'champagne', '$options': '-i'}}]}
+09/28/2020 11:47:46 PM INFO {'$and': [{'lyrics2': {'$regex': 'cocaine', '$options': '-i'}}, {'lyrics2': {'$regex': 'loves', '$options': '-i'}}, {'lyrics2': {'$regex': 'beat', '$options': '-i'}}, {'lyrics2': {'$regex': 'heart', '$options': '-i'}}]}
+09/28/2020 11:47:46 PM INFO {'$and': [{'lyrics2': {'$regex': 'cocaine', '$options': '-i'}}, {'lyrics2': {'$regex': 'doses', '$options': '-i'}}, {'lyrics2': {'$regex': 'mimosa', '$options': '-i'}}, {'lyrics2': {'$regex': 'champagne', '$options': '-i'}}]}
+09/28/2020 11:47:46 PM INFO {'$and': [{'lyrics2': {'$regex': 'cocaine', '$options': '-i'}}, {'lyrics2': {'$regex': 'table', '$options': '-i'}}, {'lyrics2': {'$regex': 'snort', '$options': '-i'}}]}
+09/28/2020 11:47:46 PM INFO 1 possible lyrics found.
+09/28/2020 11:47:46 PM INFO 1 possible lyrics found.
+09/28/2020 11:47:46 PM INFO 1 possible lyrics found.
+09/28/2020 11:47:46 PM INFO 1 possible lyrics found.
+09/28/2020 11:47:46 PM INFO tweet: doses and mimosas champagne and cocaine help to get me through 
+09/28/2020 11:47:46 PM INFO tweet: he loves me with every beat of his cocaine heart 
+09/28/2020 11:47:46 PM INFO query: he loves me with every beat of his cocaine heart 
+09/28/2020 11:47:46 PM INFO query: doses and mimosas --------- --- ------- ---- -- --- -- ------- 
+09/28/2020 11:47:46 PM INFO Score: 1.0/1.0 (10 words matched)in song: Off to the Races
+09/28/2020 11:47:46 PM INFO Score: 0.27/1.0 (3 words matched)in song: Doses & Mimosas
+09/28/2020 11:47:46 PM INFO  first half score: 1.0
+09/28/2020 11:47:46 PM INFO  first half score: 0.6
+09/28/2020 11:47:46 PM INFO second half score: 1.0
+09/28/2020 11:47:46 PM INFO second half score: 0.0
+09/28/2020 11:47:46 PM INFO tweet: he loves me with every beat of his cocaine heart 
+09/28/2020 11:47:46 PM INFO query: he loves me with every beat of his cocaine heart 
+09/28/2020 11:47:46 PM INFO Score: 1.0/1.0 (10 words matched)in song: Off to the Races
+09/28/2020 11:47:46 PM INFO  first half score: 1.0
+09/28/2020 11:47:46 PM INFO second half score: 1.0
+09/28/2020 11:47:46 PM INFO found the song
+09/28/2020 11:47:46 PM INFO tweet: doses and mimosas champagne and cocaine how you get me through 
+09/28/2020 11:47:46 PM INFO query: doses and mimosas --------- --- ------- --- --- --- -- ------- 
+09/28/2020 11:47:46 PM INFO tweet: all that cocaine on the table you cant snort that 
+09/28/2020 11:47:46 PM INFO Score: 0.27/1.0 (3 words matched)in song: Doses & Mimosas
+09/28/2020 11:47:46 PM INFO query: all that cocaine on the table you cant snort that 
+09/28/2020 11:47:46 PM INFO  first half score: 0.6
+09/28/2020 11:47:46 PM INFO Score: 1.0/1.0 (10 words matched)in song: Blood on the Leaves
+09/28/2020 11:47:46 PM INFO second half score: 0.0
+09/28/2020 11:47:46 PM INFO  first half score: 1.0
+09/28/2020 11:47:46 PM INFO second half score: 1.0
+09/28/2020 11:47:46 PM INFO tweet: all that cocaine on the table you cant snort that 
+09/28/2020 11:47:46 PM INFO {'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'sellin', '$options': '-i'}}, {'title': {'$regex': 'grade', '$options': '-i'}}]}
+09/28/2020 11:47:46 PM INFO query: all that cocaine on the table you cant snort that 
+09/28/2020 11:47:46 PM INFO Score: 1.0/1.0 (10 words matched)in song: Blood on the Leaves
+09/28/2020 11:47:46 PM INFO  first half score: 1.0
+09/28/2020 11:47:46 PM INFO second half score: 1.0
+09/28/2020 11:47:46 PM INFO {'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'sellin', '$options': '-i'}}, {'title': {'$regex': 'grade', '$options': '-i'}}]}
+09/28/2020 11:47:46 PM INFO {'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}, {'title': {'$regex': 'smoke', '$options': '-i'}}]}
+09/28/2020 11:47:46 PM INFO found the song
+09/28/2020 11:47:46 PM INFO {'$and': [{'title': {'$regex': 'lean', '$options': '-i'}}, {'title': {'$regex': 'sippin', '$options': '-i'}}, {'title': {'$regex': 'hard', '$options': '-i'}}, {'title': {'$regex': 'team', '$options': '-i'}}]}
+09/28/2020 11:47:46 PM INFO searching for @fuckyouricky I've been selling crack since like the 5th gra ...  0 possible titles found.
+09/28/2020 11:47:46 PM INFO searching for I been selling crack since like the 5th grade 0 possible titles found.
+09/28/2020 11:47:46 PM INFO searching for I be where the coke and smoke at 0 possible titles found.
+09/28/2020 11:47:46 PM INFO searching for Sipping on that lean I go hard for my team 0 possible titles found.
+09/28/2020 11:47:46 PM INFO {'$and': [{'lyrics2': {'$regex': 'crack', '$options': '-i'}}, {'lyrics2': {'$regex': 'sellin', '$options': '-i'}}, {'lyrics2': {'$regex': 'grade', '$options': '-i'}}]}
+09/28/2020 11:47:46 PM INFO {'$and': [{'lyrics2': {'$regex': 'crack', '$options': '-i'}}, {'lyrics2': {'$regex': 'sellin', '$options': '-i'}}, {'lyrics2': {'$regex': 'grade', '$options': '-i'}}]}
+09/28/2020 11:47:46 PM INFO {'$and': [{'lyrics2': {'$regex': 'coke', '$options': '-i'}}, {'lyrics2': {'$regex': 'smoke', '$options': '-i'}}]}
+09/28/2020 11:47:46 PM INFO {'$and': [{'lyrics2': {'$regex': 'lean', '$options': '-i'}}, {'lyrics2': {'$regex': 'sippin', '$options': '-i'}}, {'lyrics2': {'$regex': 'hard', '$options': '-i'}}, {'lyrics2': {'$regex': 'team', '$options': '-i'}}]}
+09/28/2020 11:47:47 PM INFO 319 possible lyrics found.
+09/28/2020 11:47:47 PM INFO 2 possible lyrics found.
+09/28/2020 11:47:47 PM INFO 2 possible lyrics found.
+09/28/2020 11:47:47 PM INFO 6 possible lyrics found.
+09/28/2020 11:47:47 PM INFO tweet: i been selling crack since like the th grade ---- --- ----- ----- 
+09/28/2020 11:47:47 PM INFO query: i been selling crack since like the -- grade like the fifth grade 
+09/28/2020 11:47:47 PM INFO Score: 0.62/1.0 (8 words matched)in song: Hot Nigga
+09/28/2020 11:47:47 PM INFO  first half score: 1.0
+09/28/2020 11:47:47 PM INFO second half score: 0.29
+09/28/2020 11:47:47 PM INFO tweet: i been selling crack since like the th grade ---- --- ----- ----- 
+09/28/2020 11:47:47 PM INFO query: i been selling crack since like the -- grade like the fifth grade 
+09/28/2020 11:47:47 PM INFO Score: 0.62/1.0 (8 words matched)in song: Hot Nigga
+09/28/2020 11:47:47 PM INFO  first half score: 1.0
+09/28/2020 11:47:47 PM INFO second half score: 0.29
+09/28/2020 11:47:47 PM INFO {'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'rock', '$options': '-i'}}]}
+09/28/2020 11:47:47 PM INFO {'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}, {'title': {'$regex': 'everybody', '$options': '-i'}}, {'title': {'$regex': 'goin', '$options': '-i'}}, {'title': {'$regex': 'castle', '$options': '-i'}}]}
+09/28/2020 11:47:47 PM INFO searching for crack rock crack rock 1 possible titles found.
+09/28/2020 11:47:47 PM INFO searching for Everybody's going to the cocaine castle 0 possible titles found.
+09/28/2020 11:47:47 PM INFO {'$and': [{'lyrics2': {'$regex': 'crack', '$options': '-i'}}, {'lyrics2': {'$regex': 'rock', '$options': '-i'}}]}
+09/28/2020 11:47:47 PM INFO {'$and': [{'lyrics2': {'$regex': 'cocaine', '$options': '-i'}}, {'lyrics2': {'$regex': 'everybody', '$options': '-i'}}, {'lyrics2': {'$regex': 'goin', '$options': '-i'}}, {'lyrics2': {'$regex': 'castle', '$options': '-i'}}]}
+09/28/2020 11:47:47 PM INFO 207 possible lyrics found.
+09/28/2020 11:47:47 PM INFO 1 possible lyrics found.
+09/28/2020 11:47:47 PM INFO tweet: sipping on that lean i go hard for my team 
+09/28/2020 11:47:47 PM INFO query: sippin on that lean - -- ---- --- -- ---- 
+09/28/2020 11:47:47 PM INFO Score: 0.4/1.0 (4 words matched)in song: Ballin’
+09/28/2020 11:47:47 PM INFO  first half score: 1.0
+09/28/2020 11:47:47 PM INFO second half score: 0.0
+09/28/2020 11:47:47 PM INFO tweet: sipping on that lean i go hard for my team 
+09/28/2020 11:47:47 PM INFO query: sippin on that lean - -- ---- --- -- ---- 
+09/28/2020 11:47:47 PM INFO Score: 0.4/1.0 (4 words matched)in song: Ballin’
+09/28/2020 11:47:47 PM INFO  first half score: 1.0
+09/28/2020 11:47:47 PM INFO second half score: 0.0
+09/28/2020 11:47:47 PM INFO found the song
+09/28/2020 11:47:47 PM INFO {'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+09/28/2020 11:47:47 PM INFO tweet: everybody going to the cocaine castle 
+09/28/2020 11:47:47 PM INFO query: everybody going to --- cocaine castle 
+09/28/2020 11:47:47 PM INFO Score: 0.83/1.0 (5 words matched)in song: Cocaine Castle
+09/28/2020 11:47:47 PM INFO  first half score: 1.0
+09/28/2020 11:47:47 PM INFO second half score: 0.75
+09/28/2020 11:47:47 PM INFO tweet: everybody going to the cocaine castle 
+09/28/2020 11:47:47 PM INFO query: everybody going to --- cocaine castle 
+09/28/2020 11:47:47 PM INFO Score: 0.83/1.0 (5 words matched)in song: Cocaine Castle
+09/28/2020 11:47:47 PM INFO  first half score: 1.0
+09/28/2020 11:47:47 PM INFO second half score: 0.75
+09/28/2020 11:47:47 PM INFO searching for @FleurDeForce coke* 6 possible titles found.
+09/28/2020 11:47:47 PM INFO found the song
+09/28/2020 11:47:47 PM INFO {'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'sell', '$options': '-i'}}, {'title': {'$regex': 'rest', '$options': '-i'}}]}
+09/28/2020 11:47:47 PM WARNING float division by zero
+09/28/2020 11:47:47 PM WARNING float division by zero
+09/28/2020 11:47:47 PM INFO title found
+09/28/2020 11:47:47 PM INFO searching for 5.Never sell no crack where you rest at. 0 possible titles found.
+09/28/2020 11:47:47 PM INFO tweet: coke 
+09/28/2020 11:47:47 PM INFO query: coke 
+09/28/2020 11:47:47 PM INFO Score: 1.0/1.0 (1 words matched)in song: Coke
+09/28/2020 11:47:47 PM INFO  first half score: 0
+09/28/2020 11:47:47 PM INFO second half score: 0
+09/28/2020 11:47:47 PM INFO {'$and': [{'title': {'$regex': 'smoke', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'motherfucker', '$options': '-i'}}, {'title': {'$regex': 'sell', '$options': '-i'}}]}
+09/28/2020 11:47:47 PM INFO {'$and': [{'lyrics2': {'$regex': 'crack', '$options': '-i'}}, {'lyrics2': {'$regex': 'sell', '$options': '-i'}}, {'lyrics2': {'$regex': 'rest', '$options': '-i'}}]}
+09/28/2020 11:47:47 PM INFO searching for I don't smoke crack motha fucka I sell it!!! 0 possible titles found.
+09/28/2020 11:47:47 PM INFO {'$and': [{'lyrics2': {'$regex': 'smoke', '$options': '-i'}}, {'lyrics2': {'$regex': 'crack', '$options': '-i'}}, {'lyrics2': {'$regex': 'motherfucker', '$options': '-i'}}, {'lyrics2': {'$regex': 'sell', '$options': '-i'}}]}
+09/28/2020 11:47:47 PM INFO 10 possible lyrics found.
+09/28/2020 11:47:47 PM INFO tweet: ------ never sell no crack where you rest at 
+09/28/2020 11:47:48 PM INFO query: number never sell no crack where you rest at 
+09/28/2020 11:47:48 PM INFO Score: 0.89/1.0 (8 words matched)in song: Ten Crack Commandments
+09/28/2020 11:47:48 PM INFO  first half score: 0.75
+09/28/2020 11:47:48 PM INFO second half score: 1.0
+09/28/2020 11:47:48 PM INFO tweet: ------ never sell no crack where you rest at 
+09/28/2020 11:47:48 PM INFO query: number never sell no crack where you rest at 
+09/28/2020 11:47:48 PM INFO Score: 0.89/1.0 (8 words matched)in song: Ten Crack Commandments
+09/28/2020 11:47:48 PM INFO  first half score: 0.75
+09/28/2020 11:47:48 PM INFO second half score: 1.0
+09/28/2020 11:47:48 PM INFO found the song
+09/28/2020 11:47:48 PM INFO {'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}, {'title': {'$regex': 'molly', '$options': '-i'}}, {'title': {'$regex': 'got', '$options': '-i'}}, {'title': {'$regex': 'gas', '$options': '-i'}}, {'title': {'$regex': 'sell', '$options': '-i'}}]}
+09/28/2020 11:47:48 PM INFO searching for I got gas‚ and the coke I don't sell molly no more, 0 possible titles found.
+09/28/2020 11:47:48 PM INFO {'$and': [{'lyrics2': {'$regex': 'coke', '$options': '-i'}}, {'lyrics2': {'$regex': 'molly', '$options': '-i'}}, {'lyrics2': {'$regex': 'got', '$options': '-i'}}, {'lyrics2': {'$regex': 'gas', '$options': '-i'}}, {'lyrics2': {'$regex': 'sell', '$options': '-i'}}]}
+09/28/2020 11:47:48 PM INFO 11 possible lyrics found.
+09/28/2020 11:47:48 PM INFO 4 possible lyrics found.
+09/28/2020 11:47:48 PM INFO tweet: i got --- gas and the coke i dont sell molly no more 
+09/28/2020 11:47:48 PM INFO query: i got the gas and the coke - ---- ---- ----- -- ---- 
+09/28/2020 11:47:48 PM INFO Score: 0.46/1.0 (6 words matched)in song: I Don’t Sell Molly No More
+09/28/2020 11:47:48 PM INFO  first half score: 0.83
+09/28/2020 11:47:48 PM INFO second half score: 0.14
+09/28/2020 11:47:48 PM INFO tweet: i got --- gas and the coke i dont sell molly no more 
+09/28/2020 11:47:48 PM INFO query: i got the gas and the coke - ---- ---- ----- -- ---- 
+09/28/2020 11:47:48 PM INFO Score: 0.46/1.0 (6 words matched)in song: I Don’t Sell Molly No More
+09/28/2020 11:47:48 PM INFO  first half score: 0.83
+09/28/2020 11:47:48 PM INFO second half score: 0.14
+09/28/2020 11:47:48 PM INFO found the song
+09/28/2020 11:47:48 PM INFO {'$and': [{'title': {'$regex': 'smokin', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'fuck', '$options': '-i'}}, {'title': {'$regex': 'beg', '$options': '-i'}}]}
+09/28/2020 11:47:48 PM INFO searching for Wtf u take me for , u smoking crack ? Before I do that I beg ...  0 possible titles found.
+09/28/2020 11:47:48 PM INFO {'$and': [{'lyrics2': {'$regex': 'smokin', '$options': '-i'}}, {'lyrics2': {'$regex': 'crack', '$options': '-i'}}, {'lyrics2': {'$regex': 'fuck', '$options': '-i'}}, {'lyrics2': {'$regex': 'beg', '$options': '-i'}}]}
+09/28/2020 11:47:48 PM INFO 5 possible lyrics found.
+09/28/2020 11:47:49 PM INFO tweet: i dont smoke crack motherfucker i sell it 
+09/28/2020 11:47:49 PM INFO query: i dont smoke crack motherfucker i sell it 
+09/28/2020 11:47:49 PM INFO Score: 1.0/1.0 (8 words matched)in song: Control
+09/28/2020 11:47:49 PM INFO  first half score: 1.0
+09/28/2020 11:47:49 PM INFO second half score: 1.0
+09/28/2020 11:47:49 PM INFO tweet: i dont smoke crack motherfucker i sell it 
+09/28/2020 11:47:49 PM INFO query: i dont smoke crack motherfucker i sell it 
+09/28/2020 11:47:49 PM INFO Score: 1.0/1.0 (8 words matched)in song: Control
+09/28/2020 11:47:49 PM INFO  first half score: 1.0
+09/28/2020 11:47:49 PM INFO second half score: 1.0
+09/28/2020 11:47:49 PM INFO found the song
+09/28/2020 11:47:49 PM INFO {'$and': [{'title': {'$regex': 'smoke', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'motherfucker', '$options': '-i'}}, {'title': {'$regex': 'sell', '$options': '-i'}}]}
+09/28/2020 11:47:49 PM INFO tweet: what the fuck u take me for - ---- u smokin crack before i do that i beg my ex to take me back 
+09/28/2020 11:47:49 PM INFO query: what the fuck you take me for a joke you smokin crack ------ - -- ---- - --- -- -- -- ---- -- ---- 
+09/28/2020 11:47:49 PM INFO Score: 0.33/1.0 (8 words matched)in song: When the Music Stops
+09/28/2020 11:47:49 PM INFO  first half score: 0.64
+09/28/2020 11:47:49 PM INFO second half score: 0.08
+09/28/2020 11:47:49 PM INFO tweet: what the fuck u take me for - ---- u smokin crack before i do that i beg my ex to take me back 
+09/28/2020 11:47:49 PM INFO query: what the fuck you take me for a joke you smokin crack ------ - -- ---- - --- -- -- -- ---- -- ---- 
+09/28/2020 11:47:49 PM INFO Score: 0.33/1.0 (8 words matched)in song: When the Music Stops
+09/28/2020 11:47:49 PM INFO  first half score: 0.64
+09/28/2020 11:47:49 PM INFO second half score: 0.08
+09/28/2020 11:47:49 PM INFO found the song
+09/28/2020 11:47:49 PM INFO searching for I don't smoke crack motherfucka I sell it 0 possible titles found.
+09/28/2020 11:47:49 PM INFO {'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}, {'title': {'$regex': 'rich', '$options': '-i'}}]}
+09/28/2020 11:47:49 PM INFO searching for Rich off cocaine 1 possible titles found.
+09/28/2020 11:47:49 PM INFO {'$and': [{'lyrics2': {'$regex': 'smoke', '$options': '-i'}}, {'lyrics2': {'$regex': 'crack', '$options': '-i'}}, {'lyrics2': {'$regex': 'motherfucker', '$options': '-i'}}, {'lyrics2': {'$regex': 'sell', '$options': '-i'}}]}
+09/28/2020 11:47:49 PM INFO title found
+09/28/2020 11:47:49 PM INFO tweet: rich off cocaine 
+09/28/2020 11:47:49 PM INFO query: rich off cocaine 
+09/28/2020 11:47:49 PM INFO Score: 1.0/1.0 (3 words matched)in song: Rich Off Cocaine
+09/28/2020 11:47:49 PM INFO  first half score: 1.0
+09/28/2020 11:47:49 PM INFO second half score: 1.0
+09/28/2020 11:47:49 PM INFO {'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}, {'title': {'$regex': 'got', '$options': '-i'}}, {'title': {'$regex': 'gas', '$options': '-i'}}]}
+09/28/2020 11:47:49 PM INFO searching for I got the gas and the coke 0 possible titles found.
+09/28/2020 11:47:49 PM INFO {'$and': [{'lyrics2': {'$regex': 'coke', '$options': '-i'}}, {'lyrics2': {'$regex': 'got', '$options': '-i'}}, {'lyrics2': {'$regex': 'gas', '$options': '-i'}}]}
+09/28/2020 11:47:49 PM INFO 182 possible lyrics found.
+09/28/2020 11:47:49 PM INFO 11 possible lyrics found.
+09/28/2020 11:47:51 PM INFO tweet: i dont smoke crack motherfucker i sell it 
+09/28/2020 11:47:51 PM INFO query: i dont smoke crack motherfucker i sell it 
+09/28/2020 11:47:51 PM INFO Score: 1.0/1.0 (8 words matched)in song: Control
+09/28/2020 11:47:51 PM INFO  first half score: 1.0
+09/28/2020 11:47:51 PM INFO second half score: 1.0
+09/28/2020 11:47:51 PM INFO tweet: i dont smoke crack motherfucker i sell it 
+09/28/2020 11:47:51 PM INFO query: i dont smoke crack motherfucker i sell it 
+09/28/2020 11:47:51 PM INFO Score: 1.0/1.0 (8 words matched)in song: Control
+09/28/2020 11:47:51 PM INFO  first half score: 1.0
+09/28/2020 11:47:51 PM INFO second half score: 1.0
+09/28/2020 11:47:51 PM INFO found the song
+09/28/2020 11:47:51 PM INFO {'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'started', '$options': '-i'}}, {'title': {'$regex': 'house', '$options': '-i'}}]}
+09/28/2020 11:47:51 PM INFO searching for Started in a crack house #np 0 possible titles found.
+09/28/2020 11:47:51 PM INFO {'$and': [{'lyrics2': {'$regex': 'crack', '$options': '-i'}}, {'lyrics2': {'$regex': 'started', '$options': '-i'}}, {'lyrics2': {'$regex': 'house', '$options': '-i'}}]}
+09/28/2020 11:47:51 PM INFO tweet: -- ---- i got the gas and --- --- the coke 
+09/28/2020 11:47:51 PM INFO query: he said i got the --- and you got the ---- 
+09/28/2020 11:47:51 PM INFO Score: 0.45/1.0 (5 words matched)in song: Smoke Dope and Rap
+09/28/2020 11:47:51 PM INFO  first half score: 0.6
+09/28/2020 11:47:51 PM INFO second half score: 0.33
+09/28/2020 11:47:51 PM INFO 10 possible lyrics found.
+09/28/2020 11:47:51 PM INFO tweet: started in a crack house ----- ---- --- ---- ----- 
+09/28/2020 11:47:51 PM INFO query: started in - crack house obama went the back route 
+09/28/2020 11:47:51 PM INFO Score: 0.4/1.0 (4 words matched)in song: Trouble on My Mind
+09/28/2020 11:47:51 PM INFO  first half score: 0.75
+09/28/2020 11:47:51 PM INFO second half score: 0.17
+09/28/2020 11:47:52 PM INFO tweet: ---- crack rock crack rock ----- 
+09/28/2020 11:47:52 PM INFO query: haah crack rock crack rock nigga 
+09/28/2020 11:47:52 PM INFO Score: 0.67/1.0 (4 words matched)in song: Name Me King
+09/28/2020 11:47:52 PM INFO  first half score: 0.5
+09/28/2020 11:47:52 PM INFO second half score: 0.75
+09/28/2020 11:47:52 PM INFO tweet: ---- crack rock crack rock ----- 
+09/28/2020 11:47:52 PM INFO query: haah crack rock crack rock nigga 
+09/28/2020 11:47:52 PM INFO Score: 0.67/1.0 (4 words matched)in song: Name Me King
+09/28/2020 11:47:52 PM INFO  first half score: 0.5
+09/28/2020 11:47:52 PM INFO second half score: 0.75
+09/28/2020 11:47:52 PM INFO found the song
+09/28/2020 11:47:52 PM INFO {'$and': [{'title': {'$regex': 'lean', '$options': '-i'}}, {'title': {'$regex': 'im', '$options': '-i'}}, {'title': {'$regex': 'starin', '$options': '-i'}}, {'title': {'$regex': 'tramp', '$options': '-i'}}, {'title': {'$regex': 'eye', '$options': '-i'}}, {'title': {'$regex': 'jump', '$options': '-i'}}]}
+09/28/2020 11:47:52 PM INFO searching for I'm starin' at a tramp on lean, make my eye jump 0 possible titles found.
+09/28/2020 11:47:52 PM INFO {'$and': [{'lyrics2': {'$regex': 'lean', '$options': '-i'}}, {'lyrics2': {'$regex': 'im', '$options': '-i'}}, {'lyrics2': {'$regex': 'starin', '$options': '-i'}}, {'lyrics2': {'$regex': 'tramp', '$options': '-i'}}, {'lyrics2': {'$regex': 'eye', '$options': '-i'}}, {'lyrics2': {'$regex': 'jump', '$options': '-i'}}]}
+09/28/2020 11:47:52 PM INFO tweet: i got the gas and the coke -- 
+09/28/2020 11:47:52 PM INFO query: i got the gs --- --- ---- gs 
+09/28/2020 11:47:52 PM INFO Score: 0.5/1.0 (4 words matched)in song: Shabba
+09/28/2020 11:47:52 PM INFO  first half score: 1.0
+09/28/2020 11:47:52 PM INFO second half score: 0.2
+09/28/2020 11:47:52 PM INFO 1 possible lyrics found.
+09/28/2020 11:47:52 PM INFO tweet: im starin at a tramp on lean make my eye jump 
+09/28/2020 11:47:52 PM INFO query: im starin at a tramp on lean make my eye jump 
+09/28/2020 11:47:52 PM INFO Score: 1.0/1.0 (11 words matched)in song: SMUCKERS
+09/28/2020 11:47:52 PM INFO  first half score: 1.0
+09/28/2020 11:47:52 PM INFO second half score: 1.0
+09/28/2020 11:47:52 PM INFO tweet: im starin at a tramp on lean make my eye jump 
+09/28/2020 11:47:52 PM INFO query: im starin at a tramp on lean make my eye jump 
+09/28/2020 11:47:52 PM INFO Score: 1.0/1.0 (11 words matched)in song: SMUCKERS
+09/28/2020 11:47:52 PM INFO  first half score: 1.0
+09/28/2020 11:47:52 PM INFO second half score: 1.0
+09/28/2020 11:47:52 PM INFO found the song
+09/28/2020 11:47:52 PM INFO tweet: i got the gas and the coke 
+09/28/2020 11:47:52 PM INFO query: i got the gas and the coke 
+09/28/2020 11:47:52 PM INFO Score: 1.0/1.0 (7 words matched)in song: I Don’t Sell Molly No More
+09/28/2020 11:47:52 PM INFO  first half score: 1.0
+09/28/2020 11:47:52 PM INFO second half score: 1.0
+09/28/2020 11:47:52 PM INFO tweet: i got the gas and the coke 
+09/28/2020 11:47:52 PM INFO query: i got the gas and the coke 
+09/28/2020 11:47:52 PM INFO Score: 1.0/1.0 (7 words matched)in song: I Don’t Sell Molly No More
+09/28/2020 11:47:52 PM INFO  first half score: 1.0
+09/28/2020 11:47:52 PM INFO second half score: 1.0
+09/28/2020 11:47:52 PM INFO found the song
+09/28/2020 11:47:55 PM INFO tweet: i be where the coke and smoke at 
+09/28/2020 11:47:55 PM INFO query: i be where the coke and smoke at 
+09/28/2020 11:47:55 PM INFO Score: 1.0/1.0 (8 words matched)in song: Lady Killers
+09/28/2020 11:47:55 PM INFO  first half score: 1.0
+09/28/2020 11:47:55 PM INFO second half score: 1.0
+09/28/2020 11:47:55 PM INFO tweet: i be where the coke and smoke at 
+09/28/2020 11:47:55 PM INFO query: i be where the coke and smoke at 
+09/28/2020 11:47:55 PM INFO Score: 1.0/1.0 (8 words matched)in song: Lady Killers
+09/28/2020 11:47:55 PM INFO  first half score: 1.0
+09/28/2020 11:47:55 PM INFO second half score: 1.0
+09/28/2020 11:47:55 PM INFO found the song
+09/28/2020 11:47:55 PM INFO {'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'cook', '$options': '-i'}}]}
+09/28/2020 11:47:55 PM INFO {'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}, {'title': {'$regex': 'im', '$options': '-i'}}, {'title': {'$regex': 'sippin', '$options': '-i'}}, {'title': {'$regex': 'rum', '$options': '-i'}}]}
+09/28/2020 11:47:55 PM INFO {'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'back', '$options': '-i'}}]}
+09/28/2020 11:47:56 PM INFO searching for Back like cooked crack 1 possible titles found.
+09/28/2020 11:47:56 PM INFO searching for @ahlalalanaa I'm sipping on coke and rum 0 possible titles found.
+09/28/2020 11:47:56 PM INFO searching for I keep that crack in my crack OR i keep that brack in my bra ...  2 possible titles found.
+09/28/2020 11:47:56 PM INFO {'$and': [{'lyrics2': {'$regex': 'coke', '$options': '-i'}}, {'lyrics2': {'$regex': 'im', '$options': '-i'}}, {'lyrics2': {'$regex': 'sippin', '$options': '-i'}}, {'lyrics2': {'$regex': 'rum', '$options': '-i'}}]}
+09/28/2020 11:47:56 PM INFO {'$and': [{'lyrics2': {'$regex': 'crack', '$options': '-i'}}, {'lyrics2': {'$regex': 'cook', '$options': '-i'}}]}
+09/28/2020 11:47:56 PM INFO {'$and': [{'lyrics2': {'$regex': 'crack', '$options': '-i'}}, {'lyrics2': {'$regex': 'back', '$options': '-i'}}]}
+09/28/2020 11:47:56 PM INFO 122 possible lyrics found.
+09/28/2020 11:47:56 PM INFO 582 possible lyrics found.
+09/28/2020 11:47:56 PM INFO 3 possible lyrics found.
+09/28/2020 11:47:56 PM INFO {'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}, {'title': {'$regex': 'dropped', '$options': '-i'}}, {'title': {'$regex': 'day', '$options': '-i'}}, {'title': {'$regex': 'school', '$options': '-i'}}, {'title': {'$regex': 'nigra', '$options': '-i'}}, {'title': {'$regex': 'got', '$options': '-i'}}]}
+09/28/2020 11:47:57 PM INFO searching for Dropped out first day of school cause niggas got cocaine to  ...  0 possible titles found.
+09/28/2020 11:47:57 PM INFO {'$and': [{'lyrics2': {'$regex': 'cocaine', '$options': '-i'}}, {'lyrics2': {'$regex': 'dropped', '$options': '-i'}}, {'lyrics2': {'$regex': 'day', '$options': '-i'}}, {'lyrics2': {'$regex': 'school', '$options': '-i'}}, {'lyrics2': {'$regex': 'nigra', '$options': '-i'}}, {'lyrics2': {'$regex': 'got', '$options': '-i'}}]}
+09/28/2020 11:47:57 PM INFO 0 possible lyrics found.
+09/28/2020 11:47:58 PM INFO tweet: ---- ---- i keep that crack in my crack or i keep that brack in my brack 
+09/28/2020 11:47:58 PM INFO query: good weed i ---- that ----- -- -- crack -- i ---- that ----- -- -- ----- 
+09/28/2020 11:47:58 PM INFO Score: 0.29/1.0 (5 words matched)in song: Break the Bank
+09/28/2020 11:47:58 PM INFO  first half score: 0.25
+09/28/2020 11:47:58 PM INFO second half score: 0.33
+09/28/2020 11:47:58 PM INFO {'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}, {'title': {'$regex': 'white', '$options': '-i'}}, {'title': {'$regex': 'justin', '$options': '-i'}}, {'title': {'$regex': 'bigger', '$options': '-i'}}, {'title': {'$regex': 'bitch', '$options': '-i'}}, {'title': {'$regex': 'racks', '$options': '-i'}}, {'title': {'$regex': 'tease', '$options': '-i'}}]}
+09/28/2020 11:47:58 PM INFO searching for cocaine white like justin bieber bitch, I might show the rac ...  0 possible titles found.
+09/28/2020 11:47:58 PM INFO {'$and': [{'lyrics2': {'$regex': 'cocaine', '$options': '-i'}}, {'lyrics2': {'$regex': 'white', '$options': '-i'}}, {'lyrics2': {'$regex': 'justin', '$options': '-i'}}, {'lyrics2': {'$regex': 'bigger', '$options': '-i'}}, {'lyrics2': {'$regex': 'bitch', '$options': '-i'}}, {'lyrics2': {'$regex': 'racks', '$options': '-i'}}, {'lyrics2': {'$regex': 'tease', '$options': '-i'}}]}
+09/28/2020 11:47:58 PM INFO 0 possible lyrics found.
+09/28/2020 11:47:58 PM INFO {'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}, {'title': {'$regex': 'know', '$options': '-i'}}, {'title': {'$regex': 'nigra', '$options': '-i'}}, {'title': {'$regex': 'sniff', '$options': '-i'}}, {'title': {'$regex': 'caught', '$options': '-i'}}, {'title': {'$regex': 'seizures', '$options': '-i'}}]}
+09/28/2020 11:47:58 PM INFO searching for I know a few niggaz sniff coke and caught seizures 0 possible titles found.
+09/28/2020 11:47:58 PM INFO {'$and': [{'lyrics2': {'$regex': 'coke', '$options': '-i'}}, {'lyrics2': {'$regex': 'know', '$options': '-i'}}, {'lyrics2': {'$regex': 'nigra', '$options': '-i'}}, {'lyrics2': {'$regex': 'sniff', '$options': '-i'}}, {'lyrics2': {'$regex': 'caught', '$options': '-i'}}, {'lyrics2': {'$regex': 'seizures', '$options': '-i'}}]}
+09/28/2020 11:47:58 PM INFO 0 possible lyrics found.
+09/28/2020 11:47:58 PM INFO {'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}, {'title': {'$regex': 'im', '$options': '-i'}}, {'title': {'$regex': 'ass', '$options': '-i'}}, {'title': {'$regex': 'albany', '$options': '-i'}}, {'title': {'$regex': 'people', '$options': '-i'}}]}
+09/28/2020 11:47:58 PM INFO searching for I'm gonna put cocaine in your ass -Albany people 0 possible titles found.
+09/28/2020 11:47:58 PM INFO {'$and': [{'lyrics2': {'$regex': 'cocaine', '$options': '-i'}}, {'lyrics2': {'$regex': 'im', '$options': '-i'}}, {'lyrics2': {'$regex': 'ass', '$options': '-i'}}, {'lyrics2': {'$regex': 'albany', '$options': '-i'}}, {'lyrics2': {'$regex': 'people', '$options': '-i'}}]}
+09/28/2020 11:47:58 PM INFO 0 possible lyrics found.
+09/28/2020 11:47:58 PM INFO {'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}, {'title': {'$regex': 'got', '$options': '-i'}}, {'title': {'$regex': 'hand', '$options': '-i'}}, {'title': {'$regex': 'juice', '$options': '-i'}}, {'title': {'$regex': 'gin', '$options': '-i'}}]}
+09/28/2020 11:47:58 PM INFO searching for He got the coke in hand, I got the juice and gin 0 possible titles found.
+09/28/2020 11:47:58 PM INFO {'$and': [{'lyrics2': {'$regex': 'coke', '$options': '-i'}}, {'lyrics2': {'$regex': 'got', '$options': '-i'}}, {'lyrics2': {'$regex': 'hand', '$options': '-i'}}, {'lyrics2': {'$regex': 'juice', '$options': '-i'}}, {'lyrics2': {'$regex': 'gin', '$options': '-i'}}]}
+09/28/2020 11:47:58 PM INFO 2 possible lyrics found.
+09/28/2020 11:47:59 PM INFO {'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'comin', '$options': '-i'}}]}
+09/28/2020 11:47:59 PM INFO searching for If they coming I put that crack in my crack no 0 possible titles found.
+09/28/2020 11:47:59 PM INFO {'$and': [{'lyrics2': {'$regex': 'crack', '$options': '-i'}}, {'lyrics2': {'$regex': 'comin', '$options': '-i'}}]}
+09/28/2020 11:47:59 PM INFO 95 possible lyrics found.
+09/28/2020 11:48:00 PM INFO {'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}, {'title': {'$regex': 'im', '$options': '-i'}}, {'title': {'$regex': 'motherfucker', '$options': '-i'}}, {'title': {'$regex': 'boy', '$options': '-i'}}]}
+09/28/2020 11:48:00 PM INFO searching for I'm a mother fuckin coke boy 0 possible titles found.
+09/28/2020 11:48:00 PM INFO {'$and': [{'lyrics2': {'$regex': 'coke', '$options': '-i'}}, {'lyrics2': {'$regex': 'im', '$options': '-i'}}, {'lyrics2': {'$regex': 'motherfucker', '$options': '-i'}}, {'lyrics2': {'$regex': 'boy', '$options': '-i'}}]}
+09/28/2020 11:48:00 PM INFO 8 possible lyrics found.
+09/28/2020 11:48:00 PM INFO tweet: ----- ------ -- ---- im a motherfuckin coke boy 
+09/28/2020 11:48:00 PM INFO query: homie matter of fact im a motherfucking coke boy 
+09/28/2020 11:48:00 PM INFO Score: 0.56/1.0 (5 words matched)in song: I’m A Coke Boy (Remix)
+09/28/2020 11:48:00 PM INFO  first half score: 0.0
+09/28/2020 11:48:00 PM INFO second half score: 1.0
+09/28/2020 11:48:02 PM INFO {'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}, {'title': {'$regex': 'love', '$options': '-i'}}, {'title': {'$regex': 'got', '$options': '-i'}}, {'title': {'$regex': 'feelin', '$options': '-i'}}, {'title': {'$regex': 'superman', '$options': '-i'}}]}
+09/28/2020 11:48:02 PM INFO searching for I love cocaine cause it got me feelin like I'm superman 0 possible titles found.
+09/28/2020 11:48:02 PM INFO {'$and': [{'lyrics2': {'$regex': 'cocaine', '$options': '-i'}}, {'lyrics2': {'$regex': 'love', '$options': '-i'}}, {'lyrics2': {'$regex': 'got', '$options': '-i'}}, {'lyrics2': {'$regex': 'feelin', '$options': '-i'}}, {'lyrics2': {'$regex': 'superman', '$options': '-i'}}]}
+09/28/2020 11:48:02 PM INFO 1 possible lyrics found.
+09/28/2020 11:48:02 PM INFO tweet: i love cocaine because it got me feelin like i superman 
+09/28/2020 11:48:02 PM INFO query: i love cocaine ------- it got me feelin like - superman 
+09/28/2020 11:48:02 PM INFO Score: 0.82/1.0 (9 words matched)in song: Molly Cyrus
+09/28/2020 11:48:02 PM INFO  first half score: 0.8
+09/28/2020 11:48:02 PM INFO second half score: 0.83
+09/28/2020 11:48:02 PM INFO tweet: i love cocaine because it got me feelin like i superman 
+09/28/2020 11:48:02 PM INFO query: i love cocaine ------- it got me feelin like - superman 
+09/28/2020 11:48:02 PM INFO Score: 0.82/1.0 (9 words matched)in song: Molly Cyrus
+09/28/2020 11:48:02 PM INFO  first half score: 0.8
+09/28/2020 11:48:02 PM INFO second half score: 0.83
+09/28/2020 11:48:02 PM INFO found the song
+09/28/2020 11:48:02 PM INFO {'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'provider', '$options': '-i'}}, {'title': {'$regex': 'drop', '$options': '-i'}}, {'title': {'$regex': 'music', '$options': '-i'}}, {'title': {'$regex': 'rock', '$options': '-i'}}, {'title': {'$regex': 'user', '$options': '-i'}}]}
+09/28/2020 11:48:02 PM INFO searching for Provider of the back drop music for the crack rock user 0 possible titles found.
+09/28/2020 11:48:02 PM INFO {'$and': [{'lyrics2': {'$regex': 'crack', '$options': '-i'}}, {'lyrics2': {'$regex': 'provider', '$options': '-i'}}, {'lyrics2': {'$regex': 'drop', '$options': '-i'}}, {'lyrics2': {'$regex': 'music', '$options': '-i'}}, {'lyrics2': {'$regex': 'rock', '$options': '-i'}}, {'lyrics2': {'$regex': 'user', '$options': '-i'}}]}
+09/28/2020 11:48:02 PM INFO 1 possible lyrics found.
+09/28/2020 11:48:02 PM INFO tweet: provider of the back drop music for the crack rock user 
+09/28/2020 11:48:02 PM INFO query: provider of the ---- ---- music --- --- ----- ---- ---- 
+09/28/2020 11:48:02 PM INFO Score: 0.36/1.0 (4 words matched)in song: Hive
+09/28/2020 11:48:02 PM INFO  first half score: 0.6
+09/28/2020 11:48:02 PM INFO second half score: 0.17
+09/28/2020 11:48:02 PM INFO tweet: provider of the back drop music for the crack rock user 
+09/28/2020 11:48:02 PM INFO query: provider of the ---- ---- music --- --- ----- ---- ---- 
+09/28/2020 11:48:02 PM INFO Score: 0.36/1.0 (4 words matched)in song: Hive
+09/28/2020 11:48:02 PM INFO  first half score: 0.6
+09/28/2020 11:48:02 PM INFO second half score: 0.17
+09/28/2020 11:48:02 PM INFO found the song
+09/28/2020 11:48:02 PM INFO {'$and': [{'title': {'$regex': 'lean', '$options': '-i'}}, {'title': {'$regex': 'cut', '$options': '-i'}}, {'title': {'$regex': 'habit', '$options': '-i'}}, {'title': {'$regex': 'shoppin', '$options': '-i'}}, {'title': {'$regex': 'bitch', '$options': '-i'}}]}
+09/28/2020 11:48:02 PM INFO searching for And since I cut the lean habit I been shopping like a bitch 0 possible titles found.
+09/28/2020 11:48:02 PM INFO {'$and': [{'lyrics2': {'$regex': 'lean', '$options': '-i'}}, {'lyrics2': {'$regex': 'cut', '$options': '-i'}}, {'lyrics2': {'$regex': 'habit', '$options': '-i'}}, {'lyrics2': {'$regex': 'shoppin', '$options': '-i'}}, {'lyrics2': {'$regex': 'bitch', '$options': '-i'}}]}
+09/28/2020 11:48:03 PM INFO 1 possible lyrics found.
+09/28/2020 11:48:03 PM INFO tweet: and since i cut the lean habit i been shopping like a bitch 
+09/28/2020 11:48:03 PM INFO query: and since i cut the lean habit - been shoppin like a bitch 
+09/28/2020 11:48:03 PM INFO Score: 0.92/1.0 (12 words matched)in song: Sleeping on the Floor
+09/28/2020 11:48:03 PM INFO  first half score: 1.0
+09/28/2020 11:48:03 PM INFO second half score: 0.86
+09/28/2020 11:48:03 PM INFO tweet: and since i cut the lean habit i been shopping like a bitch 
+09/28/2020 11:48:03 PM INFO query: and since i cut the lean habit - been shoppin like a bitch 
+09/28/2020 11:48:03 PM INFO Score: 0.92/1.0 (12 words matched)in song: Sleeping on the Floor
+09/28/2020 11:48:03 PM INFO  first half score: 1.0
+09/28/2020 11:48:03 PM INFO second half score: 0.86
+09/28/2020 11:48:03 PM INFO found the song
+09/28/2020 11:48:03 PM INFO {'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'who', '$options': '-i'}}, {'title': {'$regex': 'cares', '$options': '-i'}}, {'title': {'$regex': 'feels', '$options': '-i'}}]}
+09/28/2020 11:48:03 PM INFO searching for who cares when it feels like crack 0 possible titles found.
+09/28/2020 11:48:03 PM INFO {'$and': [{'lyrics2': {'$regex': 'crack', '$options': '-i'}}, {'lyrics2': {'$regex': 'who', '$options': '-i'}}, {'lyrics2': {'$regex': 'cares', '$options': '-i'}}, {'lyrics2': {'$regex': 'feels', '$options': '-i'}}]}
+09/28/2020 11:48:03 PM INFO 1 possible lyrics found.
+09/28/2020 11:48:03 PM INFO tweet: whoe cares when it feels like crack 
+09/28/2020 11:48:03 PM INFO query: ---- cares when it feels like crack 
+09/28/2020 11:48:03 PM INFO Score: 0.86/1.0 (6 words matched)in song: Kiss it Better
+09/28/2020 11:48:03 PM INFO  first half score: 0.67
+09/28/2020 11:48:03 PM INFO second half score: 1.0
+09/28/2020 11:48:03 PM INFO tweet: whoe cares when it feels like crack 
+09/28/2020 11:48:03 PM INFO query: ---- cares when it feels like crack 
+09/28/2020 11:48:03 PM INFO Score: 0.86/1.0 (6 words matched)in song: Kiss it Better
+09/28/2020 11:48:03 PM INFO  first half score: 0.67
+09/28/2020 11:48:03 PM INFO second half score: 1.0
+09/28/2020 11:48:03 PM INFO found the song
+09/28/2020 11:48:03 PM INFO {'$and': [{'title': {'$regex': 'lean', '$options': '-i'}}, {'title': {'$regex': 'spillin', '$options': '-i'}}, {'title': {'$regex': 'red', '$options': '-i'}}, {'title': {'$regex': 'carpet', '$options': '-i'}}]}
+09/28/2020 11:48:03 PM INFO searching for Spillin lean on the Red carpet 0 possible titles found.
+09/28/2020 11:48:03 PM INFO {'$and': [{'lyrics2': {'$regex': 'lean', '$options': '-i'}}, {'lyrics2': {'$regex': 'spillin', '$options': '-i'}}, {'lyrics2': {'$regex': 'red', '$options': '-i'}}, {'lyrics2': {'$regex': 'carpet', '$options': '-i'}}]}
+09/28/2020 11:48:03 PM INFO 1 possible lyrics found.
+09/28/2020 11:48:03 PM INFO tweet: spillin lean on the red carpet 
+09/28/2020 11:48:03 PM INFO query: spillin lean on the red carpet 
+09/28/2020 11:48:03 PM INFO Score: 1.0/1.0 (6 words matched)in song: Pray for ’Em
+09/28/2020 11:48:03 PM INFO  first half score: 1.0
+09/28/2020 11:48:03 PM INFO second half score: 1.0
+09/28/2020 11:48:03 PM INFO tweet: spillin lean on the red carpet 
+09/28/2020 11:48:03 PM INFO query: spillin lean on the red carpet 
+09/28/2020 11:48:03 PM INFO Score: 1.0/1.0 (6 words matched)in song: Pray for ’Em
+09/28/2020 11:48:03 PM INFO  first half score: 1.0
+09/28/2020 11:48:03 PM INFO second half score: 1.0
+09/28/2020 11:48:03 PM INFO found the song
+09/28/2020 11:48:03 PM INFO {'$and': [{'title': {'$regex': 'xan', '$options': '-i'}}, {'title': {'$regex': 'lean', '$options': '-i'}}]}
+09/28/2020 11:48:03 PM INFO searching for Xan with that lean 0 possible titles found.
+09/28/2020 11:48:03 PM INFO {'$and': [{'lyrics2': {'$regex': 'xan', '$options': '-i'}}, {'lyrics2': {'$regex': 'lean', '$options': '-i'}}]}
+09/28/2020 11:48:03 PM INFO 141 possible lyrics found.
+09/28/2020 11:48:04 PM INFO {'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'shanty', '$options': '-i'}}, {'title': {'$regex': 'ask', '$options': '-i'}}, {'title': {'$regex': 'dollar', '$options': '-i'}}, {'title': {'$regex': 'buy', '$options': '-i'}}]}
+09/28/2020 11:48:04 PM INFO searching for Shawty how you gone ask me for a dollar to help buy you crac ...  0 possible titles found.
+09/28/2020 11:48:04 PM INFO {'$and': [{'lyrics2': {'$regex': 'crack', '$options': '-i'}}, {'lyrics2': {'$regex': 'shanty', '$options': '-i'}}, {'lyrics2': {'$regex': 'ask', '$options': '-i'}}, {'lyrics2': {'$regex': 'dollar', '$options': '-i'}}, {'lyrics2': {'$regex': 'buy', '$options': '-i'}}]}
+09/28/2020 11:48:05 PM INFO 0 possible lyrics found.
+09/28/2020 11:48:05 PM INFO {'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}, {'title': {'$regex': 'sippin', '$options': '-i'}}, {'title': {'$regex': 'run', '$options': '-i'}}, {'title': {'$regex': 'drunk', '$options': '-i'}}, {'title': {'$regex': 'freakin', '$options': '-i'}}, {'title': {'$regex': 'weekend', '$options': '-i'}}, {'title': {'$regex': 'bout', '$options': '-i'}}, {'title': {'$regex': 'fun', '$options': '-i'}}]}
+09/28/2020 11:48:05 PM INFO searching for Sippin on coke and run I'm like so what I'm drunk it's the f ...  0 possible titles found.
+09/28/2020 11:48:05 PM INFO {'$and': [{'lyrics2': {'$regex': 'coke', '$options': '-i'}}, {'lyrics2': {'$regex': 'sippin', '$options': '-i'}}, {'lyrics2': {'$regex': 'run', '$options': '-i'}}, {'lyrics2': {'$regex': 'drunk', '$options': '-i'}}, {'lyrics2': {'$regex': 'freakin', '$options': '-i'}}, {'lyrics2': {'$regex': 'weekend', '$options': '-i'}}, {'lyrics2': {'$regex': 'bout', '$options': '-i'}}, {'lyrics2': {'$regex': 'fun', '$options': '-i'}}]}
+09/28/2020 11:48:05 PM INFO 0 possible lyrics found.
+09/28/2020 11:48:05 PM INFO {'$and': [{'title': {'$regex': 'lean', '$options': '-i'}}, {'title': {'$regex': 'im', '$options': '-i'}}, {'title': {'$regex': 'drinkin', '$options': '-i'}}, {'title': {'$regex': 'thought', '$options': '-i'}}, {'title': {'$regex': 'die', '$options': '-i'}}]}
+09/28/2020 11:48:05 PM INFO searching for I'm drinkin lean, they thought id die 0 possible titles found.
+09/28/2020 11:48:05 PM INFO {'$and': [{'lyrics2': {'$regex': 'lean', '$options': '-i'}}, {'lyrics2': {'$regex': 'im', '$options': '-i'}}, {'lyrics2': {'$regex': 'drinkin', '$options': '-i'}}, {'lyrics2': {'$regex': 'thought', '$options': '-i'}}, {'lyrics2': {'$regex': 'die', '$options': '-i'}}]}
+09/28/2020 11:48:05 PM INFO tweet: xan with that lean ----- --- ---- ---- ---- ----- 
+09/28/2020 11:48:05 PM INFO query: zan with that lean bitch xan with that lean bitch 
+09/28/2020 11:48:05 PM INFO Score: 0.4/1.0 (4 words matched)in song: NaNa
+09/28/2020 11:48:05 PM INFO  first half score: 1.0
+09/28/2020 11:48:05 PM INFO second half score: 0.0
+09/28/2020 11:48:05 PM INFO 2 possible lyrics found.
+09/28/2020 11:48:05 PM INFO tweet: im drinkin lean they thought i die 
+09/28/2020 11:48:05 PM INFO query: im drinkin lean they thought i --- 
+09/28/2020 11:48:05 PM INFO Score: 0.86/1.0 (6 words matched)in song: Big Rings
+09/28/2020 11:48:05 PM INFO  first half score: 1.0
+09/28/2020 11:48:05 PM INFO second half score: 0.75
+09/28/2020 11:48:05 PM INFO tweet: im drinkin lean they thought i die 
+09/28/2020 11:48:05 PM INFO query: im drinkin lean they thought i --- 
+09/28/2020 11:48:05 PM INFO Score: 0.86/1.0 (6 words matched)in song: Big Rings
+09/28/2020 11:48:05 PM INFO  first half score: 1.0
+09/28/2020 11:48:05 PM INFO second half score: 0.75
+09/28/2020 11:48:05 PM INFO found the song
+09/28/2020 11:48:05 PM INFO {'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}, {'title': {'$regex': 'diamonds', '$options': '-i'}}, {'title': {'$regex': 'glow', '$options': '-i'}}, {'title': {'$regex': 'chain', '$options': '-i'}}, {'title': {'$regex': 'look', '$options': '-i'}}, {'title': {'$regex': 'snow', '$options': '-i'}}, {'title': {'$regex': 'bitch', '$options': '-i'}}, {'title': {'$regex': 'hoe', '$options': '-i'}}, {'title': {'$regex': 'sniffin', '$options': '-i'}}, {'title': {'$regex': 'sniff', '$options': '-i'}}]}
+09/28/2020 11:48:05 PM INFO searching for All my diamonds glow, chain look like snow, all my bitches g ...  0 possible titles found.
+09/28/2020 11:48:05 PM INFO {'$and': [{'lyrics2': {'$regex': 'coke', '$options': '-i'}}, {'lyrics2': {'$regex': 'diamonds', '$options': '-i'}}, {'lyrics2': {'$regex': 'glow', '$options': '-i'}}, {'lyrics2': {'$regex': 'chain', '$options': '-i'}}, {'lyrics2': {'$regex': 'look', '$options': '-i'}}, {'lyrics2': {'$regex': 'snow', '$options': '-i'}}, {'lyrics2': {'$regex': 'bitch', '$options': '-i'}}, {'lyrics2': {'$regex': 'hoe', '$options': '-i'}}, {'lyrics2': {'$regex': 'sniffin', '$options': '-i'}}, {'lyrics2': {'$regex': 'sniff', '$options': '-i'}}]}
+09/28/2020 11:48:05 PM INFO 0 possible lyrics found.
+09/28/2020 11:48:07 PM INFO tweet: xan with that lean 
+09/28/2020 11:48:07 PM INFO query: xan with that lean 
+09/28/2020 11:48:07 PM INFO Score: 1.0/1.0 (4 words matched)in song: Tunechi’s Back
+09/28/2020 11:48:07 PM INFO  first half score: 1.0
+09/28/2020 11:48:07 PM INFO second half score: 1.0
+09/28/2020 11:48:07 PM INFO tweet: xan with that lean 
+09/28/2020 11:48:07 PM INFO query: xan with that lean 
+09/28/2020 11:48:07 PM INFO Score: 1.0/1.0 (4 words matched)in song: Tunechi’s Back
+09/28/2020 11:48:07 PM INFO  first half score: 1.0
+09/28/2020 11:48:07 PM INFO second half score: 1.0
+09/28/2020 11:48:07 PM INFO found the song
+09/28/2020 11:48:18 PM INFO tweet: i keep that crack in my crack or i keep that brack in my brack 
+09/28/2020 11:48:18 PM INFO query: - ---- ---- ----- -- -- ----- -- i ---- that crack in my crack 
+09/28/2020 11:48:18 PM INFO Score: 0.4/1.0 (6 words matched)in song: Check
+09/28/2020 11:48:18 PM INFO  first half score: 0.0
+09/28/2020 11:48:18 PM INFO second half score: 0.75
+09/28/2020 11:48:39 PM INFO {'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}, {'title': {'$regex': 'champagne', '$options': '-i'}}, {'title': {'$regex': 'gasoline', '$options': '-i'}}]}
+09/28/2020 11:48:39 PM INFO {'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}, {'title': {'$regex': 'champagne', '$options': '-i'}}, {'title': {'$regex': 'gasoline', '$options': '-i'}}, {'title': {'$regex': 'thins', '$options': '-i'}}]}
+09/28/2020 11:48:39 PM INFO {'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'kill', '$options': '-i'}}, {'title': {'$regex': 'nigra', '$options': '-i'}}, {'title': {'$regex': 'sell', '$options': '-i'}}]}
+09/28/2020 11:48:39 PM INFO {'$and': [{'title': {'$regex': 'lean', '$options': '-i'}}, {'title': {'$regex': 'blunt', '$options': '-i'}}, {'title': {'$regex': 'got', '$options': '-i'}}, {'title': {'$regex': 'cup', '$options': '-i'}}, {'title': {'$regex': 'gas', '$options': '-i'}}, {'title': {'$regex': 'hoe', '$options': '-i'}}, {'title': {'$regex': 'who', '$options': '-i'}}, {'title': {'$regex': 'fuck', '$options': '-i'}}]}
+09/28/2020 11:48:39 PM INFO searching for champagne cocaine gasoline 0 possible titles found.
+09/28/2020 11:48:39 PM INFO searching for Champagne, cocaine, gasoline and most things in between http ...  0 possible titles found.
+09/28/2020 11:48:39 PM INFO searching for They say crack kill nigga my crack sell #21Savage 0 possible titles found.
+09/28/2020 11:48:39 PM INFO searching for Got some lean in my cup, gas in my blunt, got some hoes who  ...  0 possible titles found.
+09/28/2020 11:48:39 PM INFO {'$and': [{'lyrics2': {'$regex': 'cocaine', '$options': '-i'}}, {'lyrics2': {'$regex': 'champagne', '$options': '-i'}}, {'lyrics2': {'$regex': 'gasoline', '$options': '-i'}}]}
+09/28/2020 11:48:39 PM INFO {'$and': [{'lyrics2': {'$regex': 'crack', '$options': '-i'}}, {'lyrics2': {'$regex': 'kill', '$options': '-i'}}, {'lyrics2': {'$regex': 'nigra', '$options': '-i'}}, {'lyrics2': {'$regex': 'sell', '$options': '-i'}}]}
+09/28/2020 11:48:39 PM INFO {'$and': [{'lyrics2': {'$regex': 'cocaine', '$options': '-i'}}, {'lyrics2': {'$regex': 'champagne', '$options': '-i'}}, {'lyrics2': {'$regex': 'gasoline', '$options': '-i'}}, {'lyrics2': {'$regex': 'thins', '$options': '-i'}}]}
+09/28/2020 11:48:39 PM INFO {'$and': [{'lyrics2': {'$regex': 'lean', '$options': '-i'}}, {'lyrics2': {'$regex': 'blunt', '$options': '-i'}}, {'lyrics2': {'$regex': 'got', '$options': '-i'}}, {'lyrics2': {'$regex': 'cup', '$options': '-i'}}, {'lyrics2': {'$regex': 'gas', '$options': '-i'}}, {'lyrics2': {'$regex': 'hoe', '$options': '-i'}}, {'lyrics2': {'$regex': 'who', '$options': '-i'}}, {'lyrics2': {'$regex': 'fuck', '$options': '-i'}}]}
+09/28/2020 11:48:39 PM INFO 1 possible lyrics found.
+09/28/2020 11:48:39 PM INFO 0 possible lyrics found.
+09/28/2020 11:48:39 PM INFO 4 possible lyrics found.
+09/28/2020 11:48:39 PM INFO tweet: champagne cocaine gasoline 
+09/28/2020 11:48:39 PM INFO query: champagne cocaine gasoline 
+09/28/2020 11:48:39 PM INFO Score: 1.0/1.0 (3 words matched)in song: Don’t Threaten Me with a Good Time
+09/28/2020 11:48:39 PM INFO  first half score: 1.0
+09/28/2020 11:48:39 PM INFO second half score: 1.0
+09/28/2020 11:48:39 PM INFO found the song
+09/28/2020 11:48:39 PM INFO 0 possible lyrics found.
+09/28/2020 11:48:39 PM INFO {'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'who', '$options': '-i'}}, {'title': {'$regex': 'cares', '$options': '-i'}}, {'title': {'$regex': 'feels', '$options': '-i'}}]}
+09/28/2020 11:48:39 PM INFO {'$and': [{'title': {'$regex': 'dope', '$options': '-i'}}, {'title': {'$regex': 'cocaine', '$options': '-i'}}, {'title': {'$regex': 'paint', '$options': '-i'}}, {'title': {'$regex': 'salary', '$options': '-i'}}, {'title': {'$regex': 'cap', '$options': '-i'}}, {'title': {'$regex': 'game', '$options': '-i'}}, {'title': {'$regex': 'collect', '$options': '-i'}}, {'title': {'$regex': 'bargainin', '$options': '-i'}}]}
+09/28/2020 11:48:39 PM INFO searching for who cares when it feels like crack 0 possible titles found.
+09/28/2020 11:48:39 PM INFO searching for Ain't no salary cap in the dope game ain't no collective bar ...  0 possible titles found.
+09/28/2020 11:48:39 PM INFO {'$and': [{'lyrics2': {'$regex': 'crack', '$options': '-i'}}, {'lyrics2': {'$regex': 'who', '$options': '-i'}}, {'lyrics2': {'$regex': 'cares', '$options': '-i'}}, {'lyrics2': {'$regex': 'feels', '$options': '-i'}}]}
+09/28/2020 11:48:39 PM INFO {'$and': [{'lyrics2': {'$regex': 'dope', '$options': '-i'}}, {'lyrics2': {'$regex': 'cocaine', '$options': '-i'}}, {'lyrics2': {'$regex': 'paint', '$options': '-i'}}, {'lyrics2': {'$regex': 'salary', '$options': '-i'}}, {'lyrics2': {'$regex': 'cap', '$options': '-i'}}, {'lyrics2': {'$regex': 'game', '$options': '-i'}}, {'lyrics2': {'$regex': 'collect', '$options': '-i'}}, {'lyrics2': {'$regex': 'bargainin', '$options': '-i'}}]}
+09/28/2020 11:48:39 PM INFO 1 possible lyrics found.
+09/28/2020 11:48:39 PM INFO 0 possible lyrics found.
+09/28/2020 11:48:39 PM INFO tweet: whoe cares when it feels like crack 
+09/28/2020 11:48:39 PM INFO query: ---- cares when it feels like crack 
+09/28/2020 11:48:39 PM INFO {'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'cop', '$options': '-i'}}, {'title': {'$regex': 'pull', '$options': '-i'}}, {'title': {'$regex': 'young', '$options': '-i'}}, {'title': {'$regex': 'thug', '$options': '-i'}}]}
+09/28/2020 11:48:39 PM INFO Score: 0.86/1.0 (6 words matched)in song: Kiss it Better
+09/28/2020 11:48:39 PM INFO  first half score: 0.67
+09/28/2020 11:48:39 PM INFO second half score: 1.0
+09/28/2020 11:48:39 PM INFO tweet: whoe cares when it feels like crack 
+09/28/2020 11:48:39 PM INFO query: ---- cares when it feels like crack 
+09/28/2020 11:48:39 PM INFO {'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+09/28/2020 11:48:39 PM INFO Score: 0.86/1.0 (6 words matched)in song: Kiss it Better
+09/28/2020 11:48:39 PM INFO  first half score: 0.67
+09/28/2020 11:48:39 PM INFO second half score: 1.0
+09/28/2020 11:48:39 PM INFO found the song
+09/28/2020 11:48:39 PM INFO {'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}, {'title': {'$regex': 'woke', '$options': '-i'}}, {'title': {'$regex': 'hair', '$options': '-i'}}, {'title': {'$regex': 'thought', '$options': '-i'}}, {'title': {'$regex': 'lice', '$options': '-i'}}]}
+09/28/2020 11:48:39 PM INFO searching for If cops pull up I put that crack in my crack-Young thug 0 possible titles found.
+09/28/2020 11:48:39 PM INFO searching for crack https://t.co/BOHP8n8Yy1 16 possible titles found.
+09/28/2020 11:48:39 PM INFO {'$and': [{'lyrics2': {'$regex': 'crack', '$options': '-i'}}, {'lyrics2': {'$regex': 'cop', '$options': '-i'}}, {'lyrics2': {'$regex': 'pull', '$options': '-i'}}, {'lyrics2': {'$regex': 'young', '$options': '-i'}}, {'lyrics2': {'$regex': 'thug', '$options': '-i'}}]}
+09/28/2020 11:48:39 PM INFO searching for Woke up with cocaine in my hair I thought it was lice 0 possible titles found.
+09/28/2020 11:48:39 PM WARNING float division by zero
+09/28/2020 11:48:39 PM WARNING float division by zero
+09/28/2020 11:48:39 PM WARNING float division by zero
+09/28/2020 11:48:39 PM INFO title found
+09/28/2020 11:48:39 PM INFO tweet: crack 
+09/28/2020 11:48:39 PM INFO query: crack 
+09/28/2020 11:48:39 PM INFO Score: 1.0/1.0 (1 words matched)in song: Crack
+09/28/2020 11:48:39 PM INFO {'$and': [{'lyrics2': {'$regex': 'cocaine', '$options': '-i'}}, {'lyrics2': {'$regex': 'woke', '$options': '-i'}}, {'lyrics2': {'$regex': 'hair', '$options': '-i'}}, {'lyrics2': {'$regex': 'thought', '$options': '-i'}}, {'lyrics2': {'$regex': 'lice', '$options': '-i'}}]}
+09/28/2020 11:48:39 PM INFO  first half score: 0
+09/28/2020 11:48:39 PM INFO second half score: 0
+09/28/2020 11:48:39 PM INFO {'$and': [{'title': {'$regex': 'lean', '$options': '-i'}}, {'title': {'$regex': 'cost', '$options': '-i'}}, {'title': {'$regex': 'rent', '$options': '-i'}}]}
+09/28/2020 11:48:39 PM INFO searching for My lean cost more than your rent. 0 possible titles found.
+09/28/2020 11:48:39 PM INFO {'$and': [{'lyrics2': {'$regex': 'lean', '$options': '-i'}}, {'lyrics2': {'$regex': 'cost', '$options': '-i'}}, {'lyrics2': {'$regex': 'rent', '$options': '-i'}}]}
+09/28/2020 11:48:39 PM INFO 1 possible lyrics found.
+09/28/2020 11:48:39 PM INFO 1 possible lyrics found.
+09/28/2020 11:48:39 PM INFO 3 possible lyrics found.
+09/28/2020 11:48:39 PM INFO tweet: woke up with cocaine in my hair i thought it was lice ---- ---- 
+09/28/2020 11:48:39 PM INFO query: woke up ---- ------- in my hair - thought it was lice yeah yeah 
+09/28/2020 11:48:39 PM INFO Score: 0.64/1.0 (9 words matched)in song: Kelly Price
+09/28/2020 11:48:39 PM INFO  first half score: 0.67
+09/28/2020 11:48:39 PM INFO second half score: 0.62
+09/28/2020 11:48:39 PM INFO tweet: woke up with cocaine in my hair i thought it was lice ---- ---- 
+09/28/2020 11:48:39 PM INFO query: woke up ---- ------- in my hair - thought it was lice yeah yeah 
+09/28/2020 11:48:39 PM INFO Score: 0.64/1.0 (9 words matched)in song: Kelly Price
+09/28/2020 11:48:39 PM INFO  first half score: 0.67
+09/28/2020 11:48:39 PM INFO second half score: 0.62
+09/28/2020 11:48:39 PM INFO found the song
+09/28/2020 11:48:39 PM INFO {'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'drug', '$options': '-i'}}, {'title': {'$regex': 'dealer', '$options': '-i'}}, {'title': {'$regex': 'buy', '$options': '-i'}}, {'title': {'$regex': 'jordan', '$options': '-i'}}]}
+09/28/2020 11:48:39 PM INFO searching for Drug dealer buy Jordans, crackhead buy crack 0 possible titles found.
+09/28/2020 11:48:39 PM INFO tweet: my lean cost more than your rent --- -- -- 
+09/28/2020 11:48:39 PM INFO query: my lean cost more than your rent ooh it do 
+09/28/2020 11:48:39 PM INFO Score: 0.7/1.0 (7 words matched)in song: Gucci Gang
+09/28/2020 11:48:39 PM INFO  first half score: 1.0
+09/28/2020 11:48:39 PM INFO {'$and': [{'lyrics2': {'$regex': 'crack', '$options': '-i'}}, {'lyrics2': {'$regex': 'drug', '$options': '-i'}}, {'lyrics2': {'$regex': 'dealer', '$options': '-i'}}, {'lyrics2': {'$regex': 'buy', '$options': '-i'}}, {'lyrics2': {'$regex': 'jordan', '$options': '-i'}}]}
+09/28/2020 11:48:39 PM INFO second half score: 0.5
+09/28/2020 11:48:39 PM INFO tweet: my lean cost more than your rent --- -- -- 
+09/28/2020 11:48:39 PM INFO query: my lean cost more than your rent ooh it do 
+09/28/2020 11:48:39 PM INFO Score: 0.7/1.0 (7 words matched)in song: Gucci Gang
+09/28/2020 11:48:39 PM INFO  first half score: 1.0
+09/28/2020 11:48:39 PM INFO second half score: 0.5
+09/28/2020 11:48:39 PM INFO found the song
+09/28/2020 11:48:39 PM INFO 2 possible lyrics found.
+09/28/2020 11:48:39 PM INFO tweet: drug dealer buy jordan crackhead buy crack 
+09/28/2020 11:48:39 PM INFO query: drug dealer buy jordan crackhead buy crack 
+09/28/2020 11:48:39 PM INFO Score: 1.0/1.0 (7 words matched)in song: All Falls Down
+09/28/2020 11:48:39 PM INFO  first half score: 1.0
+09/28/2020 11:48:39 PM INFO second half score: 1.0
+09/28/2020 11:48:39 PM INFO tweet: drug dealer buy jordan crackhead buy crack 
+09/28/2020 11:48:39 PM INFO query: drug dealer buy jordan crackhead buy crack 
+09/28/2020 11:48:39 PM INFO Score: 1.0/1.0 (7 words matched)in song: All Falls Down
+09/28/2020 11:48:39 PM INFO  first half score: 1.0
+09/28/2020 11:48:39 PM INFO second half score: 1.0
+09/28/2020 11:48:39 PM INFO found the song
+09/28/2020 11:48:40 PM INFO tweet: got some lean in my cup gas in my blunt got some hoe whoe gon fuck 
+09/28/2020 11:48:40 PM INFO query: --- ---- lean in my cup gas in my blunt --- ---- --- ---- --- ---- 
+09/28/2020 11:48:40 PM INFO Score: 0.5/1.0 (8 words matched)in song: Fetti
+09/28/2020 11:48:40 PM INFO  first half score: 0.71
+09/28/2020 11:48:40 PM INFO second half score: 0.33
+09/28/2020 11:48:40 PM INFO tweet: got some lean in my cup gas in my blunt got some hoe whoe gon fuck 
+09/28/2020 11:48:40 PM INFO query: --- ---- lean in my cup gas in my blunt --- ---- --- ---- --- ---- 
+09/28/2020 11:48:40 PM INFO Score: 0.5/1.0 (8 words matched)in song: Fetti
+09/28/2020 11:48:40 PM INFO  first half score: 0.71
+09/28/2020 11:48:40 PM INFO second half score: 0.33
+09/28/2020 11:48:40 PM INFO found the song

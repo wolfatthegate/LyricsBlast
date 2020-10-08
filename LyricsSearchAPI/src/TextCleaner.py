@@ -43,6 +43,9 @@ class TextCleaner:
             string = other_pattern.sub(r'', string)
             string = white_space.sub(r' ', string)
             string = string.replace('\'', '')
+            string = string.replace('\\', '')
+            string = string.replace('eee', 'ee')
+            string = string.replace('hh', 'h')
             string = string.strip()
         except:
             print(str(string) + ' some text cannot be cleaned')

@@ -6,13 +6,14 @@ import sys
 from nltk.corpus import stopwords 
 from nltk.tokenize import word_tokenize 
 from gensim.parsing.preprocessing import remove_stopwords
+from collections import Counter
 
 cleaner = TextCleaner.TextCleaner()
 blaster = blast.blast()
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 
 mydb = myclient['LyricsDB']
-lyricTbl = mydb['MechTurk']
+lyricTbl = mydb['MechTurk_Test']
 
 myquery = {}
 totalTweet = lyricTbl.find(myquery).count()
@@ -25,24 +26,25 @@ found = False
 stop_words = set(stopwords.words('english')) 
 
 x = 0
+count_all = Counter()
+
 while x < 653:
     for mydoc in lyricTbl.find(myquery).skip(x).limit(5): #find() method returns a list of dictionary
-        example_sent = mydoc['data']
-        word_tokens = word_tokenize(example_sent) 
+        tweet = mydoc['data']
+        tweet = cleaner.clean(tweet)
+#         word_tokens = word_tokenize(tweet)   
+#         word_tokenized_ = [w for w in word_tokens if not w in stop_words] 
+
+        filtered_sentence_ = remove_stopwords(tweet.lower())      
+        word_tokens_gen = word_tokenize(filtered_sentence_)     
         
-#         filtered_sentence = [] 
-#         for w in word_tokens: 
-#             if w not in stop_words: 
-#                 filtered_sentence.append(w) 
         
-        filtered_sentence = [w for w in word_tokens if not w in stop_words] 
-        filtered_sentence_ = remove_stopwords(example_sent.lower())
-              
-        word_tokens_gen = word_tokenize(filtered_sentence_)      
-#         print(word_tokens) 
-#         print(filtered_sentence)
-        print(word_tokens_gen)
-        print('\n')
+        count_all.update(word_tokens_gen)
+
     x = x + 5  
-            
+    
+most_common_list = count_all.most_common(1000)
+for el in most_common_list:
+    print (el)
+              
                 

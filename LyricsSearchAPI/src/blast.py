@@ -3,9 +3,13 @@
 import nltk
 import pandas as pd
 import TextCleaner
+import logging
 from gensim.summarization import textcleaner
 
 class blast:
+    logFormatter = '%(asctime)s - %(levelname)s - %(message)s'
+    logging.basicConfig(filename='archived_tweets/myLogs.log',level=logging.DEBUG, format='%(asctime)s %(levelname)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
+
     def SingleBaseCompare(self, char1,char2):
         if char1 == char2:
             return 2
@@ -128,28 +132,28 @@ class blast:
                 
         align_score = float(align_counter)/(len(sequ1)-1)
         
-        if len(seq1_tokens) > len(seq2_tokens):
-            halfway = int(len(sequ1)/2)
-            
-            for k in range(0, halfway):
-                if blast.W2WCompare(self, sequ1[k], sequ2[k], threshold) is 2:
-                    first_half += 1
-                    
-            for k in range(halfway, len(sequ1)):
-                if blast.W2WCompare(self, sequ1[k], sequ2[k], threshold) is 2:
-                    second_half += 1
-            
-            try:         
-                first_half_score = float(first_half)/(halfway - 1)
-                second_half_score = float(second_half)/(len(sequ1) - halfway)
-            except:
-                print('float division by zero')
-            
-            if (first_half_score > 0.49 or align_counter > 4)and second_half_score < .35:
-                sequential_search_recommandation = True
-            
-            if first_half_score < 0.15 and (second_half_score > .45 or align_counter > 4):
-                stepback_search_recommandation = True
+        greterLen = max(len(sequ1), len(sequ2))
+        halfway = int(greterLen/2)
+        
+        for k in range(0, halfway):
+            if blast.W2WCompare(self, sequ1[k], sequ2[k], threshold) is 2:
+                first_half += 1
+                
+        for k in range(halfway, len(sequ1)):
+            if blast.W2WCompare(self, sequ1[k], sequ2[k], threshold) is 2:
+                second_half += 1
+        
+        try:         
+            first_half_score = float(first_half)/(halfway - 1)
+            second_half_score = float(second_half)/(len(sequ1) - halfway)
+        except:
+            logging.warning('float division by zero')
+        
+        if (first_half_score > 0.49 or align_counter > 4)and second_half_score < .35:
+            sequential_search_recommandation = True
+        
+        if first_half_score < 0.15 and (second_half_score > .45 or align_counter > 4):
+            stepback_search_recommandation = True
             
         
         return align_seq1, align_seq2, align_score, align_counter, first_half_score, second_half_score, sequential_search_recommandation, stepback_search_recommandation

@@ -40,7 +40,7 @@ def findDrugKeywords(str):
     terms = ['heroine', 'oxy', 'heroin', 'dopamine', 'norepinephrine', 
              'weed','cocaine', 'lean', 'blunt', 'joint', 'dank', 
              'crack', 'molly', 'coke', 'smoke', 'dope', 'cigarette', 
-             'smoking', 'smokin', 'bitch']
+             'smoking', 'smokin', 'bitch', 'xan', 'cooked']
      
     tokenized_str = nltk.word_tokenize(str)
     keywordList = []
@@ -64,7 +64,7 @@ mylyricquery = {}
   
 myquery = {"found": {"$not" :{"$regex": { "$in": [ "0", "1" ] }}}}
 myquery = {"found": {"$not" :{ "$in": [ "0", "1" ] }}}
-myquery = {"found": "5"}
+myquery = {"found": "6"}
 
 testTbl = mydb['Test']
 mydoc = testTbl.find(myquery) #find() method returns a list of dictionary
@@ -85,24 +85,29 @@ for x in mydoc:
     suggestions = 0
     found = "0"
     
-    print('searching for ' + x['data'])
+    keyword_list_title = []
+    keyword_list_lyric = []
+    
     for query_word in query_list:
-        keyword = query_word
-        break
-    keyword = 'selling crack'
-    print('keyword: ' + keyword)
-    mytitlequery = {'$and': [{"lyrics": {"$regex": 'movin', "$options": "-i"}},
-                    {"lyrics": {"$regex": 'crack', "$options": "-i"}}]} # query keyword
+        keyword_list_title.append({"title": {"$regex": query_word, "$options": "-i"}})
+        keyword_list_lyric.append({"lyrics": {"$regex": query_word, "$options": "-i"}})
+    
+    mytitlequery = {'$and': keyword_list_title}
     mytitle = lyricTbl.find(mytitlequery)
     
-    print(mytitle.count())
-    sys.exit(0)
-    
+    if len(x['data']) > 40:
+        temp_str = x['data'][0:40] + ' ... '
+    else:
+        temp_str = x['data']
+      
+    print(mytitlequery)
+    print('searching for ' + temp_str + ' ' + str(mytitle.count()) + ' titles found.')
+   
     for eachtitle in mytitle: 
         title = cleaner.clean(eachtitle['title'])       
         result = blaster.SMWalignment(tweet.lower(), title.lower(), threshold)
             
-        if round(result[2],2) > 0.85: 
+        if round(result[2],2) > 0.85 or result[3] > 4: 
             print('title matched:')
             titleMatched = True
             printSearchResult(result)
@@ -117,16 +122,23 @@ for x in mydoc:
     if titleMatched == True:
         continue
       
-    mylyricquery = {"lyrics": {"$regex": keyword, "$options": "-i"}} # query keyword
+    mylyricquery = {'$and': keyword_list_lyric} # query keyword
     mylyrics = lyricTbl.find(mylyricquery)  #find in lyrics database
-        
+    print(str(mylyrics.count()) + ' lyrics found.')
+     
     for eachlyrics in mylyrics: #loop through mylyrics list
         
         go_to_next_song = False    
+        continue_test = True
         # read each line of lyrics  
         for eachline in eachlyrics['lyrics'].splitlines():
-                
+            
             eachline = cleaner.clean(eachline)
+            
+#             for query_word in query_list:
+#                 if query_word.lower() in eachline.lower():
+#                     continue_test = True
+                    
             if followUp == True: 
                 eachline = savedline + ' ' + eachline
                 followUp = False
@@ -135,7 +147,7 @@ for x in mydoc:
                 eachline = previous_line + ' ' + savedline
                 stepBack = False
                 
-            if keyword.lower() in eachline.lower():
+            if continue_test == True:
                 tweet = cleaner.clean(tweet)
                 # perform blast Search                    
                 result = blaster.SMWalignment(tweet, eachline.lower(), threshold)
@@ -156,7 +168,7 @@ for x in mydoc:
                     if followUp == False:
                         go_to_next_song = True # go to next song
                 
-                if result[2] > high_score or (result[4] > high_score and result[3] > 4):
+                if result[2] > high_score or (result[4] > high_score and result[3] > 4) or (result[5] > high_score and result[3] > 4):
                     printSearchResult(result)
                     song = song + ' ' + eachlyrics['title']
                     score = result[2]
@@ -164,7 +176,7 @@ for x in mydoc:
                     found = "1"                
                     go_to_next_tweet = True
                     break
-
+                previous_line = eachline
             else: 
                 previous_line = eachline
             
@@ -178,7 +190,3 @@ for x in mydoc:
     updatequery = {'_id': x['_id']}
     newvalue = { '$set': {'score': round(score,2) , 'suggestions': str(suggestions), 'song': song, 'found': found}}
     testTbl.update_one(updatequery, newvalue)
-
-
-                                
-

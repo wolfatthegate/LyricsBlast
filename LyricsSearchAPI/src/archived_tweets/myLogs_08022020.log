@@ -1,0 +1,86 @@
+08/01/2020 03:06:20 PM INFO {'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+08/01/2020 03:06:20 PM INFO {'$and': [{'title': {'$regex': 'smoke', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'sell', '$options': '-i'}}]}
+08/01/2020 03:06:20 PM INFO {'$and': [{'title': {'$regex': 'lean', '$options': '-i'}}]}
+08/01/2020 03:06:20 PM INFO searching for Started in a crack house #np 17 possible titles found.
+08/01/2020 03:06:20 PM INFO {'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'like', '$options': '-i'}}]}
+08/01/2020 03:06:20 PM INFO searching for I don't smoke crack motha fucka I sell it!!! 0 possible titles found.
+08/01/2020 03:06:20 PM INFO searching for I'm starin' at a tramp on lean, make my eye jump 33 possible titles found.
+08/01/2020 03:06:20 PM INFO searching for @fuckyouricky I've been selling crack since like the 5th gra ...  1 possible titles found.
+08/01/2020 03:06:20 PM INFO {'$and': [{'lyrics2': {'$regex': 'smoke', '$options': '-i'}}, {'lyrics2': {'$regex': 'crack', '$options': '-i'}}, {'lyrics2': {'$regex': 'sell', '$options': '-i'}}]}
+08/01/2020 03:06:20 PM INFO {'$and': [{'lyrics2': {'$regex': 'crack', '$options': '-i'}}, {'lyrics2': {'$regex': 'like', '$options': '-i'}}]}
+08/01/2020 03:06:20 PM INFO {'$and': [{'lyrics2': {'$regex': 'crack', '$options': '-i'}}]}
+08/01/2020 03:06:20 PM INFO 1842 possible lyrics found.
+08/01/2020 03:06:20 PM INFO 932 possible lyrics found.
+08/01/2020 03:06:20 PM INFO {'$and': [{'lyrics2': {'$regex': 'lean', '$options': '-i'}}]}
+08/01/2020 03:06:21 PM INFO 1727 possible lyrics found.
+08/01/2020 03:06:21 PM INFO 92 possible lyrics found.
+08/01/2020 03:06:39 PM INFO tweet: I dont smoke crack motha fucka I sell it 
+08/01/2020 03:06:39 PM INFO query: i dont smoke crack ----- ----- i sell it 
+08/01/2020 03:06:39 PM INFO Score: 0.78/1.0 (7 words matched)in song: Control
+08/01/2020 03:06:39 PM INFO  first half score: 1.0
+08/01/2020 03:06:39 PM INFO second half score: 0.6
+08/01/2020 03:06:39 PM INFO tweet: I dont smoke crack motha fucka I sell it 
+08/01/2020 03:06:39 PM INFO query: i dont smoke crack ----- ----- i sell it 
+08/01/2020 03:06:39 PM INFO Score: 0.78/1.0 (7 words matched)in song: Control
+08/01/2020 03:06:39 PM INFO  first half score: 1.0
+08/01/2020 03:06:39 PM INFO second half score: 0.6
+08/01/2020 03:06:39 PM INFO found the song
+08/01/2020 03:06:39 PM INFO {'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}, {'title': {'$regex': 'sniff', '$options': '-i'}}]}
+08/01/2020 03:06:39 PM INFO searching for I know a few niggaz sniff coke and caught seizures 0 possible titles found.
+08/01/2020 03:06:39 PM INFO {'$and': [{'lyrics2': {'$regex': 'coke', '$options': '-i'}}, {'lyrics2': {'$regex': 'sniff', '$options': '-i'}}]}
+08/01/2020 03:06:40 PM INFO 93 possible lyrics found.
+08/01/2020 03:06:56 PM INFO tweet: I know a few niggaz sniff coke and caught seizures 
+08/01/2020 03:06:56 PM INFO query: i know a few niggas sniff coke and caught seizures 
+08/01/2020 03:06:56 PM INFO Score: 1.0/1.0 (10 words matched)in song: Ice Water
+08/01/2020 03:06:56 PM INFO  first half score: 0
+08/01/2020 03:06:56 PM INFO second half score: 0
+08/01/2020 03:06:56 PM INFO tweet: I know a few niggaz sniff coke and caught seizures 
+08/01/2020 03:06:56 PM INFO query: i know a few niggas sniff coke and caught seizures 
+08/01/2020 03:06:56 PM INFO Score: 1.0/1.0 (10 words matched)in song: Ice Water
+08/01/2020 03:06:56 PM INFO  first half score: 0
+08/01/2020 03:06:56 PM INFO second half score: 0
+08/01/2020 03:06:56 PM INFO found the song
+08/01/2020 03:07:00 PM INFO tweet: Im starin at a tramp on lean make my eye jump 
+08/01/2020 03:07:00 PM INFO query: im starin at a tramp on lean make my eye jump 
+08/01/2020 03:07:00 PM INFO Score: 1.0/1.0 (11 words matched)in song: SMUCKERS
+08/01/2020 03:07:00 PM INFO  first half score: 0
+08/01/2020 03:07:00 PM INFO second half score: 0
+08/01/2020 03:07:00 PM INFO tweet: Im starin at a tramp on lean make my eye jump 
+08/01/2020 03:07:00 PM INFO query: im starin at a tramp on lean make my eye jump 
+08/01/2020 03:07:00 PM INFO Score: 1.0/1.0 (11 words matched)in song: SMUCKERS
+08/01/2020 03:07:00 PM INFO  first half score: 0
+08/01/2020 03:07:00 PM INFO second half score: 0
+08/01/2020 03:07:00 PM INFO found the song
+08/01/2020 03:08:08 PM INFO tweet: Started ----- ---- in a crack house 
+08/01/2020 03:08:08 PM INFO query: ------- never been in a crack house 
+08/01/2020 03:08:08 PM INFO Score: 0.57/1.0 (4 words matched)in song: Fast Life Interlude
+08/01/2020 03:08:08 PM INFO  first half score: 0
+08/01/2020 03:08:08 PM INFO second half score: 0
+08/01/2020 03:09:08 PM INFO {'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'drug', '$options': '-i'}}, {'title': {'$regex': 'crack-head', '$options': '-i'}}, {'title': {'$regex': 'crackhead', '$options': '-i'}}]}
+08/01/2020 03:09:08 PM INFO {'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}, {'title': {'$regex': 'ass', '$options': '-i'}}]}
+08/01/2020 03:09:08 PM INFO {'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+08/01/2020 03:09:08 PM INFO {'$and': [{'title': {'$regex': 'lean', '$options': '-i'}}, {'title': {'$regex': 'like', '$options': '-i'}}, {'title': {'$regex': 'bitch', '$options': '-i'}}]}
+08/01/2020 03:09:08 PM INFO searching for I'm gonna put cocaine in your ass -Albany people 0 possible titles found.
+08/01/2020 03:09:08 PM INFO searching for Drug dealer buy Jordans, crackhead buy crack 0 possible titles found.
+08/01/2020 03:09:08 PM INFO {'$and': [{'lyrics2': {'$regex': 'cocaine', '$options': '-i'}}, {'lyrics2': {'$regex': 'ass', '$options': '-i'}}]}
+08/01/2020 03:09:08 PM INFO {'$and': [{'lyrics2': {'$regex': 'crack', '$options': '-i'}}, {'lyrics2': {'$regex': 'drug', '$options': '-i'}}, {'lyrics2': {'$regex': 'crack-head', '$options': '-i'}}, {'lyrics2': {'$regex': 'crackhead', '$options': '-i'}}]}
+08/01/2020 03:09:08 PM INFO searching for Shawty how you gone ask me for a dollar to help buy you crac ...  17 possible titles found.
+08/01/2020 03:09:08 PM INFO 210 possible lyrics found.
+08/01/2020 03:09:08 PM INFO 0 possible lyrics found.
+08/01/2020 03:09:08 PM INFO searching for And since I cut the lean habit I been shopping like a bitch 0 possible titles found.
+08/01/2020 03:09:08 PM INFO {'$and': [{'lyrics2': {'$regex': 'lean', '$options': '-i'}}, {'lyrics2': {'$regex': 'like', '$options': '-i'}}, {'lyrics2': {'$regex': 'bitch', '$options': '-i'}}]}
+08/01/2020 03:09:08 PM INFO 419 possible lyrics found.
+08/01/2020 03:09:08 PM INFO {'$and': [{'lyrics2': {'$regex': 'crack', '$options': '-i'}}]}
+08/01/2020 03:09:08 PM INFO 1842 possible lyrics found.
+08/01/2020 03:09:31 PM INFO tweet: And since I cut the lean habit I been shopping like a bitch 
+08/01/2020 03:09:31 PM INFO query: --- ----- i put the lean ----- - ---- -------- ---- a ----- 
+08/01/2020 03:09:31 PM INFO Score: 0.38/1.0 (5 words matched)in song: Migo Gang x Slaughter Gang Music
+08/01/2020 03:09:31 PM INFO  first half score: 0.67
+08/01/2020 03:09:31 PM INFO second half score: 0.14
+08/01/2020 03:09:31 PM INFO found the song
+08/01/2020 03:10:57 PM INFO tweet: Shawty how you gone ask me for a dollar to help buy you crack 
+08/01/2020 03:10:57 PM INFO query: ------ how you gone --- me --- - ------ -- ---- --- you ----- 
+08/01/2020 03:10:57 PM INFO Score: 0.36/1.0 (5 words matched)in song: Nobody
+08/01/2020 03:10:57 PM INFO  first half score: 0.67
+08/01/2020 03:10:57 PM INFO second half score: 0.12
+08/01/2020 03:10:57 PM INFO found the song

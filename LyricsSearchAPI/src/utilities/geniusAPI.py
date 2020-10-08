@@ -3,7 +3,7 @@ import genius_credentials
 import json
 import TextCleaner
 import DBFactory
-        
+import sys
 # all the method
 def findSongInList(songlist, songID):
     for i in range(len(songlist)):
@@ -20,8 +20,7 @@ genius.excluded_terms = ["(Remix)", "(Live)"] # Exclude songs with these words i
 
 downloaded_term = ['heroine', 'oxy', 'heroin', 'dopamine', 'norepinephrine', 'weed','cocaine','lean', 'blunt', 'joint', 'dank', 'crack', 'molly', 'coke', 'smoke', 'dope', 'cigarette']
 
-
-terms = ['morphine']
+terms = ['Rich Off Cocaine']
 nextPage = True
 curPage = 1
 
@@ -101,3 +100,4 @@ for term in terms:
                 
         # go to next search page
         curPage += 1
+        sys.exit(0)

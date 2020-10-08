@@ -1,0 +1,1852 @@
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+/Users/WaylonLuo/git/LyricsBlast/LyricsSearchAPI/src/MechTurk-Search.py:113: DeprecationWarning: count is deprecated. Use Collection.count_documents instead.
+  print('searching for ' + temp_str + ' ' + str(mytitle.count()) + ' titles found.')
+searching for I got the gas and the coke 7 titles found.
+/Users/WaylonLuo/git/LyricsBlast/LyricsSearchAPI/src/MechTurk-Search.py:137: DeprecationWarning: count is deprecated. Use Collection.count_documents instead.
+  print(str(mylyrics.count()) + ' lyrics found.')
+1451 lyrics found.
+
+tweet: I got the gas and the coke 
+query: i got the gas and the coke 
+Score: 1.0/1.0 (7 words matched)in song: I Don’t Sell Molly No More
+ first half score: 0
+second half score: 0
+
+tweet: I got the gas and the coke 
+query: i got the gas and the coke 
+Score: 1.0/1.0 (7 words matched)in song: I Don’t Sell Molly No More
+ first half score: 0
+second half score: 0
+found the song
+No of suggestions: 1 for I got the gas and the coke
+{'$and': [{'title': {'$regex': 'smoke', '$options': '-i'}}, {'title': {'$regex': 'weed', '$options': '-i'}}, {'title': {'$regex': 'lean', '$options': '-i'}}]}
+searching for Last year I used smoke weed drink lean a ...  0 titles found.
+285 lyrics found.
+No of suggestions: 0 for Last year I used smoke weed drink lean and liquor like it was a hobby I changed that around so much
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Classes cancelled fire up the beer and c ...  18 titles found.
+2265 lyrics found.
+No of suggestions: 0 for Classes cancelled fire up the beer and crack open a pot
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for @WGRZ: Police suspect to be held at hosp ...  0 titles found.
+281 lyrics found.
+No of suggestions: 0 for @WGRZ: Police suspect to be held at hospital for 24 hrs. Claims he swallowed oz. of crack cocaine. http://t.co/Sjjn0AsdDB
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for Driving a dying vehicle to niagara count ...  30 titles found.
+1186 lyrics found.
+No of suggestions: 0 for Driving a dying vehicle to niagara county that is loud enough to blow your eardrums is a more efficient method of waking up than cocaine
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for @Truman_Black snorting cocaine ‚ily 30 titles found.
+1186 lyrics found.
+No of suggestions: 0 for @Truman_Black snorting cocaine ‚ily
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for \@Jadeelliott85 clean the crack in your  ...  18 titles found.
+2265 lyrics found.
+
+tweet: \ clean the crack in your car 
+query: - ----- the crack in your --- 
+Score: 0.57/1.0 (4 words matched)in song: Don’t Let Me Down (Demo)
+ first half score: 0.33
+second half score: 0.75
+No of suggestions: 1 for \@Jadeelliott85 clean the crack in your car
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for @joeyyeo13 it's the mayor of toronto tha ...  18 titles found.
+2265 lyrics found.
+No of suggestions: 0 for @joeyyeo13 it's the mayor of toronto that smoked crack tho forreal.. http://t.co/Ih2UjRwSuy
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for Do you think Delta sells coke on board?  ...  7 titles found.
+1451 lyrics found.
+No of suggestions: 0 for Do you think Delta sells coke on board? I need a pick me up lol
+{'$and': [{'title': {'$regex': 'smoke', '$options': '-i'}}, {'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for @PapiGrandeee @Fact i don't smoke. i do  ...  0 titles found.
+289 lyrics found.
+No of suggestions: 0 for @PapiGrandeee @Fact i don't smoke. i do cocaine
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for @jordangougler @BigBootyBoodram yeah I h ...  18 titles found.
+2265 lyrics found.
+No of suggestions: 0 for @jordangougler @BigBootyBoodram yeah I heard crack is pretty healthy to. 4/5 dentists recommend it for your teeth
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Like crack after a long day...  // An #N ...  18 titles found.
+2265 lyrics found.
+No of suggestions: 0 for Like crack after a long day...  // An #NYC favorite indulgence from @MagnoliaBakery. üçå #Sweets‚ https://t.co/2j3d3bKH4H
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for post-coke-addiction bloat is the most i  ...  7 titles found.
+1451 lyrics found.
+No of suggestions: 0 for post-coke-addiction bloat is the most i can hope for!!!!
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Started in a crack house #np 18 titles found.
+2265 lyrics found.
+
+tweet: Started ----- ---- in a crack house 
+query: ------- never been in a crack house 
+Score: 0.57/1.0 (4 words matched)in song: Fast Life Interlude
+ first half score: 0
+second half score: 0
+No of suggestions: 1 for Started in a crack house #np
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for My mom originally thought "Coco" from th ...  30 titles found.
+1186 lyrics found.
+No of suggestions: 0 for My mom originally thought "Coco" from the song meant he's in love with black women. Plot twist when I told her coco means cocaine. SMH
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}, {'title': {'$regex': 'smoke', '$options': '-i'}}, {'title': {'$regex': 'blunt', '$options': '-i'}}]}
+searching for You'll do cocaine but you won't smoke a  ...  0 titles found.
+52 lyrics found.
+No of suggestions: 0 for You'll do cocaine but you won't smoke a blunt or eat Taco Bell??
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Learned mathematics fuckin with crack ad ...  18 titles found.
+2265 lyrics found.
+No of suggestions: 0 for Learned mathematics fuckin with crack addicts, gone for a little now I'm back at it!
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for Tom yum soup from Hayashi aka crack coca ...  0 titles found.
+281 lyrics found.
+No of suggestions: 0 for Tom yum soup from Hayashi aka crack cocaine
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for So much cocaine it's probably on the ave ...  30 titles found.
+1186 lyrics found.
+No of suggestions: 0 for So much cocaine it's probably on the avenue
+{'$and': [{'title': {'$regex': 'lean', '$options': '-i'}}]}
+searching for I'm starin' at a tramp on lean, make my  ...  33 titles found.
+2856 lyrics found.
+
+tweet: Im starin at a tramp on lean make my eye jump 
+query: im starin at a tramp on lean make my eye jump 
+Score: 1.0/1.0 (11 words matched)in song: SMUCKERS
+ first half score: 0
+second half score: 0
+
+tweet: Im starin at a tramp on lean make my eye jump 
+query: im starin at a tramp on lean make my eye jump 
+Score: 1.0/1.0 (11 words matched)in song: SMUCKERS
+ first half score: 0
+second half score: 0
+found the song
+No of suggestions: 1 for I'm starin' at a tramp on lean, make my eye jump
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Thought it was a bad coke habit at first ...  1 titles found.
+370 lyrics found.
+No of suggestions: 0 for Thought it was a bad coke habit at first. But that nigga on some shit. Prolly meth or crack. Who knows https://t.co/znkGElqpmO
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for \@KatieWischerath coke will cure it 7 titles found.
+1451 lyrics found.
+No of suggestions: 0 for \@KatieWischerath coke will cure it
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for OH in the press room: "I was really conf ...  48 titles found.
+1370 lyrics found.
+No of suggestions: 0 for OH in the press room: "I was really confused about that -- where he was getting his heroin from."
+{'$and': [{'title': {'$regex': 'weed', '$options': '-i'}}]}
+searching for Someone get me a big chocolate heart and ...  12 titles found.
+2131 lyrics found.
+No of suggestions: 0 for Someone get me a big chocolate heart and;and; fill it up with different types of weed....(put the chocolates in a bag imma need it after I'm high)
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Back like cooked crack 18 titles found.
+title matched:
+
+tweet: back like cooked crack 
+query: back like cooked crack 
+Score: 1.0/1.0 (4 words matched)in song: Back Like Cooked Crack
+ first half score: 0
+second half score: 0
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for hank does cocaine 30 titles found.
+1186 lyrics found.
+No of suggestions: 0 for hank does cocaine
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for So ready/not ready at all for this weeke ...  18 titles found.
+2265 lyrics found.
+No of suggestions: 0 for So ready/not ready at all for this weekend‚ #camfam @ cameron crack den https://t.co/BZY29qa5iO
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'coke', '$options': '-i'}}, {'title': {'$regex': 'smoke', '$options': '-i'}}]}
+searching for This crack head bouta call her son to co ...  0 titles found.
+131 lyrics found.
+No of suggestions: 0 for This crack head bouta call her son to coke fight she must be crazy imma bouta smoke this nigha
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for @ahlalalanaa I'm sipping on coke and rum 7 titles found.
+1451 lyrics found.
+
+tweet: Im sipping on coke and rum --- 
+query: -- sippin on coke and rum rum 
+Score: 0.71/1.0 (5 words matched)in song: Ignition (Remix)
+ first half score: 0
+second half score: 0
+
+tweet: Im sipping on coke and rum --- 
+query: -- sippin on coke and rum rum 
+Score: 0.71/1.0 (5 words matched)in song: Ignition (Remix)
+ first half score: 0
+second half score: 0
+found the song
+No of suggestions: 1 for @ahlalalanaa I'm sipping on coke and rum
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for Gray's tox report showed heroin and pot  ...  48 titles found.
+1370 lyrics found.
+No of suggestions: 0 for Gray's tox report showed heroin and pot in blood according 2 Baltimore cop.
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Matzah crack cookies http://t.co/oiTIAyL ...  18 titles found.
+2265 lyrics found.
+No of suggestions: 0 for Matzah crack cookies http://t.co/oiTIAyLVN8
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for When you accidentally edit a trippy coca ...  30 titles found.
+1186 lyrics found.
+No of suggestions: 0 for When you accidentally edit a trippy cocaine scene #editinglife
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for Yes...intervention! Ahhhh I love the her ...  48 titles found.
+1370 lyrics found.
+No of suggestions: 0 for Yes...intervention! Ahhhh I love the heroin ones.
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Working on my second movie as a PA. This ...  18 titles found.
+2265 lyrics found.
+No of suggestions: 0 for Working on my second movie as a PA. This time it's the the crack-den-like apartment of a paranoid‚ https://t.co/yNpMhwVJGS
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for I'm a mother fuckin coke boy 7 titles found.
+1451 lyrics found.
+
+tweet: Im a mother fuckin coke boy 
+query: im a ------ ------ coke boy 
+Score: 0.67/1.0 (4 words matched)in song: Whiskey Eyes
+ first half score: 1.0
+second half score: 0.5
+
+tweet: Im a mother fuckin coke boy 
+query: im a ------ ------ coke boy 
+Score: 0.67/1.0 (4 words matched)in song: Whiskey Eyes
+ first half score: 1.0
+second half score: 0.5
+found the song
+No of suggestions: 1 for I'm a mother fuckin coke boy
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for Time to find out if cocaine will fix my  ...  30 titles found.
+1186 lyrics found.
+No of suggestions: 0 for Time to find out if cocaine will fix my sleeping problems...
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for Halfway sleep from the codeine, my old p ...  7 titles found.
+1451 lyrics found.
+No of suggestions: 0 for Halfway sleep from the codeine, my old plug turned to a coke feen
+{'$and': [{'title': {'$regex': 'lean', '$options': '-i'}}]}
+searching for Me bein me sippin lean like always 33 titles found.
+2856 lyrics found.
+No of suggestions: 0 for Me bein me sippin lean like always
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for Inn all fairness James Woods, cocaine is ...  30 titles found.
+1186 lyrics found.
+No of suggestions: 0 for Inn all fairness James Woods, cocaine is a hell of a drug. Just ask Rick http://t.co/L5SnVHozDJ
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for Ah Times Square... lots of pizza, Starbu ...  30 titles found.
+1186 lyrics found.
+No of suggestions: 0 for Ah Times Square... lots of pizza, Starbucks, random street dancers, and apparently cocaine. Never a‚ https://t.co/zDjUw46QWo
+{'$and': [{'title': {'$regex': 'weed', '$options': '-i'}}]}
+searching for Pretty sure i brushed past some poison o ...  12 titles found.
+2131 lyrics found.
+No of suggestions: 0 for Pretty sure i brushed past some poison oak on my way out of newcrust.‚either that or a hella tall weed plant.
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for @marine725 dude... There is help out the ...  18 titles found.
+2265 lyrics found.
+No of suggestions: 0 for @marine725 dude... There is help out there... Just go get it. Don't drag Brody into it. He's positive energy and crack is wack!
+{'$and': [{'title': {'$regex': 'fuck', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for @Shareek_Nyy Any NY Ranger fan who EVER  ...  0 titles found.
+1618 lyrics found.
+No of suggestions: 0 for @Shareek_Nyy Any NY Ranger fan who EVER slanders Henrik needs to lay the fuck off the crack straight up!
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Wondering when I'll start waking up and  ...  18 titles found.
+2265 lyrics found.
+No of suggestions: 0 for Wondering when I'll start waking up and not looking like a crack addict..
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for have some more cocaine up ur churches cu ...  30 titles found.
+1186 lyrics found.
+No of suggestions: 0 for have some more cocaine up ur churches cunt
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for I keep that crack in my crack OR i keep  ...  18 titles found.
+2265 lyrics found.
+
+tweet: I keep that crack in my crack OR i keep that brack in my brack 
+query: i keep ---- crack in my ----- -- - ---- ---- ----- -- -- ----- 
+Score: 0.33/1.0 (5 words matched)in song: Wheres the Blow!
+ first half score: 0.71
+second half score: 0.0
+found the song
+No of suggestions: 0 for I keep that crack in my crack OR i keep that brack in my brack
+{'$and': [{'title': {'$regex': 'smokin', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Smoking crack keeps you in a bad mood 0 titles found.
+361 lyrics found.
+No of suggestions: 0 for Smoking crack keeps you in a bad mood
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for @kristnsullivan and I thought it was coc ...  30 titles found.
+1186 lyrics found.
+No of suggestions: 0 for @kristnsullivan and I thought it was cocaine ..... #k
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for Kyle just snorted ANOTHER line of cocain ...  30 titles found.
+1186 lyrics found.
+No of suggestions: 0 for Kyle just snorted ANOTHER line of cocaine
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for Seriously in the morning don't talk to m ...  30 titles found.
+1186 lyrics found.
+No of suggestions: 0 for Seriously in the morning don't talk to me until I've had at least 2 cups of cocaine...
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for Dropped out first day of school cause ni ...  30 titles found.
+1186 lyrics found.
+
+tweet: Dropped out --- first day of school cause niggas got cocaine to move 
+query: dropped out the first day of school cause niggas got cocaine to move 
+Score: 0.92/1.0 (12 words matched)in song: Send It Up
+ first half score: 0
+second half score: 0
+
+tweet: Dropped out --- first day of school cause niggas got cocaine to move 
+query: dropped out the first day of school cause niggas got cocaine to move 
+Score: 0.92/1.0 (12 words matched)in song: Send It Up
+ first half score: 0
+second half score: 0
+found the song
+No of suggestions: 1 for Dropped out first day of school cause niggas got cocaine to move
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for most of my childhood friends are pregnan ...  48 titles found.
+1370 lyrics found.
+No of suggestions: 0 for most of my childhood friends are pregnant or on heroin, or scene again
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for my cab driver was on so much coke last n ...  7 titles found.
+1451 lyrics found.
+No of suggestions: 0 for my cab driver was on so much coke last night
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for Can't tell if this woman is saying "cook ...  30 titles found.
+1186 lyrics found.
+
+tweet: Cant ---- tell if this woman is saying cooking or cocaine 
+query: cant even tell if this ----- is ------ ------- -- ------- 
+Score: 0.45/1.0 (5 words matched)in song: Don’t Threaten Me with a Good Time
+ first half score: 0.8
+second half score: 0.17
+found the song
+No of suggestions: 0 for Can't tell if this woman is saying "cooking" or "cocaine"
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}, {'title': {'$regex': 'bitch', '$options': '-i'}}, {'title': {'$regex': 'bitch', '$options': '-i'}}]}
+searching for cocaine white like justin bieber bitch,  ...  0 titles found.
+776 lyrics found.
+
+tweet: cocaine white like justin bieber bitch I might show the racks and tease her bitch 
+query: cocaine white like justin bieber bitch - ----- ---- --- ----- --- ----- --- ----- 
+Score: 0.4/1.0 (6 words matched)in song: Halftime
+ first half score: 0.86
+second half score: 0.0
+found the song
+No of suggestions: 0 for cocaine white like justin bieber bitch, I might show the racks and tease her bitch
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for this an old video if him throwing up not ...  7 titles found.
+1451 lyrics found.
+No of suggestions: 0 for this an old video if him throwing up not coke lmao https://t.co/xZ1ZUvLeHJ
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for I know a few niggaz sniff coke and caugh ...  7 titles found.
+1451 lyrics found.
+
+tweet: I know a few niggaz sniff coke and caught seizures 
+query: i know a few niggas sniff coke and caught seizures 
+Score: 1.0/1.0 (10 words matched)in song: Ice Water
+ first half score: 0
+second half score: 0
+
+tweet: I know a few niggaz sniff coke and caught seizures 
+query: i know a few niggas sniff coke and caught seizures 
+Score: 1.0/1.0 (10 words matched)in song: Ice Water
+ first half score: 0
+second half score: 0
+found the song
+No of suggestions: 1 for I know a few niggaz sniff coke and caught seizures
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for I've always liked Eli Manning but this g ...  18 titles found.
+2265 lyrics found.
+No of suggestions: 0 for I've always liked Eli Manning but this guy is on crack if he thinks he should be the highest paid player in the league
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Drug dealer buy Jordans, crackhead buy c ...  18 titles found.
+2265 lyrics found.
+
+tweet: Drug dealer buy Jordans crackhead buy crack 
+query: drug dealer buy jordan crackhead buy crack 
+Score: 1.0/1.0 (7 words matched)in song: All Falls Down
+ first half score: 0
+second half score: 0
+
+tweet: Drug dealer buy Jordans crackhead buy crack 
+query: drug dealer buy jordan crackhead buy crack 
+Score: 1.0/1.0 (7 words matched)in song: All Falls Down
+ first half score: 0
+second half score: 0
+found the song
+No of suggestions: 1 for Drug dealer buy Jordans, crackhead buy crack
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for I'm gonna put cocaine in your ass -Alban ...  30 titles found.
+1186 lyrics found.
+
+tweet: Im gon na put cocaine in your ass Albany people 
+query: -- gon na put ------- in your --- ------ ------ 
+Score: 0.5/1.0 (5 words matched)in song: Trigger Bang
+ first half score: 0.75
+second half score: 0.33
+found the song
+No of suggestions: 0 for I'm gonna put cocaine in your ass -Albany people
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for @andrewmlm diet coke is like ex sex, it  ...  1 titles found.
+370 lyrics found.
+No of suggestions: 0 for @andrewmlm diet coke is like ex sex, it seems like a good idea when you're thirsty and there's nothing better, but once you crack the seal..
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for He got the coke in hand, I got the juice ...  7 titles found.
+1451 lyrics found.
+
+tweet: He got the coke in hand I got the juice and gin 
+query: he got the coke -- ---- i got the juice and gin 
+Score: 0.83/1.0 (10 words matched)in song: Chin Check
+ first half score: 0
+second half score: 0
+
+tweet: He got the coke in hand I got the juice and gin 
+query: he got the coke -- ---- i got the juice and gin 
+Score: 0.83/1.0 (10 words matched)in song: Chin Check
+ first half score: 0
+second half score: 0
+found the song
+No of suggestions: 1 for He got the coke in hand, I got the juice and gin
+{'$and': [{'title': {'$regex': 'fuck', '$options': '-i'}}, {'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for Fuck you Pat Mahoney... king pin heroin  ...  0 titles found.
+690 lyrics found.
+No of suggestions: 0 for Fuck you Pat Mahoney... king pin heroin dealer of long island.. youre going to rot in that jail cell when they find you.
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for If they coming I put that crack in my cr ...  18 titles found.
+2265 lyrics found.
+
+tweet: If they coming -- I put that crack in my crack no 
+query: if ---- ------ up i put that crack in my crack -- 
+Score: 0.67/1.0 (8 words matched)in song: Check
+ first half score: 0
+second half score: 0
+
+tweet: If they coming -- I put that crack in my crack no 
+query: if ---- ------ up i put that crack in my crack -- 
+Score: 0.67/1.0 (8 words matched)in song: Check
+ first half score: 0
+second half score: 0
+found the song
+No of suggestions: 1 for If they coming I put that crack in my crack no
+{'$and': [{'title': {'$regex': 'lean', '$options': '-i'}}]}
+searching for \@DamarkoBones eggs lean turkey sprouted ...  33 titles found.
+2856 lyrics found.
+Traceback (most recent call last):
+  File "/Users/WaylonLuo/git/LyricsBlast/LyricsSearchAPI/src/MechTurk-Search.py", line 139, in <module>
+    for eachlyrics in mylyrics: #loop through mylyrics list
+  File "/usr/local/lib/python3.7/site-packages/pymongo/cursor.py", line 1156, in next
+    if len(self.__data) or self._refresh():
+  File "/usr/local/lib/python3.7/site-packages/pymongo/cursor.py", line 1093, in _refresh
+    self.__send_message(g)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/cursor.py", line 955, in __send_message
+    address=self.__address)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1346, in _run_operation_with_response
+    exhaust=exhaust)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1464, in _retryable_read
+    return func(session, server, sock_info, slave_ok)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1340, in _cmd
+    unpack_res)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/server.py", line 136, in run_operation_with_response
+    _check_command_response(first)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/helpers.py", line 156, in _check_command_response
+    raise CursorNotFound(errmsg, code, response)
+pymongo.errors.CursorNotFound: cursor id 2826793026189745337 not found
+
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+/Users/WaylonLuo/git/LyricsBlast/LyricsSearchAPI/src/MechTurk-Search.py:113: DeprecationWarning: count is deprecated. Use Collection.count_documents instead.
+  print('searching for ' + temp_str + ' ' + str(mytitle.count()) + ' titles found.')
+searching for Everyone thought their weekend was so ex ...  48 titles found.
+/Users/WaylonLuo/git/LyricsBlast/LyricsSearchAPI/src/MechTurk-Search.py:137: DeprecationWarning: count is deprecated. Use Collection.count_documents instead.
+  print(str(mylyrics.count()) + ' lyrics found.')
+1370 lyrics found.
+No of suggestions: 0 for Everyone thought their weekend was so exciting but I busted two guys for shooting up heroin in the Dunkin bathroom so there's that
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for @ifUseek__Amy that's crack cocaine 0 titles found.
+281 lyrics found.
+
+tweet: thats crack cocaine 
+query: ----- crack cocaine 
+Score: 0.67/1.0 (2 words matched)in song: Montréal-Nord
+ first half score: 0
+second half score: 0
+found the song
+No of suggestions: 0 for @ifUseek__Amy that's crack cocaine
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for A hit of crack 18 titles found.
+2265 lyrics found.
+No of suggestions: 0 for A hit of crack
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for She began using crack cocaine with the l ...  0 titles found.
+281 lyrics found.
+No of suggestions: 0 for She began using crack cocaine with the landscaper, then later with her husband #CPEPstories
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}, {'title': {'$regex': 'heroin', '$options': '-i'}}, {'title': {'$regex': 'lean', '$options': '-i'}}, {'title': {'$regex': 'smokin', '$options': '-i'}}]}
+searching for At the bills tailgate with my parents... ...  0 titles found.
+13 lyrics found.
+No of suggestions: 0 for At the bills tailgate with my parents.....a dude just tried to sell me some coke n a gold chain..... My dad goes "Wtf you didn't get any?!"
+{'$and': [{'title': {'$regex': 'smoke', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Smoke crack get whack 1 titles found.
+630 lyrics found.
+No of suggestions: 0 for Smoke crack get whack
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for At the pot with the crack, Im water whip ...  18 titles found.
+2265 lyrics found.
+No of suggestions: 0 for At the pot with the crack, Im water whipping, Im gon‚ finesse it
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for It's 4:00 am. Was there crack cocaine in ...  0 titles found.
+281 lyrics found.
+No of suggestions: 0 for It's 4:00 am. Was there crack cocaine in that wine or?
+{'$and': [{'title': {'$regex': 'weed', '$options': '-i'}}, {'title': {'$regex': 'weed', '$options': '-i'}}, {'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for Over on 3d and ave D in east Village. Ac ...  0 titles found.
+196 lyrics found.
+No of suggestions: 0 for Over on 3d and ave D in east Village. Across from the heroin spot where Bullet bags were sold with other brands https://t.co/j66csvene5
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for \@IamInvizible -Obama has a big empty ho ...  18 titles found.
+2265 lyrics found.
+No of suggestions: 0 for \@IamInvizible -Obama has a big empty house in Chicago. Fill it with all the crack heads, he let of of jail.
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for \@_ITGay especially the ones here in NYC ...  7 titles found.
+1451 lyrics found.
+No of suggestions: 0 for \@_ITGay especially the ones here in NYC. you forgot to mention the people snorting coke in the bathrooms also.
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for Doctor found in doorway died from coke a ...  7 titles found.
+1451 lyrics found.
+No of suggestions: 0 for Doctor found in doorway died from coke and booze binge: autopsy: The Long Island dermatologist and married mom who‚ https://t.co/Ixpw9mAeGS
+{'$and': [{'title': {'$regex': 'smoke', '$options': '-i'}}, {'title': {'$regex': 'weed', '$options': '-i'}}, {'title': {'$regex': 'lean', '$options': '-i'}}]}
+searching for Rather smoke weed than pop pills and sip ...  0 titles found.
+285 lyrics found.
+No of suggestions: 0 for Rather smoke weed than pop pills and sip lean like those guys you're so fond of
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for i want more cocaine 30 titles found.
+1186 lyrics found.
+No of suggestions: 0 for i want more cocaine
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for I must've secretly been on crack my seni ...  18 titles found.
+2265 lyrics found.
+No of suggestions: 0 for I must've secretly been on crack my senior year of high school for me to start dating my ex.
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for @sailorsirena hahahahahah "can you get h ...  48 titles found.
+1370 lyrics found.
+No of suggestions: 0 for @sailorsirena hahahahahah "can you get heroin"
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for After years-long manhunt, Colombian mili ...  30 titles found.
+1186 lyrics found.
+No of suggestions: 0 for After years-long manhunt, Colombian military kills notorious cocaine warlord
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}, {'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for My passion is cocaine. "I like to feed p ...  30 titles found.
+1186 lyrics found.
+No of suggestions: 0 for My passion is cocaine. "I like to feed ppl." *get number immediately* *realizes later her accent meant cooking not cocaine*
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for homeboy: "when you drink jack and; coke, ...  7 titles found.
+1451 lyrics found.
+No of suggestions: 0 for homeboy: "when you drink jack and; coke, you start getting into black girls." true.
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for @NotAllBhas "fun"!!! thats a word for it ...  48 titles found.
+1370 lyrics found.
+No of suggestions: 0 for @NotAllBhas "fun"!!! thats a word for it xD the nature is cool... the rich kids doing heroin is not
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for @imziadmasoud @Kagudeloo @nasaIGRNT damn ...  18 titles found.
+2265 lyrics found.
+No of suggestions: 0 for @imziadmasoud @Kagudeloo @nasaIGRNT damn in the kitchen cookin crack again #wristwristwrist
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for I love cocaine cause it got me feelin li ...  30 titles found.
+1186 lyrics found.
+
+tweet: I love cocaine cause it got me feelin like Im superman 
+query: i love cocaine cause it got me feelin like im superman 
+Score: 1.0/1.0 (11 words matched)in song: Molly Cyrus
+ first half score: 0
+second half score: 0
+
+tweet: I love cocaine cause it got me feelin like Im superman 
+query: i love cocaine cause it got me feelin like im superman 
+Score: 1.0/1.0 (11 words matched)in song: Molly Cyrus
+ first half score: 0
+second half score: 0
+found the song
+No of suggestions: 1 for I love cocaine cause it got me feelin like I'm superman
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for Wow lol there's a drugs in episode about ...  48 titles found.
+1370 lyrics found.
+No of suggestions: 0 for Wow lol there's a drugs in episode about Staten Island aka heroin island. Bout time people realize there's a problem
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Provider of the back drop music for the  ...  18 titles found.
+2265 lyrics found.
+
+tweet: Provider of the back drop music for the crack rock user 
+query: provider of the ---- ---- music for the crack rock user 
+Score: 0.82/1.0 (9 words matched)in song: Hive
+ first half score: 0.6
+second half score: 1.0
+
+tweet: Provider of the back drop music for the crack rock user 
+query: provider of the ---- ---- music for the crack rock user 
+Score: 0.82/1.0 (9 words matched)in song: Hive
+ first half score: 0.6
+second half score: 1.0
+found the song
+No of suggestions: 1 for Provider of the back drop music for the crack rock user
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for @PeteDominick 2 young kids of friends we ...  48 titles found.
+1370 lyrics found.
+No of suggestions: 0 for @PeteDominick 2 young kids of friends were arrested for heroin in a local park. Got 6 months probation. Both are on streets as junkies now.
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for If I ever meet the bastard that invented ...  7 titles found.
+1451 lyrics found.
+No of suggestions: 0 for If I ever meet the bastard that invented burpees, I'm either going to murder him, or buy him a coke.
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for Pixy Stix would be a great way to smuggl ...  30 titles found.
+1186 lyrics found.
+No of suggestions: 0 for Pixy Stix would be a great way to smuggle cocaine.
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for \@Herby088 cocaine. 30 titles found.
+Traceback (most recent call last):
+  File "/Users/WaylonLuo/git/LyricsBlast/LyricsSearchAPI/src/MechTurk-Search.py", line 117, in <module>
+    result = blaster.SMWalignment(tweet.lower(), title.lower(), threshold)
+  File "/Users/WaylonLuo/git/LyricsBlast/LyricsSearchAPI/src/blast.py", line 142, in SMWalignment
+    first_half_score = float(first_half)/(halfway - 1)
+ZeroDivisionError: float division by zero
+
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+/Users/WaylonLuo/git/LyricsBlast/LyricsSearchAPI/src/MechTurk-Search.py:113: DeprecationWarning: count is deprecated. Use Collection.count_documents instead.
+  print('searching for ' + temp_str + ' ' + str(mytitle.count()) + ' titles found.')
+searching for When I'm cold and tired my movements res ...  18 titles found.
+/Users/WaylonLuo/git/LyricsBlast/LyricsSearchAPI/src/MechTurk-Search.py:137: DeprecationWarning: count is deprecated. Use Collection.count_documents instead.
+  print(str(mylyrics.count()) + ' lyrics found.')
+2265 lyrics found.
+No of suggestions: 0 for When I'm cold and tired my movements resemble crack head
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for Okay Richie lost his got damn coke heade ...  7 titles found.
+1451 lyrics found.
+No of suggestions: 0 for Okay Richie lost his got damn coke headed mind. #Vinyl
+{'$and': [{'title': {'$regex': 'lean', '$options': '-i'}}]}
+searching for Bring him thru we baby bottles of lean h ...  33 titles found.
+2856 lyrics found.
+No of suggestions: 0 for Bring him thru we baby bottles of lean https://t.co/PZREANrdnF
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for @dannylameboi @grrlsonfilm we all act li ...  18 titles found.
+2265 lyrics found.
+No of suggestions: 0 for @dannylameboi @grrlsonfilm we all act like crack addicts it's so bad
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Shawty how you gone ask me for a dollar  ...  18 titles found.
+2265 lyrics found.
+
+tweet: Shawty how you gone ask me for a dollar to help buy you crack 
+query: ------ how you gone --- me --- - ------ -- ---- --- you ----- 
+Score: 0.36/1.0 (5 words matched)in song: Nobody
+ first half score: 0.67
+second half score: 0.12
+found the song
+No of suggestions: 0 for Shawty how you gone ask me for a dollar to help buy you crack ?????
+{'$and': [{'title': {'$regex': 'fuck', '$options': '-i'}}, {'title': {'$regex': 'lean', '$options': '-i'}}]}
+searching for Fuck all of these fake lean sippers 1 titles found.
+2078 lyrics found.
+No of suggestions: 0 for Fuck all of these fake lean sippers
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for Moment of #truth: my birth mom was a her ...  48 titles found.
+1370 lyrics found.
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+/Users/WaylonLuo/git/LyricsBlast/LyricsSearchAPI/src/MechTurk-Search.py:113: DeprecationWarning: count is deprecated. Use Collection.count_documents instead.
+  print('searching for ' + temp_str + ' ' + str(mytitle.count()) + ' titles found.')
+searching for When I'm cold and tired my movements res ...  18 titles found.
+/Users/WaylonLuo/git/LyricsBlast/LyricsSearchAPI/src/MechTurk-Search.py:137: DeprecationWarning: count is deprecated. Use Collection.count_documents instead.
+  print(str(mylyrics.count()) + ' lyrics found.')
+2265 lyrics found.
+No of suggestions: 0 for When I'm cold and tired my movements resemble crack head
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for Okay Richie lost his got damn coke heade ...  7 titles found.
+1451 lyrics found.
+No of suggestions: 0 for Okay Richie lost his got damn coke headed mind. #Vinyl
+{'$and': [{'title': {'$regex': 'lean', '$options': '-i'}}]}
+searching for Bring him thru we baby bottles of lean h ...  33 titles found.
+2856 lyrics found.
+No of suggestions: 0 for Bring him thru we baby bottles of lean https://t.co/PZREANrdnF
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for @dannylameboi @grrlsonfilm we all act li ...  18 titles found.
+2265 lyrics found.
+No of suggestions: 0 for @dannylameboi @grrlsonfilm we all act like crack addicts it's so bad
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Shawty how you gone ask me for a dollar  ...  18 titles found.
+2265 lyrics found.
+
+tweet: Shawty how you gone ask me for a dollar to help buy you crack 
+query: ------ how you gone --- me --- - ------ -- ---- --- you ----- 
+Score: 0.36/1.0 (5 words matched)in song: Nobody
+ first half score: 0.67
+second half score: 0.12
+found the song
+No of suggestions: 0 for Shawty how you gone ask me for a dollar to help buy you crack ?????
+{'$and': [{'title': {'$regex': 'fuck', '$options': '-i'}}, {'title': {'$regex': 'lean', '$options': '-i'}}]}
+searching for Fuck all of these fake lean sippers 1 titles found.
+2078 lyrics found.
+No of suggestions: 0 for Fuck all of these fake lean sippers
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for Moment of #truth: my birth mom was a her ...  48 titles found.
+1370 lyrics found.
+No of suggestions: 0 for Moment of #truth: my birth mom was a heroin addict, which is one of the reasons I ended up in‚ https://t.co/6WkBVX7evM
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for Sippin on coke and run I'm like so what  ...  7 titles found.
+1451 lyrics found.
+
+tweet: Sippin on coke and run --- Im like so what Im drunk its the freaking weekend Im bout to have some fun 
+query: sippin on coke and rum rum im like so what im drunk --- --- -------- ------- -- ---- -- ---- ---- --- 
+Score: 0.5/1.0 (11 words matched)in song: Ignition (Remix)
+ first half score: 0.9
+second half score: 0.17
+found the song
+No of suggestions: 0 for Sippin on coke and run I'm like so what I'm drunk it's the freaking weekend I'm bout to have some fun.
+{'$and': [{'title': {'$regex': 'smokin', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for I'm 90% sure somebody is smoking crack o ...  0 titles found.
+361 lyrics found.
+No of suggestions: 0 for I'm 90% sure somebody is smoking crack on this train. It might just be cloves tho.
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for Despite that L we just took, OP still sh ...  48 titles found.
+1370 lyrics found.
+No of suggestions: 0 for Despite that L we just took, OP still shoots up heroin
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for Really @NYMag I thought it would've been ...  30 titles found.
+1186 lyrics found.
+No of suggestions: 0 for Really @NYMag I thought it would've been the cocaine and; the steroids. Silly me. It was espresso. #facepalm https://t.co/A6IOCj5HZV
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for The size of the mosquito tht just flew i ...  18 titles found.
+2265 lyrics found.
+No of suggestions: 0 for The size of the mosquito tht just flew in to my room... Tht shit looked like a dragon on crack
+{'$and': [{'title': {'$regex': 'lean', '$options': '-i'}}]}
+searching for All of my cups dey be muddy, all of my b ...  33 titles found.
+2856 lyrics found.
+
+{'$and': [{'title': {'$regex': 'bitches', '$options': '-i'}}, {'title': {'$regex': 'lean', '$options': '-i'}}]}
+/Users/WaylonLuo/git/LyricsBlast/LyricsSearchAPI/src/MechTurk-Search.py:113: DeprecationWarning: count is deprecated. Use Collection.count_documents instead.
+  print('searching for ' + temp_str + ' ' + str(mytitle.count()) + ' titles found.')
+searching for All of my cups dey be muddy, all of my b ...  0 titles found.
+/Users/WaylonLuo/git/LyricsBlast/LyricsSearchAPI/src/MechTurk-Search.py:137: DeprecationWarning: count is deprecated. Use Collection.count_documents instead.
+  print(str(mylyrics.count()) + ' lyrics found.')
+973 lyrics found.
+No of suggestions: 0 for All of my cups dey be muddy, all of my bitches be buddies I want that neck just like buddy I'm pourin the lean in the bubbly
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for Listening to an album about getting off  ...  48 titles found.
+1370 lyrics found.
+No of suggestions: 0 for Listening to an album about getting off of heroin and it feels like home. So thats where I am.
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Or wanna u just fuckrf and sucked and co ...  18 titles found.
+2265 lyrics found.
+No of suggestions: 0 for Or wanna u just fuckrf and sucked and come home and u sit down and have big convo with em like that a bigger crack up
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for And sells crack https://t.co/oHwVIlxgpe 18 titles found.
+2265 lyrics found.
+No of suggestions: 0 for And sells crack https://t.co/oHwVIlxgpe
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'heroine', '$options': '-i'}}]}
+searching for @amanduhkramer @blaketlewis @neil_perdom ...  0 titles found.
+130 lyrics found.
+No of suggestions: 0 for @amanduhkramer @blaketlewis @neil_perdomo little do they know that I just did crack and heroine in the past two weeks, that's why it's funny
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for Tristian tompson has the hands of Michae ...  30 titles found.
+1186 lyrics found.
+No of suggestions: 0 for Tristian tompson has the hands of Michael j fox on cocaine
+{'$and': [{'title': {'$regex': 'lean', '$options': '-i'}}]}
+searching for Can't even open my eyes still taking ali ...  33 titles found.
+2856 lyrics found.
+Traceback (most recent call last):
+  File "/Users/WaylonLuo/git/LyricsBlast/LyricsSearchAPI/src/MechTurk-Search.py", line 139, in <module>
+    for eachlyrics in mylyrics: #loop through mylyrics list
+  File "/usr/local/lib/python3.7/site-packages/pymongo/cursor.py", line 1156, in next
+    if len(self.__data) or self._refresh():
+  File "/usr/local/lib/python3.7/site-packages/pymongo/cursor.py", line 1093, in _refresh
+    self.__send_message(g)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/cursor.py", line 955, in __send_message
+    address=self.__address)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1346, in _run_operation_with_response
+    exhaust=exhaust)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1464, in _retryable_read
+    return func(session, server, sock_info, slave_ok)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1340, in _cmd
+    unpack_res)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/server.py", line 136, in run_operation_with_response
+    _check_command_response(first)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/helpers.py", line 156, in _check_command_response
+    raise CursorNotFound(errmsg, code, response)
+pymongo.errors.CursorNotFound: cursor id 6241310261016466395 not found
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}]}
+/Users/WaylonLuo/git/LyricsBlast/LyricsSearchAPI/src/MechTurk-Search.py:113: DeprecationWarning: count is deprecated. Use Collection.count_documents instead.
+  print('searching for ' + temp_str + ' ' + str(mytitle.count()) + ' titles found.')
+searching for Even when my daddy was on crack, I was c ...  18 titles found.
+/Users/WaylonLuo/git/LyricsBlast/LyricsSearchAPI/src/MechTurk-Search.py:137: DeprecationWarning: count is deprecated. Use Collection.count_documents instead.
+  print(str(mylyrics.count()) + ' lyrics found.')
+2223 lyrics found.
+
+tweet: ----- Even when my daddy was on crack I was crack now the whole album crack u aint got ta skip a track Im the Best is greatness 
+query: cause even when my daddy was on crack i was crack --- --- ----- ----- ----- - ---- --- -- ---- - ----- -- --- ---- -- --------- 
+Score: 0.36/1.0 (10 words matched)in song: I’m The Best
+ first half score: 0.77
+second half score: 0.0
+found the song
+No of suggestions: 0 for Even when my daddy was on crack, I was crack, now the whole album crack, u ain't gotta skip a track! @NICKIMINAJ "I'm the Best" is greatness
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Knicks offseason hot takes by my fellow  ...  18 titles found.
+2223 lyrics found.
+No of suggestions: 0 for Knicks offseason hot takes by my fellow Knick fans irritate me. Y'all and y'all crack pipe dreams man...
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for i swear everyone on this bus is on crack 18 titles found.
+2223 lyrics found.
+No of suggestions: 0 for i swear everyone on this bus is on crack
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'smokin', '$options': '-i'}}]}
+searching for Tmw you know a show officially sucks...  ...  0 titles found.
+355 lyrics found.
+No of suggestions: 0 for Tmw you know a show officially sucks... That was the crack smoking on OINTB
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for Anyone go read the Book Go Ask Alice and ...  48 titles found.
+1351 lyrics found.
+No of suggestions: 0 for Anyone go read the Book Go Ask Alice and the writer wanted you to believe if you try pot one time within a month you're shooting heroin?
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for No joke when I pierced my ears she cried ...  18 titles found.
+2223 lyrics found.
+No of suggestions: 0 for No joke when I pierced my ears she cried because she couldn't believe she raised a drug addict. Mom chill they're earrings not crack pipes
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for Why did I dream about doing coke at wend ...  7 titles found.
+1440 lyrics found.
+No of suggestions: 0 for Why did I dream about doing coke at wendys
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for @BernoBerns I know. I saw him. Looks sca ...  7 titles found.
+1440 lyrics found.
+No of suggestions: 0 for @BernoBerns I know. I saw him. Looks scary. Also seems like he's on coke. Not the same man I remember.
+{'$and': [{'title': {'$regex': 'bitches', '$options': '-i'}}, {'title': {'$regex': 'bitches', '$options': '-i'}}, {'title': {'$regex': 'coke', '$options': '-i'}}, {'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for All my diamonds glow, chain look like sn ...  1 titles found.
+472 lyrics found.
+
+tweet: All my diamonds glow chain look like snow all my bitches go all my bitches hos they be sniffing coke I dont sniff no coke 
+query: --- -- -------- ---- chains look like snow --- -- bitches go all my bitches hoes they be sniffin coke - ---- ----- -- ---- 
+Score: 0.56/1.0 (14 words matched)in song: On My Line
+ first half score: 0.5
+second half score: 0.62
+No of suggestions: 1 for All my diamonds glow, chain look like snow, all my bitches go, all my bitches hos they be sniffing coke, I don't sniff no coke .
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for I'm so sick of my family and friends dyi ...  48 titles found.
+1351 lyrics found.
+No of suggestions: 0 for I'm so sick of my family and friends dying from fucking heroin it's not okay
+{'$and': [{'title': {'$regex': 'lean', '$options': '-i'}}, {'title': {'$regex': 'blunt', '$options': '-i'}}, {'title': {'$regex': 'fuck', '$options': '-i'}}]}
+searching for Got some lean in my cup, gas in my blunt ...  0 titles found.
+307 lyrics found.
+
+tweet: Got some lean in my cup gas in my blunt got some hoes who gon fuck 
+query: --- ---- lean in my cup gas in my blunt --- ---- ---- --- --- ---- 
+Score: 0.5/1.0 (8 words matched)in song: Fetti
+ first half score: 0.71
+second half score: 0.33
+found the song
+No of suggestions: 0 for Got some lean in my cup, gas in my blunt, got some hoes who gon fuck
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for Trying to rebrand myself but then I just ...  7 titles found.
+1440 lyrics found.
+No of suggestions: 0 for Trying to rebrand myself but then I just end up doing coke
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for I once shared coke with @lindsaylohan ht ...  7 titles found.
+1440 lyrics found.
+No of suggestions: 0 for I once shared coke with @lindsaylohan https://t.co/7Jk6aQyeoN
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Both crack heads https://t.co/nunmDn40Hf 18 titles found.
+2223 lyrics found.
+No of suggestions: 0 for Both crack heads https://t.co/nunmDn40Hf
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for Theres not a man tht cnt b thrown, not a ...  7 titles found.
+1440 lyrics found.
+No of suggestions: 0 for Theres not a man tht cnt b thrown, not a horse that cnt b rode. A bull tht cnt b stopped. There's not a disco that I coke la rock cnt rock
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for \@BensonMasonry @Super70sSports had acut ...  7 titles found.
+1440 lyrics found.
+No of suggestions: 0 for \@BensonMasonry @Super70sSports had acute levels of coke in system and atherosclerosis too.
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Thinking bout regrets while I'm dreaming ...  18 titles found.
+2223 lyrics found.
+No of suggestions: 0 for Thinking bout regrets while I'm dreaming back , My daughter needed shoes man somebody momma needed crack
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for If Paige spills cocaine on herself, how  ...  30 titles found.
+1177 lyrics found.
+No of suggestions: 0 for If Paige spills cocaine on herself, how does she find it?"
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Make the crack rock make it skrt skrt ti ...  18 titles found.
+2223 lyrics found.
+No of suggestions: 0 for Make the crack rock make it skrt skrt till it pop
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for Champagne, cocaine, gasoline and most th ...  30 titles found.
+1177 lyrics found.
+
+tweet: Champagne cocaine gasoline and most things in between 
+query: champagne cocaine gasoline and most things in between 
+Score: 1.0/1.0 (8 words matched)in song: Don’t Threaten Me with a Good Time
+ first half score: 0
+second half score: 0
+
+tweet: Champagne cocaine gasoline and most things in between 
+query: champagne cocaine gasoline and most things in between 
+Score: 1.0/1.0 (8 words matched)in song: Don’t Threaten Me with a Good Time
+ first half score: 0
+second half score: 0
+found the song
+No of suggestions: 1 for Champagne, cocaine, gasoline and most things in between https://t.co/tBys1e8tt6
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for Elephant sedative in heroin maybe behind ...  48 titles found.
+1351 lyrics found.
+No of suggestions: 0 for Elephant sedative in heroin maybe behind od's sweeping Midwest
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for \@manicpanics obviously, getting out the ...  48 titles found.
+1351 lyrics found.
+No of suggestions: 0 for \@manicpanics obviously, getting out there how devastating heroin abuse can be is important, but I just think this is the wrong way to do it.
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for @Marsh_Madness57 cocaine apartment!? 30 titles found.
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+1177 lyrics found.
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+float division by zero
+No of suggestions: 0 for @Marsh_Madness57 cocaine apartment!?
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for champagne cocaine gasoline 30 titles found.
+1177 lyrics found.
+
+tweet: champagne cocaine gasoline 
+query: champagne cocaine gasoline 
+Score: 1.0/1.0 (3 words matched)in song: Don’t Threaten Me with a Good Time
+ first half score: 0
+second half score: 0
+found the song
+No of suggestions: 0 for champagne cocaine gasoline
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for Reuter says after drinking beer and doin ...  30 titles found.
+1177 lyrics found.
+No of suggestions: 0 for Reuter says after drinking beer and doing cocaine with Heimroth, "We decided to rough him (Lockrow) up to get some money." #518crime #TroyNY
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'smokin', '$options': '-i'}}, {'title': {'$regex': 'fuck', '$options': '-i'}}]}
+searching for If I'm on crack you out here smoking dic ...  0 titles found.
+310 lyrics found.
+No of suggestions: 0 for If I'm on crack you out here smoking dick üôÇ and ion want to go back to looking at ugly fuck niggas at Glades  https://t.co/gW4DxNKGH1
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for @shiftx6_ "only criminals have heroin" s ...  48 titles found.
+1351 lyrics found.
+No of suggestions: 0 for @shiftx6_ "only criminals have heroin" should we make it equal so we can too? dumb argument tbh
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for the opinion I can defend sha: coke is tr ...  7 titles found.
+1440 lyrics found.
+No of suggestions: 0 for the opinion I can defend sha: coke is trash
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for \@RebeccaDale3 dude overdosed on heroin? 48 titles found.
+1351 lyrics found.
+No of suggestions: 0 for \@RebeccaDale3 dude overdosed on heroin?
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for @jbones77 I sit with the common man in t ...  7 titles found.
+1440 lyrics found.
+No of suggestions: 0 for @jbones77 I sit with the common man in the coke corner - doesn't rain in the owners box - PS would have left after Murphy HR @AdamRubinESPN
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Well if babbling like a monkey on crack  ...  18 titles found.
+2223 lyrics found.
+No of suggestions: 0 for Well if babbling like a monkey on crack during a phone interview lands jobs then I nailed it!! #newcareer
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for These are like crack. No matter where I  ...  18 titles found.
+2223 lyrics found.
+No of suggestions: 0 for These are like crack. No matter where I sit I will always walk to get them. So delicious. #steakfrites #patlafreida #citifield #Mets https://t.co/i6GPRgkhSe
+{'$and': [{'title': {'$regex': 'bitch', '$options': '-i'}}, {'title': {'$regex': 'smoke', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for some bitch just told me to go fix my wea ...  0 titles found.
+417 lyrics found.
+No of suggestions: 0 for some bitch just told me to go fix my weave...that's like me telling her to go smoke more crack ...
+{'$and': [{'title': {'$regex': 'fuck', '$options': '-i'}}, {'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for Fuck cocaine we still get trippy 0 titles found.
+894 lyrics found.
+No of suggestions: 0 for Fuck cocaine we still get trippy
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for \@DebraMessing I saw an article on Faceb ...  7 titles found.
+1440 lyrics found.
+No of suggestions: 0 for \@DebraMessing I saw an article on Facebook, someone is accusing him of using coke.. on account of all the sniffles..
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Ha it's the first day of orientation so  ...  18 titles found.
+2223 lyrics found.
+No of suggestions: 0 for Ha it's the first day of orientation so FIT security is on crack trying to find some infraction to entertain themselves with
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Watching Intervention seeing white girls ...  18 titles found.
+2223 lyrics found.
+No of suggestions: 0 for Watching Intervention seeing white girls asking their daddys for crack money like okay
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for This guy likes me apparently but he also ...  30 titles found.
+1177 lyrics found.
+No of suggestions: 0 for This guy likes me apparently but he also doesn't know that he threatned to punch me in the face when he was high off cocaine sooo uhhjjj???
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for @CharlieDaniels Not to mention when I wa ...  7 titles found.
+1440 lyrics found.
+No of suggestions: 0 for @CharlieDaniels Not to mention when I walked back stage 5 mins before we went on before UK, the lead singer and guitarist were snorting coke
+{'$and': [{'title': {'$regex': 'weed', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Weed or crack , y'all new niggas lazy fa ...  0 titles found.
+375 lyrics found.
+No of suggestions: 0 for Weed or crack , y'all new niggas lazy fam
+{'$and': [{'title': {'$regex': 'weed', '$options': '-i'}}]}
+searching for We just passed by a weed candy truck in  ...  12 titles found.
+2088 lyrics found.
+No of suggestions: 0 for We just passed by a weed candy truck in NYC and my mom felt the need to point it out to me  thanks ma
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for @fasiranjha agree!! But dr Sb honestly I ...  7 titles found.
+1440 lyrics found.
+No of suggestions: 0 for @fasiranjha agree!! But dr Sb honestly I want to say you can't beat Rohail in coke studio
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for RPD press conference on heroin-related d ...  48 titles found.
+1351 lyrics found.
+No of suggestions: 0 for RPD press conference on heroin-related deaths about to begin. @News_8 https://t.co/3nRTTnuiIO
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'dank', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'fuck', '$options': '-i'}}]}
+searching for @Wolf_InTheWilds @soundisup @EricLiptonN ...  0 titles found.
+82 lyrics found.
+No of suggestions: 0 for @Wolf_InTheWilds @soundisup @EricLiptonNYT @MunibaKamal Trump is as clean as a bathoom in a crack house. $25m fraud settlement, 4k lawsuits.
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for Yall out here doin coke? Cant relate. 7 titles found.
+1440 lyrics found.
+No of suggestions: 0 for Yall out here doin coke? Cant relate.
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for First @MsCharlotteWWE compares herself t ...  18 titles found.
+2223 lyrics found.
+No of suggestions: 0 for First @MsCharlotteWWE compares herself to Gretzky now The Undertaker is this chick on crack
+{'$and': [{'title': {'$regex': 'bitch', '$options': '-i'}}, {'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for you're a pussy ass bitch if you don't sn ...  1 titles found.
+940 lyrics found.
+No of suggestions: 0 for you're a pussy ass bitch if you don't snort coke on mono
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for And ya'll act like Trump and Hillary hav ...  7 titles found.
+1440 lyrics found.
+No of suggestions: 0 for And ya'll act like Trump and Hillary haven't snorted coke off the same toilet seat at Skull and Bones parties.
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for They say crack kill nigga my crack sell  ...  18 titles found.
+2223 lyrics found.
+
+tweet: They say crack kill nigga my crack sell 
+query: they say crack ---- nigga my crack ---- 
+Score: 0.75/1.0 (6 words matched)in song: No Heart
+ first half score: 0
+second half score: 0
+
+tweet: They say crack kill nigga my crack sell 
+query: they say crack ---- nigga my crack ---- 
+Score: 0.75/1.0 (6 words matched)in song: No Heart
+ first half score: 0
+second half score: 0
+found the song
+No of suggestions: 1 for They say crack kill nigga my crack sell #21Savage
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for crackhead on my street tried to sell me  ...  18 titles found.
+2223 lyrics found.
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}]}
+/Users/WaylonLuo/git/LyricsBlast/LyricsSearchAPI/src/MechTurk-Search.py:113: DeprecationWarning: count is deprecated. Use Collection.count_documents instead.
+  print('searching for ' + temp_str + ' ' + str(mytitle.count()) + ' titles found.')
+searching for Even when my daddy was on crack, I was c ...  18 titles found.
+/Users/WaylonLuo/git/LyricsBlast/LyricsSearchAPI/src/MechTurk-Search.py:137: DeprecationWarning: count is deprecated. Use Collection.count_documents instead.
+  print(str(mylyrics.count()) + ' lyrics found.')
+2223 lyrics found.
+
+tweet: ----- Even when my daddy was on crack I was crack now the whole album crack u aint got ta skip a track Im the Best is greatness 
+query: cause even when my daddy was on crack i was crack --- --- ----- ----- ----- - ---- --- -- ---- - ----- -- --- ---- -- --------- 
+Score: 0.36/1.0 (10 words matched)in song: I’m The Best
+ first half score: 0.77
+second half score: 0.0
+found the song
+No of suggestions: 0 for Even when my daddy was on crack, I was crack, now the whole album crack, u ain't gotta skip a track! @NICKIMINAJ "I'm the Best" is greatness
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Knicks offseason hot takes by my fellow  ...  18 titles found.
+2223 lyrics found.
+No of suggestions: 0 for Knicks offseason hot takes by my fellow Knick fans irritate me. Y'all and y'all crack pipe dreams man...
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for i swear everyone on this bus is on crack 18 titles found.
+2223 lyrics found.
+No of suggestions: 0 for i swear everyone on this bus is on crack
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'smokin', '$options': '-i'}}]}
+searching for Tmw you know a show officially sucks...  ...  0 titles found.
+355 lyrics found.
+No of suggestions: 0 for Tmw you know a show officially sucks... That was the crack smoking on OINTB
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for Anyone go read the Book Go Ask Alice and ...  48 titles found.
+1351 lyrics found.
+No of suggestions: 0 for Anyone go read the Book Go Ask Alice and the writer wanted you to believe if you try pot one time within a month you're shooting heroin?
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for No joke when I pierced my ears she cried ...  18 titles found.
+2223 lyrics found.
+No of suggestions: 0 for No joke when I pierced my ears she cried because she couldn't believe she raised a drug addict. Mom chill they're earrings not crack pipes
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for Why did I dream about doing coke at wend ...  7 titles found.
+1440 lyrics found.
+No of suggestions: 0 for Why did I dream about doing coke at wendys
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for @BernoBerns I know. I saw him. Looks sca ...  7 titles found.
+1440 lyrics found.
+No of suggestions: 0 for @BernoBerns I know. I saw him. Looks scary. Also seems like he's on coke. Not the same man I remember.
+{'$and': [{'title': {'$regex': 'bitches', '$options': '-i'}}, {'title': {'$regex': 'bitches', '$options': '-i'}}, {'title': {'$regex': 'coke', '$options': '-i'}}, {'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for All my diamonds glow, chain look like sn ...  1 titles found.
+472 lyrics found.
+
+tweet: All my diamonds glow chain look like snow all my bitches go all my bitches hos they be sniffing coke I dont sniff no coke 
+query: --- -- -------- ---- chains look like snow --- -- bitches go all my bitches hoes they be sniffin coke - ---- ----- -- ---- 
+Score: 0.56/1.0 (14 words matched)in song: On My Line
+ first half score: 0.5
+second half score: 0.62
+No of suggestions: 1 for All my diamonds glow, chain look like snow, all my bitches go, all my bitches hos they be sniffing coke, I don't sniff no coke .
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for I'm so sick of my family and friends dyi ...  48 titles found.
+1351 lyrics found.
+No of suggestions: 0 for I'm so sick of my family and friends dying from fucking heroin it's not okay
+{'$and': [{'title': {'$regex': 'lean', '$options': '-i'}}, {'title': {'$regex': 'blunt', '$options': '-i'}}, {'title': {'$regex': 'fuck', '$options': '-i'}}]}
+searching for Got some lean in my cup, gas in my blunt ...  0 titles found.
+307 lyrics found.
+
+tweet: Got some lean in my cup gas in my blunt got some hoes who gon fuck 
+query: --- ---- lean in my cup gas in my blunt --- ---- ---- --- --- ---- 
+Score: 0.5/1.0 (8 words matched)in song: Fetti
+ first half score: 0.71
+second half score: 0.33
+found the song
+No of suggestions: 0 for Got some lean in my cup, gas in my blunt, got some hoes who gon fuck
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for Trying to rebrand myself but then I just ...  7 titles found.
+1440 lyrics found.
+No of suggestions: 0 for Trying to rebrand myself but then I just end up doing coke
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for I once shared coke with @lindsaylohan ht ...  7 titles found.
+1440 lyrics found.
+No of suggestions: 0 for I once shared coke with @lindsaylohan https://t.co/7Jk6aQyeoN
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Both crack heads https://t.co/nunmDn40Hf 18 titles found.
+2223 lyrics found.
+No of suggestions: 0 for Both crack heads https://t.co/nunmDn40Hf
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for Theres not a man tht cnt b thrown, not a ...  7 titles found.
+1440 lyrics found.
+No of suggestions: 0 for Theres not a man tht cnt b thrown, not a horse that cnt b rode. A bull tht cnt b stopped. There's not a disco that I coke la rock cnt rock
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for \@BensonMasonry @Super70sSports had acut ...  7 titles found.
+1440 lyrics found.
+No of suggestions: 0 for \@BensonMasonry @Super70sSports had acute levels of coke in system and atherosclerosis too.
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Thinking bout regrets while I'm dreaming ...  18 titles found.
+2223 lyrics found.
+No of suggestions: 0 for Thinking bout regrets while I'm dreaming back , My daughter needed shoes man somebody momma needed crack
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for If Paige spills cocaine on herself, how  ...  30 titles found.
+1177 lyrics found.
+No of suggestions: 0 for If Paige spills cocaine on herself, how does she find it?"
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Make the crack rock make it skrt skrt ti ...  18 titles found.
+2223 lyrics found.
+No of suggestions: 0 for Make the crack rock make it skrt skrt till it pop
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for Champagne, cocaine, gasoline and most th ...  30 titles found.
+1177 lyrics found.
+
+tweet: Champagne cocaine gasoline and most things in between 
+query: champagne cocaine gasoline and most things in between 
+Score: 1.0/1.0 (8 words matched)in song: Don’t Threaten Me with a Good Time
+ first half score: 0
+second half score: 0
+
+tweet: Champagne cocaine gasoline and most things in between 
+query: champagne cocaine gasoline and most things in between 
+Score: 1.0/1.0 (8 words matched)in song: Don’t Threaten Me with a Good Time
+ first half score: 0
+second half score: 0
+found the song
+No of suggestions: 1 for Champagne, cocaine, gasoline and most things in between https://t.co/tBys1e8tt6
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for Elephant sedative in heroin maybe behind ...  48 titles found.
+1351 lyrics found.
+No of suggestions: 0 for Elephant sedative in heroin maybe behind od's sweeping Midwest
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for \@manicpanics obviously, getting out the ...  48 titles found.
+1351 lyrics found.
+No of suggestions: 0 for \@manicpanics obviously, getting out there how devastating heroin abuse can be is important, but I just think this is the wrong way to do it.
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for @Marsh_Madness57 cocaine apartment!? 30 titles found.
+float division by zero
+1177 lyrics found.
+float division by zero
+No of suggestions: 0 for @Marsh_Madness57 cocaine apartment!?
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for champagne cocaine gasoline 30 titles found.
+1177 lyrics found.
+tweet: champagne cocaine gasoline 
+query: champagne cocaine gasoline 
+Score: 1.0/1.0 (3 words matched)in song: Don’t Threaten Me with a Good Time
+ first half score: 0
+second half score: 0
+found the song
+No of suggestions: 0 for champagne cocaine gasoline
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for Reuter says after drinking beer and doin ...  30 titles found.
+1177 lyrics found.
+No of suggestions: 0 for Reuter says after drinking beer and doing cocaine with Heimroth, "We decided to rough him (Lockrow) up to get some money." #518crime #TroyNY
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'smokin', '$options': '-i'}}, {'title': {'$regex': 'fuck', '$options': '-i'}}]}
+searching for If I'm on crack you out here smoking dic ...  0 titles found.
+310 lyrics found.
+No of suggestions: 0 for If I'm on crack you out here smoking dick üôÇ and ion want to go back to looking at ugly fuck niggas at Glades  https://t.co/gW4DxNKGH1
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for @shiftx6_ "only criminals have heroin" s ...  48 titles found.
+1351 lyrics found.
+No of suggestions: 0 for @shiftx6_ "only criminals have heroin" should we make it equal so we can too? dumb argument tbh
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for the opinion I can defend sha: coke is tr ...  7 titles found.
+1440 lyrics found.
+No of suggestions: 0 for the opinion I can defend sha: coke is trash
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for \@RebeccaDale3 dude overdosed on heroin? 48 titles found.
+1351 lyrics found.
+No of suggestions: 0 for \@RebeccaDale3 dude overdosed on heroin?
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for @jbones77 I sit with the common man in t ...  7 titles found.
+1440 lyrics found.
+No of suggestions: 0 for @jbones77 I sit with the common man in the coke corner - doesn't rain in the owners box - PS would have left after Murphy HR @AdamRubinESPN
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Well if babbling like a monkey on crack  ...  18 titles found.
+2223 lyrics found.
+No of suggestions: 0 for Well if babbling like a monkey on crack during a phone interview lands jobs then I nailed it!! #newcareer
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for These are like crack. No matter where I  ...  18 titles found.
+2223 lyrics found.
+No of suggestions: 0 for These are like crack. No matter where I sit I will always walk to get them. So delicious. #steakfrites #patlafreida #citifield #Mets https://t.co/i6GPRgkhSe
+{'$and': [{'title': {'$regex': 'bitch', '$options': '-i'}}, {'title': {'$regex': 'smoke', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for some bitch just told me to go fix my wea ...  0 titles found.
+417 lyrics found.
+No of suggestions: 0 for some bitch just told me to go fix my weave...that's like me telling her to go smoke more crack ...
+{'$and': [{'title': {'$regex': 'fuck', '$options': '-i'}}, {'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for Fuck cocaine we still get trippy 0 titles found.
+894 lyrics found.
+No of suggestions: 0 for Fuck cocaine we still get trippy
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for \@DebraMessing I saw an article on Faceb ...  7 titles found.
+1440 lyrics found.
+No of suggestions: 0 for \@DebraMessing I saw an article on Facebook, someone is accusing him of using coke.. on account of all the sniffles..
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Ha it's the first day of orientation so  ...  18 titles found.
+2223 lyrics found.
+No of suggestions: 0 for Ha it's the first day of orientation so FIT security is on crack trying to find some infraction to entertain themselves with
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Watching Intervention seeing white girls ...  18 titles found.
+2223 lyrics found.
+No of suggestions: 0 for Watching Intervention seeing white girls asking their daddys for crack money like okay
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for This guy likes me apparently but he also ...  30 titles found.
+1177 lyrics found.
+No of suggestions: 0 for This guy likes me apparently but he also doesn't know that he threatned to punch me in the face when he was high off cocaine sooo uhhjjj???
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for @CharlieDaniels Not to mention when I wa ...  7 titles found.
+1440 lyrics found.
+No of suggestions: 0 for @CharlieDaniels Not to mention when I walked back stage 5 mins before we went on before UK, the lead singer and guitarist were snorting coke
+{'$and': [{'title': {'$regex': 'weed', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Weed or crack , y'all new niggas lazy fa ...  0 titles found.
+375 lyrics found.
+No of suggestions: 0 for Weed or crack , y'all new niggas lazy fam
+{'$and': [{'title': {'$regex': 'weed', '$options': '-i'}}]}
+searching for We just passed by a weed candy truck in  ...  12 titles found.
+2088 lyrics found.
+No of suggestions: 0 for We just passed by a weed candy truck in NYC and my mom felt the need to point it out to me  thanks ma
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for @fasiranjha agree!! But dr Sb honestly I ...  7 titles found.
+1440 lyrics found.
+No of suggestions: 0 for @fasiranjha agree!! But dr Sb honestly I want to say you can't beat Rohail in coke studio
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for RPD press conference on heroin-related d ...  48 titles found.
+1351 lyrics found.
+No of suggestions: 0 for RPD press conference on heroin-related deaths about to begin. @News_8 https://t.co/3nRTTnuiIO
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'dank', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'fuck', '$options': '-i'}}]}
+searching for @Wolf_InTheWilds @soundisup @EricLiptonN ...  0 titles found.
+82 lyrics found.
+No of suggestions: 0 for @Wolf_InTheWilds @soundisup @EricLiptonNYT @MunibaKamal Trump is as clean as a bathoom in a crack house. $25m fraud settlement, 4k lawsuits.
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for Yall out here doin coke? Cant relate. 7 titles found.
+1440 lyrics found.
+No of suggestions: 0 for Yall out here doin coke? Cant relate.
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for First @MsCharlotteWWE compares herself t ...  18 titles found.
+2223 lyrics found.
+No of suggestions: 0 for First @MsCharlotteWWE compares herself to Gretzky now The Undertaker is this chick on crack
+{'$and': [{'title': {'$regex': 'bitch', '$options': '-i'}}, {'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for you're a pussy ass bitch if you don't sn ...  1 titles found.
+940 lyrics found.
+No of suggestions: 0 for you're a pussy ass bitch if you don't snort coke on mono
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for And ya'll act like Trump and Hillary hav ...  7 titles found.
+1440 lyrics found.
+No of suggestions: 0 for And ya'll act like Trump and Hillary haven't snorted coke off the same toilet seat at Skull and Bones parties.
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for They say crack kill nigga my crack sell  ...  18 titles found.
+2223 lyrics found.
+
+tweet: They say crack kill nigga my crack sell 
+query: they say crack ---- nigga my crack ---- 
+Score: 0.75/1.0 (6 words matched)in song: No Heart
+ first half score: 0
+second half score: 0
+
+tweet: They say crack kill nigga my crack sell 
+query: they say crack ---- nigga my crack ---- 
+Score: 0.75/1.0 (6 words matched)in song: No Heart
+ first half score: 0
+second half score: 0
+found the song
+No of suggestions: 1 for They say crack kill nigga my crack sell #21Savage
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for crackhead on my street tried to sell me  ...  18 titles found.
+2223 lyrics found.
+No of suggestions: 0 for crackhead on my street tried to sell me a kid's bike for 50 bucks so he could presumably purchase more crack.
+{'$and': [{'title': {'$regex': 'dope', '$options': '-i'}}, {'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for Ain't no salary cap in the dope game ain ...  0 titles found.
+303 lyrics found.
+
+tweet: Aint no salary cap in the dope game aint no collective bargaining in cocaine 
+query: aint no salary cap in the dope game ---- -- ---------- ---------- -- ------- 
+Score: 0.57/1.0 (8 words matched)in song: It’s Good
+ first half score: 1.0
+second half score: 0.25
+
+tweet: Aint no salary cap in the dope game aint no collective bargaining in cocaine 
+query: aint no salary cap in the dope game ---- -- ---------- ---------- -- ------- 
+Score: 0.57/1.0 (8 words matched)in song: It’s Good
+ first half score: 1.0
+second half score: 0.25
+found the song
+No of suggestions: 1 for Ain't no salary cap in the dope game ain't no collective bargaining in cocaine
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for In a cab and; the girls next to me snort ...  30 titles found.
+1177 lyrics found.
+No of suggestions: 0 for In a cab and; the girls next to me snorting cocaine...I like this cab.
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for \@Raytap1 he seems like a functioning co ...  7 titles found.
+1440 lyrics found.
+No of suggestions: 0 for \@Raytap1 he seems like a functioning coke head @jaketapper
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for He said selling coke to get a mill shit  ...  7 titles found.
+1440 lyrics found.
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+/Users/WaylonLuo/git/LyricsBlast/LyricsSearchAPI/src/MechTurk-Search.py:113: DeprecationWarning: count is deprecated. Use Collection.count_documents instead.
+  print('searching for ' + temp_str + ' ' + str(mytitle.count()) + ' titles found.')
+searching for He said selling coke to get a mill shit  ...  7 titles found.
+/Users/WaylonLuo/git/LyricsBlast/LyricsSearchAPI/src/MechTurk-Search.py:137: DeprecationWarning: count is deprecated. Use Collection.count_documents instead.
+  print(str(mylyrics.count()) + ' lyrics found.')
+1418 lyrics found.
+
+tweet: He said selling coke to get a mill shit I got paid like this 
+query: -- ---- selling coke to get a mil shit i got paid like this 
+Score: 0.86/1.0 (12 words matched)in song: Meek Mill Freestyles on Flex (2016) | Freestyle #017
+ first half score: 0.67
+second half score: 1.0
+
+tweet: He said selling coke to get a mill shit I got paid like this 
+query: -- ---- selling coke to get a mil shit i got paid like this 
+Score: 0.86/1.0 (12 words matched)in song: Meek Mill Freestyles on Flex (2016) | Freestyle #017
+ first half score: 0.67
+second half score: 1.0
+found the song
+No of suggestions: 1 for He said selling coke to get a mill shit I got paid like this
+{'$and': [{'title': {'$regex': 'smoke', '$options': '-i'}}, {'title': {'$regex': 'weed', '$options': '-i'}}, {'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for Teachers regular ass people man they thr ...  0 titles found.
+116 lyrics found.
+No of suggestions: 0 for Teachers regular ass people man they throw back shots smoke weed and snort a little coke and then be in class straight hypocriting
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for @louislevanti @AllDefDigital he's on the ...  30 titles found.
+1164 lyrics found.
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+/Users/WaylonLuo/git/LyricsBlast/LyricsSearchAPI/src/MechTurk-Search.py:113: DeprecationWarning: count is deprecated. Use Collection.count_documents instead.
+  print('searching for ' + temp_str + ' ' + str(mytitle.count()) + ' titles found.')
+searching for Watched a coke addict blow $1200 and tel ...  7 titles found.
+/Users/WaylonLuo/git/LyricsBlast/LyricsSearchAPI/src/MechTurk-Search.py:137: DeprecationWarning: count is deprecated. Use Collection.count_documents instead.
+  print(str(mylyrics.count()) + ' lyrics found.')
+1378 lyrics found.
+No of suggestions: 0 for Watched a coke addict blow $1200 and tell me he was terminally ill on a black jack table, how's your Thursday night?
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for I love looking at my LuvMutts all serene ...  18 titles found.
+2108 lyrics found.
+No of suggestions: 0 for I love looking at my LuvMutts all serene during their post breakfast nap It is the quiet time between pre-noon crack hourand;afternoon sprinkle
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for @JCColtin I mean, the reason he "was una ...  7 titles found.
+1378 lyrics found.
+No of suggestions: 0 for @JCColtin I mean, the reason he "was unable to attend" the original parade was because he was on a paranoid coke binge.
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for @JamaicaObserver Man cocaine killin peop ...  30 titles found.
+1150 lyrics found.
+No of suggestions: 0 for @JamaicaObserver Man cocaine killin people's kids , an for a lawenforcment personel shld know better !
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for if I have to go 6 more months without Me ...  30 titles found.
+1150 lyrics found.
+No of suggestions: 0 for if I have to go 6 more months without Melanie Martinez music I am going to have to resort to doing heavy cocaine
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for #HealthcareBill Opioid addiction; under  ...  48 titles found.
+1233 lyrics found.
+No of suggestions: 0 for #HealthcareBill Opioid addiction; under Obama's watch, My Brother in law sentenced to 10 years in prison. My cousin died of heroin overdose
+{'$and': [{'title': {'$regex': 'smokin', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for BEER?! this nigga smoking crack https:// ...  0 titles found.
+329 lyrics found.
+No of suggestions: 0 for BEER?! this nigga smoking crack https://t.co/DWJTOwYZaU
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for she probably thinks we were on crack bc  ...  18 titles found.
+2108 lyrics found.
+No of suggestions: 0 for she probably thinks we were on crack bc of how much we laughed after she said this https://t.co/SezqdWvgpB
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for .@BrooklynDA and; @NYPDDetectives Bk. No ...  48 titles found.
+1233 lyrics found.
+No of suggestions: 0 for .@BrooklynDA and; @NYPDDetectives Bk. North Narco announce the arrest of James "Fly" Williams +12 others in connection to a heroin drug ring https://t.co/g6xFyfdiOV
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for I feel like a crack head over here helpi ...  18 titles found.
+2108 lyrics found.
+No of suggestions: 0 for I feel like a crack head over here helping my friend create scents
+{'$and': [{'title': {'$regex': 'lean', '$options': '-i'}}]}
+searching for I just ate a edible and now im sippin le ...  33 titles found.
+2626 lyrics found.
+No of suggestions: 0 for I just ate a edible and now im sippin lean yeaaahhh im asking for it tonight
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for cocaine rlly clears the sinuses 30 titles found.
+1150 lyrics found.
+No of suggestions: 0 for cocaine rlly clears the sinuses
+{'$and': [{'title': {'$regex': 'bitches', '$options': '-i'}}, {'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for @ItsATamThing Exactly... but why does CB ...  0 titles found.
+367 lyrics found.
+No of suggestions: 0 for @ItsATamThing Exactly... but why does CB make the best nasty ass songs?  he's half of me (minus the beating bitches and; cocaine).
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for If you think SmackDown can top Raw you'r ...  18 titles found.
+2108 lyrics found.
+No of suggestions: 0 for If you think SmackDown can top Raw you're on crack
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for First question: you were a heroin addict ...  48 titles found.
+1233 lyrics found.
+No of suggestions: 0 for First question: you were a heroin addict before you met Alex West. Canale: Correct. #AlexWest
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for Shorty like 19 sniffing coke young black ...  7 titles found.
+1378 lyrics found.
+
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+/Users/WaylonLuo/git/LyricsBlast/LyricsSearchAPI/src/MechTurk-Search.py:113: DeprecationWarning: count is deprecated. Use Collection.count_documents instead.
+  print('searching for ' + temp_str + ' ' + str(mytitle.count()) + ' titles found.')
+searching for Watched a coke addict blow $1200 and tel ...  7 titles found.
+/Users/WaylonLuo/git/LyricsBlast/LyricsSearchAPI/src/MechTurk-Search.py:137: DeprecationWarning: count is deprecated. Use Collection.count_documents instead.
+  print(str(mylyrics.count()) + ' lyrics found.')
+1378 lyrics found.
+No of suggestions: 0 for Watched a coke addict blow $1200 and tell me he was terminally ill on a black jack table, how's your Thursday night?
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for I love looking at my LuvMutts all serene ...  18 titles found.
+2108 lyrics found.
+No of suggestions: 0 for I love looking at my LuvMutts all serene during their post breakfast nap It is the quiet time between pre-noon crack hourand;afternoon sprinkle
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for @JCColtin I mean, the reason he "was una ...  7 titles found.
+1378 lyrics found.
+No of suggestions: 0 for @JCColtin I mean, the reason he "was unable to attend" the original parade was because he was on a paranoid coke binge.
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for @JamaicaObserver Man cocaine killin peop ...  30 titles found.
+1150 lyrics found.
+No of suggestions: 0 for @JamaicaObserver Man cocaine killin people's kids , an for a lawenforcment personel shld know better !
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for if I have to go 6 more months without Me ...  30 titles found.
+1150 lyrics found.
+No of suggestions: 0 for if I have to go 6 more months without Melanie Martinez music I am going to have to resort to doing heavy cocaine
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for #HealthcareBill Opioid addiction; under  ...  48 titles found.
+1233 lyrics found.
+No of suggestions: 0 for #HealthcareBill Opioid addiction; under Obama's watch, My Brother in law sentenced to 10 years in prison. My cousin died of heroin overdose
+{'$and': [{'title': {'$regex': 'smokin', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for BEER?! this nigga smoking crack https:// ...  0 titles found.
+329 lyrics found.
+No of suggestions: 0 for BEER?! this nigga smoking crack https://t.co/DWJTOwYZaU
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for she probably thinks we were on crack bc  ...  18 titles found.
+2108 lyrics found.
+No of suggestions: 0 for she probably thinks we were on crack bc of how much we laughed after she said this https://t.co/SezqdWvgpB
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for .@BrooklynDA and; @NYPDDetectives Bk. No ...  48 titles found.
+1233 lyrics found.
+No of suggestions: 0 for .@BrooklynDA and; @NYPDDetectives Bk. North Narco announce the arrest of James "Fly" Williams +12 others in connection to a heroin drug ring https://t.co/g6xFyfdiOV
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for I feel like a crack head over here helpi ...  18 titles found.
+2108 lyrics found.
+No of suggestions: 0 for I feel like a crack head over here helping my friend create scents
+{'$and': [{'title': {'$regex': 'lean', '$options': '-i'}}]}
+searching for I just ate a edible and now im sippin le ...  33 titles found.
+2626 lyrics found.
+No of suggestions: 0 for I just ate a edible and now im sippin lean yeaaahhh im asking for it tonight
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for cocaine rlly clears the sinuses 30 titles found.
+1150 lyrics found.
+No of suggestions: 0 for cocaine rlly clears the sinuses
+{'$and': [{'title': {'$regex': 'bitches', '$options': '-i'}}, {'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for @ItsATamThing Exactly... but why does CB ...  0 titles found.
+367 lyrics found.
+No of suggestions: 0 for @ItsATamThing Exactly... but why does CB make the best nasty ass songs?  he's half of me (minus the beating bitches and; cocaine).
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for If you think SmackDown can top Raw you'r ...  18 titles found.
+2108 lyrics found.
+No of suggestions: 0 for If you think SmackDown can top Raw you're on crack
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for First question: you were a heroin addict ...  48 titles found.
+1233 lyrics found.
+No of suggestions: 0 for First question: you were a heroin addict before you met Alex West. Canale: Correct. #AlexWest
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for Shorty like 19 sniffing coke young black ...  7 titles found.
+1378 lyrics found.
+No of suggestions: 0 for Shorty like 19 sniffing coke young black girl lost
+{'$and': [{'title': {'$regex': 'lean', '$options': '-i'}}]}
+searching for My nigga jus went thru the airport with  ...  33 titles found.
+2626 lyrics found.
+
+{'$and': [{'title': {'$regex': 'lean', '$options': '-i'}}]}
+/Users/WaylonLuo/git/LyricsBlast/LyricsSearchAPI/src/MechTurk-Search.py:113: DeprecationWarning: count is deprecated. Use Collection.count_documents instead.
+  print('searching for ' + temp_str + ' ' + str(mytitle.count()) + ' titles found.')
+searching for My nigga jus went thru the airport with  ...  33 titles found.
+/Users/WaylonLuo/git/LyricsBlast/LyricsSearchAPI/src/MechTurk-Search.py:137: DeprecationWarning: count is deprecated. Use Collection.count_documents instead.
+  print(str(mylyrics.count()) + ' lyrics found.')
+2626 lyrics found.
+No of suggestions: 0 for My nigga jus went thru the airport with 5 pints of lean lmaooo. Yoo if the prescription calid yu valid smh im jelous
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for \@starlady24 @danielle_ivory @immigrant_ ...  18 titles found.
+2108 lyrics found.
+No of suggestions: 0 for \@starlady24 @danielle_ivory @immigrant_legal and what planet are you residing on? time to put the crack pipe down now and find a good rehab facility
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for The cutest little girl just came up to m ...  7 titles found.
+1378 lyrics found.
+No of suggestions: 0 for The cutest little girl just came up to me and goes "I just had coke"
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for Woke up with cocaine in my hair I though ...  30 titles found.
+1150 lyrics found.
+
+tweet: Woke up with cocaine in my hair I thought it was lice ---- ---- 
+query: woke up ---- ------- in my hair - thought it was lice yeah yeah 
+Score: 0.64/1.0 (9 words matched)in song: Kelly Price
+ first half score: 0
+second half score: 0
+
+tweet: Woke up with cocaine in my hair I thought it was lice ---- ---- 
+query: woke up ---- ------- in my hair - thought it was lice yeah yeah 
+Score: 0.64/1.0 (9 words matched)in song: Kelly Price
+ first half score: 0
+second half score: 0
+found the song
+No of suggestions: 1 for Woke up with cocaine in my hair I thought it was lice
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for I'm tryna crack a cold one tn 18 titles found.
+2108 lyrics found.
+No of suggestions: 0 for I'm tryna crack a cold one tn
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for If a guy is selling crack to school kids ...  18 titles found.
+2108 lyrics found.
+No of suggestions: 0 for If a guy is selling crack to school kids you don't let him go just bc there's a second guy waiting to fill in https://t.co/WVNDKAgrFs
+{'$and': [{'title': {'$regex': 'bitch', '$options': '-i'}}, {'title': {'$regex': 'weed', '$options': '-i'}}, {'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for This bitch put Parmesan cheese on a weed ...  0 titles found.
+137 lyrics found.
+No of suggestions: 0 for This bitch put Parmesan cheese on a weed baggy and her mom found it and thought it was cocaine lmaoooooooo
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for Silently judging yalls answers about cok ...  7 titles found.
+1378 lyrics found.
+No of suggestions: 0 for Silently judging yalls answers about coke like https://t.co/qEP2pxvtux
+{'$and': [{'title': {'$regex': 'lean', '$options': '-i'}}]}
+searching for tropic thunder and some lean seems like  ...  33 titles found.
+2626 lyrics found.
+No of suggestions: 0 for tropic thunder and some lean seems like something I'd be into if I was 16 in 2017
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Lmao only one LT one is a crack head and ...  18 titles found.
+2108 lyrics found.
+No of suggestions: 0 for Lmao only one LT one is a crack head and pedo disrespectful to Tomlinson
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'bitches', '$options': '-i'}}]}
+searching for Sold crack to bit**s in there 3rd trimes ...  0 titles found.
+614 lyrics found.
+No of suggestions: 0 for Sold crack to bit**s in there 3rd trimester
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for coke for what? you weak man https://t.co ...  7 titles found.
+1378 lyrics found.
+No of suggestions: 0 for coke for what? you weak man https://t.co/ZNQSh098xn
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for I think I'm hooked on this crack pie. #S ...  18 titles found.
+2108 lyrics found.
+No of suggestions: 0 for I think I'm hooked on this crack pie. #SeoHungry
+{'$and': [{'title': {'$regex': 'lean', '$options': '-i'}}]}
+searching for How much xans and lean do you have to do ...  33 titles found.
+2626 lyrics found.
+No of suggestions: 0 for How much xans and lean do you have to do before you realize you're a fucking loser -@russdiemon
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for You in Hollywood everyone sniff coke in  ...  7 titles found.
+1378 lyrics found.
+No of suggestions: 0 for You in Hollywood everyone sniff coke in Hollywood  https://t.co/XpNLv9leQD
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for If I were cross eyed, I would NEVER do c ...  30 titles found.
+1150 lyrics found.
+No of suggestions: 0 for If I were cross eyed, I would NEVER do cocaine.
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for In addition to an annoying crack, I foun ...  18 titles found.
+2108 lyrics found.
+No of suggestions: 0 for In addition to an annoying crack, I found Manzo's "Cioccolato" -- chocolate cake, Frangelico and;‚ https://t.co/eBrt6W1Xvs
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}, {'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for @kurteichenwald @AnastasiaBhause just ge ...  48 titles found.
+1233 lyrics found.
+No of suggestions: 0 for @kurteichenwald @AnastasiaBhause just getting to this ? Also Rush is a heroin addict and he preaches to heroin addicts so... makes sense
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for Because cocaine is a hell of a drug #Why ...  30 titles found.
+1150 lyrics found.
+
+tweet: Because cocaine is a hell of a drug ------ 
+query: ------- ------- its a hell of a ---- though 
+Score: 0.56/1.0 (5 words matched)in song: Don’t Threaten Me with a Good Time
+ first half score: 0.5
+second half score: 0.6
+
+tweet: Because cocaine is a hell of a drug 
+query: ------- cocaine -- a hell of a drug 
+Score: 0.75/1.0 (6 words matched)in song: ​todas
+ first half score: 0.33
+second half score: 1.0
+
+tweet: Because cocaine is a hell of a drug 
+query: ------- cocaine -- a hell of a drug 
+Score: 0.75/1.0 (6 words matched)in song: ​todas
+ first half score: 0.33
+second half score: 1.0
+found the song
+No of suggestions: 2 for Because cocaine is a hell of a drug #WhyIQuit
+{'$and': [{'title': {'$regex': 'blunt', '$options': '-i'}}]}
+searching for That thunder made me drop my blunt 13 titles found.
+1474 lyrics found.
+No of suggestions: 0 for That thunder made me drop my blunt
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for you must be still sniffing coke. https:/ ...  7 titles found.
+1378 lyrics found.
+No of suggestions: 0 for you must be still sniffing coke. https://t.co/Wa6pUgbYda
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for Just for the weekend to spend cocaine an ...  30 titles found.
+1150 lyrics found.
+No of suggestions: 0 for Just for the weekend to spend cocaine and snort money. Not to play hockey lolllll. don't get too worried https://t.co/lli0FApcJL
+{'$and': [{'title': {'$regex': 'pour', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for @SonnyNj My brothers R trying to get a s ...  0 titles found.
+306 lyrics found.
+No of suggestions: 0 for @SonnyNj My brothers R trying to get a spot but I'm not even gonna be playing so I don't kno if I wanna go Tyna but I'll come to crack up
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for Gotta clear my name I only snort coke on ...  7 titles found.
+1378 lyrics found.
+No of suggestions: 0 for Gotta clear my name I only snort coke once a year
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for I gotta go to sleep. I could crack my se ...  18 titles found.
+2108 lyrics found.
+No of suggestions: 0 for I gotta go to sleep. I could crack my self up tweeting nonsense but I gotta sleep and
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for You're pointing the finger at a fighter  ...  7 titles found.
+1378 lyrics found.
+No of suggestions: 0 for You're pointing the finger at a fighter for taking a diuretic to make weight, but you're a fucking coke head!!
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for Bet you'll never taste my kiss, in a rum ...  7 titles found.
+1378 lyrics found.
+No of suggestions: 0 for Bet you'll never taste my kiss, in a rum and coke
+{'$and': [{'title': {'$regex': 'weed', '$options': '-i'}}, {'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for I just want a lifetime supply of wine we ...  0 titles found.
+255 lyrics found.
+No of suggestions: 0 for I just want a lifetime supply of wine weed coke dick and an on call massage therapist
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for Yo, I swear one of the tenants at my job ...  7 titles found.
+1378 lyrics found.
+No of suggestions: 0 for Yo, I swear one of the tenants at my jobs be having coke parties.
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}, {'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for diet coke is better then regular coke do ...  7 titles found.
+1378 lyrics found.
+No of suggestions: 0 for diet coke is better then regular coke dont fucking @ me
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}, {'title': {'$regex': 'lean', '$options': '-i'}}, {'title': {'$regex': 'smokin', '$options': '-i'}}, {'title': {'$regex': 'xan', '$options': '-i'}}]}
+searching for If I have to smack a p*ssy a** n*gga imm ...  0 titles found.
+6 lyrics found.
+No of suggestions: 0 for If I have to smack a p*ssy a** n*gga imma make it look sexy !!!
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for Yo I am on cocaine right now. 30 titles found.
+1150 lyrics found.
+No of suggestions: 0 for Yo I am on cocaine right now.
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for Been told us....drug dealer buy Jordan c ...  18 titles found.
+2108 lyrics found.
+
+tweet: Been told us drug dealer buy Jordan crack head buy crack and the white man get paid offa -- all a that 
+query: ---- ---- -- drug dealer buy jordan ----- ---- buy crack and the white man get paid ---- of all - that 
+Score: 0.64/1.0 (14 words matched)in song: All Falls Down
+ first half score: 0.5
+second half score: 0.75
+
+tweet: Been told us drug dealer buy Jordan crack head buy crack and the white man get paid offa -- all a that 
+query: ---- ---- -- drug dealer buy jordan ----- ---- buy crack and the white man get paid ---- of all - that 
+Score: 0.64/1.0 (14 words matched)in song: All Falls Down (Original)
+ first half score: 0.5
+second half score: 0.75
+No of suggestions: 2 for Been told us....drug dealer buy Jordan crack head buy crack and the white man get paid offa all a that.
+{'$and': [{'title': {'$regex': 'molly', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for Niggas be poppin Molly and; taking xans, ...  0 titles found.
+12 lyrics found.
+No of suggestions: 0 for Niggas be poppin Molly and; taking xans, basically whole ass crack heads but god forbid someone mention coke, niggas is looking at u like https://t.co/vcpq5D9YC2
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}, {'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for Less than 1 yr ago - more deaths in the  ...  48 titles found.
+1233 lyrics found.
+No of suggestions: 0 for Less than 1 yr ago - more deaths in the from heroin than deaths by guns. Heroin is 100 illegal so tell me again how #guncontrol will help? https://t.co/La90bdcO2a
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for Why does everyone think doing coke is a  ...  7 titles found.
+1378 lyrics found.
+No of suggestions: 0 for Why does everyone think doing coke is a normal thing to casually do?? I'm confused
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for had 2 sell cocaine i was tryna pay tha b ...  30 titles found.
+1150 lyrics found.
+No of suggestions: 0 for had 2 sell cocaine i was tryna pay tha bills
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for a tree and tv! all in one week. plus som ...  18 titles found.
+2108 lyrics found.
+No of suggestions: 0 for a tree and tv! all in one week. plus some street magic and a little crack
+{'$and': [{'title': {'$regex': 'smoke', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for really just tryna smoke some crack and g ...  1 titles found.
+544 lyrics found.
+No of suggestions: 0 for really just tryna smoke some crack and get my dick sucked
+{'$and': [{'title': {'$regex': 'weed', '$options': '-i'}}, {'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for I like how I've never smoked weed but I' ...  0 titles found.
+255 lyrics found.
+No of suggestions: 0 for I like how I've never smoked weed but I've done coke
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for Man, I wish the Indians were the Astros  ...  7 titles found.
+1378 lyrics found.
+No of suggestions: 0 for Man, I wish the Indians were the Astros right now. So does my coke dealer
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for What I tell u bout talking heroin ? http ...  48 titles found.
+1233 lyrics found.
+No of suggestions: 0 for What I tell u bout talking heroin ? https://t.co/ooF1Bd0QoZ
+{'$and': [{'title': {'$regex': 'joint', '$options': '-i'}}]}
+searching for ...it was a whole half a joint packed w  ...  9 titles found.
+1100 lyrics found.
+No of suggestions: 0 for ...it was a whole half a joint packed w the hydro skunk
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for @JDMorgan @realDonaldTrump Kiss My Ass I ...  7 titles found.
+1378 lyrics found.
+No of suggestions: 0 for @JDMorgan @realDonaldTrump Kiss My Ass Ignorant fucking Bastard.... All liberals actors are clueless coke head pedophiles https://t.co/btt2ZLee7E
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for And you look straight out of the crack h ...  18 titles found.
+2108 lyrics found.
+No of suggestions: 0 for And you look straight out of the crack house... https://t.co/s38qxO3Go3
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for I can't believe people shoplift for a ‚r ...  7 titles found.
+1378 lyrics found.
+No of suggestions: 0 for I can't believe people shoplift for a ‚rush‚ like do coke or something
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for Why are carnists obsessed with if vegans ...  7 titles found.
+1378 lyrics found.
+No of suggestions: 0 for Why are carnists obsessed with if vegans are doing coke its so weird
+{'$and': [{'title': {'$regex': 'smokin', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for You must be smoking crack if you think w ...  0 titles found.
+329 lyrics found.
+No of suggestions: 0 for You must be smoking crack if you think we have a chance in hell of beating the #Broncos on Sunday night. #NYGvsBroncos #SNF #GiantsChat
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for can someone pls point me to a reliable a ...  18 titles found.
+2108 lyrics found.
+No of suggestions: 0 for can someone pls point me to a reliable ableton crack ? for mac ? would like to make EDM now
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for because coke aint that bad... it ain't k ...  7 titles found.
+1378 lyrics found.
+No of suggestions: 0 for because coke aint that bad... it ain't kiddy porn or nothing https://t.co/xOzSfke4J6
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for When you both some crack https://t.co/vx ...  18 titles found.
+2108 lyrics found.
+No of suggestions: 0 for When you both some crack https://t.co/vxHN2Cjzai
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for To be fair to The Economist if you are t ...  30 titles found.
+1150 lyrics found.
+No of suggestions: 0 for To be fair to The Economist if you are the one taking it across international borders cocaine is one of the most profitable ommodities to ship on the planet. https://t.co/vwIStUgsjH
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'dank', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'fuck', '$options': '-i'}}]}
+searching for New York realty is really trash. They re ...  0 titles found.
+77 lyrics found.
+No of suggestions: 0 for New York realty is really trash. They really be trying to sell crack houses for 500K
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for Director of a satirical magazine (El Jue ...  30 titles found.
+1150 lyrics found.
+No of suggestions: 0 for Director of a satirical magazine (El Jueves) charged for a joke about Spanish police using cocaine in Catalonia. https://t.co/LZnVFyq9tD
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for I don't know much about heroin, but I wa ...  48 titles found.
+1233 lyrics found.
+No of suggestions: 0 for I don't know much about heroin, but I wanna try just about everything once before I die.
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for Switch blades,cocaine goth boy click til ...  30 titles found.
+1150 lyrics found.
+No of suggestions: 0 for Switch blades,cocaine goth boy click til my sole take @Lilpeep
+{'$and': [{'title': {'$regex': 'smokin', '$options': '-i'}}, {'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for \@stephenasmith smoking crack. 0 titles found.
+329 lyrics found.
+No of suggestions: 0 for \@stephenasmith smoking crack.
+{'$and': [{'title': {'$regex': 'lean', '$options': '-i'}}]}
+searching for My lean cost more than your rent. 33 titles found.
+2626 lyrics found.
+
+tweet: My lean cost more than your rent --- -- -- 
+query: my lean cost more than your rent ooh it do 
+Score: 0.7/1.0 (7 words matched)in song: Gucci Gang
+ first half score: 0
+second half score: 0
+
+tweet: My lean cost more than your rent --- -- -- 
+query: my lean cost more than your rent ooh it do 
+Score: 0.7/1.0 (7 words matched)in song: Gucci Gang
+ first half score: 0
+second half score: 0
+found the song
+No of suggestions: 1 for My lean cost more than your rent.
+{'$and': [{'title': {'$regex': 'heroin', '$options': '-i'}}]}
+searching for This isn't a "cool video" there are peop ...  48 titles found.
+1233 lyrics found.
+No of suggestions: 0 for This isn't a "cool video" there are people literally shooting up heroin and dogs about to fight with clipped ears.
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}]}
+searching for @JustinTrudeau @Jollibee Does the office ...  18 titles found.
+2108 lyrics found.
+No of suggestions: 0 for @JustinTrudeau @Jollibee Does the office of the PM require random drug testing? I'm pretty sure Jolibee puts crack in their fried chicken.
+{'$and': [{'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for Aahhahahahahaha model releases footage o ...  30 titles found.
+1150 lyrics found.
+No of suggestions: 0 for Aahhahahahahaha model releases footage of Dolphins coach snorting cocaine after he goes after players for protests https://t.co/qjW7uEThvZ https://t.co/ApuT7rsnXE
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for Miami culture is being able to do coke b ...  7 titles found.
+1378 lyrics found.
+No of suggestions: 0 for Miami culture is being able to do coke but not being rich AT ALL.
+{'$and': [{'title': {'$regex': 'crack', '$options': '-i'}}, {'title': {'$regex': 'cocaine', '$options': '-i'}}]}
+searching for @MagaNavajo @OfficialJoelF This ain't cr ...  0 titles found.
+261 lyrics found.
+No of suggestions: 0 for @MagaNavajo @OfficialJoelF This ain't crack he's snorting cocaine
+{'$and': [{'title': {'$regex': 'coke', '$options': '-i'}}]}
+searching for Remembering how lit it was watching a gi ...  7 titles found.
+1378 lyrics found.
+No of suggestions: 0 for Remembering how lit it was watching a girl do coke infront of me on ft and another girl sending me a freaky ass post all ina same day on last years thanksgiving lmao
+{'$and': [{'title': {'$regex': 'fuck', '$options': '-i'}}]}
+searching for Dopey #111 is up. This week we talk abou ...  87 titles found.
+7756 lyrics found.
+Traceback (most recent call last):
+  File "/Users/WaylonLuo/git/LyricsBlast/LyricsSearchAPI/src/MechTurk-Search.py", line 139, in <module>
+    for eachlyrics in mylyrics: #loop through mylyrics list
+  File "/usr/local/lib/python3.7/site-packages/pymongo/cursor.py", line 1156, in next
+    if len(self.__data) or self._refresh():
+  File "/usr/local/lib/python3.7/site-packages/pymongo/cursor.py", line 1093, in _refresh
+    self.__send_message(g)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/cursor.py", line 955, in __send_message
+    address=self.__address)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1346, in _run_operation_with_response
+    exhaust=exhaust)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1464, in _retryable_read
+    return func(session, server, sock_info, slave_ok)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1340, in _cmd
+    unpack_res)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/server.py", line 136, in run_operation_with_response
+    _check_command_response(first)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/helpers.py", line 156, in _check_command_response
+    raise CursorNotFound(errmsg, code, response)
+pymongo.errors.CursorNotFound: cursor id 6920387067258493539 not found
+
+
