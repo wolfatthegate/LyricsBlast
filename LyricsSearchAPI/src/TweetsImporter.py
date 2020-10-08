@@ -1,10 +1,14 @@
+import pymongo
 import json
-import DBFactory
 from datetime import datetime
 
-dbworker = DBFactory.DBFactory()
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+
+mydb = myclient['LyricsDB']
+myTbl = mydb['Tweets_test']
+
 # filepath = 'archived_tweets/nys_tweets_filtered_2014_Q2.json'
-filepath = 'archived_tweets/nys_tweets_filtered_2014_Q4.json'
+filepath = 'archived_tweets/nys_tweets_filtered_2014_Q1.json'
 
 with open(filepath, 'r') as f:
     for line in f:
@@ -24,11 +28,10 @@ with open(filepath, 'r') as f:
         except:
             print('empty json') 
         try:
-            dbworker.insert2MongoDB(tweet['id'], 'NYtweets', 'TwitterData', data)
+            myTbl.insert_one(data)
         except:
             print('insertion error')
     
 with open('archived_tweets/log.txt', 'w') as logfile:
     logfile.write('finished importing file: {} at {}'.format(filepath, datetime.now().time())) 
         
-
