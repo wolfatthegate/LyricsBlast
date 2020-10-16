@@ -44,6 +44,7 @@ class TextCleaner:
             string = white_space.sub(r' ', string)
             string = string.replace('\'', '')
             string = string.replace('\\', '')
+            string = string.replace('+', '')
             string = string.replace('eee', 'ee')
             string = string.replace('hh', 'h')
             string = string.strip()

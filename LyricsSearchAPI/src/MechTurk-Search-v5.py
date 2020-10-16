@@ -121,7 +121,7 @@ def searchTweet(doc):
         temp_str = doc['data'][0:60] + ' ... '
     else:
         temp_str = doc['data']
-        
+    
     logging.info(mytitlequery, extra = {'_id': doc['_id']})
     logging.info('searching for ' + temp_str + ' ' + str(mytitle.count()) + ' possible titles found.', extra = {'_id': doc['_id']})
     
@@ -166,7 +166,7 @@ def searchTweet(doc):
         maxResult = 0
         maxMatch = 0
   
-        for eachline in eachlyrics['lyrics3'].splitlines():
+        for eachline in eachlyrics['lyrics4'].splitlines():
             
             eachline = cleaner.clean(eachline)
             
@@ -251,7 +251,7 @@ myquery = {}
 testTbl = mydb['MechTurk']
 noofdoc = testTbl.find(myquery).count() #find() method returns a list of dictionary
 
-x = 0
+x = 549
 y = 20
 
 while x < noofdoc:
