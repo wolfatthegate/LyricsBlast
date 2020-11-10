@@ -230,6 +230,10 @@ def searchTweet(doc):
 logFormatter = '%(asctime)s - %(_id)s - %(levelname)s - %(message)s'
 logging.basicConfig(filename='archived_tweets/myLogs.log',level=logging.DEBUG, format='%(asctime)s %(_id)s %(levelname)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
 
+now = datetime.now()
+dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
+print("date and time =", dt_string)
+
 cleaner = TextCleaner.TextCleaner()
 # spell = SpellChecker()
 normalizer = Normalizer.Normalizer()
