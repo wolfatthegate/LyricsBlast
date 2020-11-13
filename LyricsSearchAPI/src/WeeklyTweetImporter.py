@@ -1,7 +1,6 @@
 import glob
 filepathList = glob.glob("week2_json/*.json")
 
-
 import pymongo
 import json
 from datetime import datetime
@@ -9,7 +8,7 @@ from datetime import datetime
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 
 mydb = myclient['TwitterData']
-myTbl = mydb['2017-07-16-Weekly']
+myTbl = mydb['2017-07-16-WeeklyTweets']
 
 def TweetImporter(filepath):
     with open(filepath, 'r') as f:
@@ -20,12 +19,14 @@ def TweetImporter(filepath):
             try:
                 tweetID = str(tweet['id'])
                 description = tweet['user']['description']
+                text = tweet['text'] # actual tweet
                 createdAt = tweet['created_at']
                 location = tweet['place']['full_name']
                  
-                data = {'tweetID': tweetID ,
-                        'description': description ,
-                        'createdAt': createdAt ,
+                data = {'tweetID': tweetID,
+                        'description': description, 
+                        'tweet': text,
+                        'createdAt': createdAt,
                         'location': location}
             except:
                 print('duplicate')
@@ -33,11 +34,11 @@ def TweetImporter(filepath):
                 myTbl.insert_one(data)
             except:
                 print('insertion error. TweetID: ' + tweetID)
-                logfile.write('duplicate data. TweetID: {}. Description {}. Filepath {}\n'.format(tweetID, description, filepath)) 
+                #logfile.write('duplicate data. TweetID: {}. Tweet {}. Filepath {}\n'.format(tweetID, description, filepath)) 
     
         logfile.write('finished importing file: {} at {}\n'.format(filepath, datetime.now().time())) 
 
 for filepath in filepathList: 
-    with open('week2_json/log.txt', 'a') as logfile:
+    with open('logs/week2_json_log.txt', 'a') as logfile:
         TweetImporter(filepath)
     
