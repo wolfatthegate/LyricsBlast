@@ -8,7 +8,7 @@ mydb = myclient['LyricsDB']
 myTbl = mydb['Tweets_test']
 
 # filepath = 'archived_tweets/nys_tweets_filtered_2014_Q2.json'
-filepath = 'archived_tweets/nys_tweets_filtered_2014_Q1.json'
+filepath = '../archived_tweets/test.json'
 
 with open(filepath, 'r') as f:
     for line in f:
@@ -28,10 +28,11 @@ with open(filepath, 'r') as f:
         except:
             print('empty json') 
         try:
-            myTbl.insert_one(data)
+            print(data)
+            #myTbl.insert_one(data)
         except:
             print('insertion error')
     
-with open('archived_tweets/log.txt', 'w') as logfile:
+with open('archived_tweets/log.txt', 'a') as logfile:
     logfile.write('finished importing file: {} at {}'.format(filepath, datetime.now().time())) 
         

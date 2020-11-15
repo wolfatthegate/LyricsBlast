@@ -1,24 +1,14 @@
-from nltk.corpus import wordnet 
+import random
+import json
 
-synonyms = []
-antonyms = []
- 
-for syn in wordnet.synsets("heroins"):
-    print(syn)
-    for l in syn.lemmas():
-        synonyms.append(l.name())
-        if l.antonyms():
-            antonyms.append(l.antonyms()[0].name())
-  
-print(set(synonyms))
-print(set(antonyms))
+tweetsfile = open("tweets/2017-01-01-Weekly-500Samples.json", "r")
+tweetslist = []
 
-for syn in wordnet.synsets("beautiful"):
-    print(syn)
-    for l in syn.lemmas():
-        synonyms.append(l.name())
-        if l.antonyms():
-            antonyms.append(l.antonyms()[0].name())
-  
-print(set(synonyms))
-print(set(antonyms))
+data = json.load(tweetsfile)
+
+for d in data:
+    print(d)
+    
+tweetsfile.close()
+
+    

@@ -12,6 +12,8 @@ import concurrent.futures
 import logging
 import Normalizer
 import re
+import warnings
+warnings.filterwarnings("ignore")
 
 from gensim.parsing.preprocessing import remove_stopwords
 from datetime import datetime
